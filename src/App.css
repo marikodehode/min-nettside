@@ -1,0 +1,210 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* //////////////////////////////////////////// */
+/* Section: top-body-container screensize 1440 */
+/* ////////////////////////////////////////// */
+
+.top-body-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(https://images.unsplash.com/photo-1594031245755-1ac99bbc7a3c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-color: rgb(13, 6, 32);
+  background-size: cover;
+}
+
+.textbox {
+  text-align: center;
+  margin-top: 90px;
+}
+
+.image-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(13, 6, 32, 0.9);
+}
+
+.icon-overlay {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+  margin-top: 140px;
+}
+
+.iconboxhero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.iconboxheroOne {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.iconshero {
+  fill: #ffffff;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.iconsheroOne {
+  fill: #ffffff;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+}
+
+.nameTitle {
+  color: #ffffff;
+  font-size: 38px;
+  font-weight: normal;
+  letter-spacing: 4px;
+  font-family: "Manjari", sans-serif;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.textfill-hero {
+  color: #e4c982;
+  font-size: 23px;
+  font-weight: lighter;
+  letter-spacing: 3px;
+  font-family: "Manjari", sans-serif;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.textfill-herotwo {
+  color: #ffffff;
+  font-size: 23px;
+  font-weight: lighter;
+  letter-spacing: 3px;
+  font-family: "Manjari", sans-serif;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+/* Section: top-body-container screensize 1280 */
+@media (max-width: 1280px) {
+  .textbox {
+    margin-top: 190px;
+  }
+
+  .icon-overlay {
+    margin-top: 90px;
+  }
+}
+
+/* Section: top-body-container screensize 1024 */
+@media (max-width: 1024px) {
+  .textbox {
+    margin-top: 190px;
+  }
+
+  .icon-overlay {
+    margin-top: 90px;
+  }
+}
+
+/* Section: top-body-container screensize 800 */
+@media (max-width: 800px) {
+  .nameTitle {
+    font-size: 35px;
+  }
+
+  .textfill-hero {
+    font-size: 22px;
+    letter-spacing: 4px;
+  }
+
+  .textfill-herotwo {
+    font-size: 22px;
+    letter-spacing: 4px;
+  }
+}
+
+/* Section: top-body-container screensize 768 */
+@media (max-width: 768px) {
+  .nameTitle {
+    font-size: 35px;
+  }
+
+  .textfill-hero {
+    font-size: 22px;
+    letter-spacing: 4px;
+  }
+
+  .textfill-herotwo {
+    font-size: 22px;
+    letter-spacing: 4px;
+  }
+}
+
+/* Section: top-body-container phonesize 375 */
+@media (max-width: 375px) {
+  .nameTitle {
+    font-size: 30px;
+  }
+
+  .textfill-hero {
+    font-size: 20px;
+    letter-spacing: 4px;
+  }
+
+  .textfill-herotwo {
+    font-size: 20px;
+    letter-spacing: 4px;
+  }
+
+  .textbox {
+    margin-top: 200px;
+  }
+
+  .icon-overlay {
+    margin-top: 110px;
+  }
+}
+/* Section: top-body-container phonesize 320 */
+@media (max-width: 320px) {
+  .iconshero {
+    width: 21px;
+    height: 21px;
+  }
+
+  .iconsheroOne {
+    width: 29px;
+    height: 29px;
+  }
+
+  .nameTitle {
+    font-size: 25px;
+  }
+  .textfill-hero {
+    font-size: 20px;
+    letter-spacing: 4px;
+  }
+
+  .textfill-herotwo {
+    font-size: 20px;
+    letter-spacing: 4px;
+  }
+}

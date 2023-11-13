@@ -1,0 +1,109 @@
+
+.attester {
+    background-color: #0d0620;
+  }
+  .textbox-attest {
+    padding: 200px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  
+  .text-container {
+    justify-content: flex-start;
+  }
+  
+  .nameTitle-attest {
+    color: #e4c982;
+    font-size: 23px;
+    letter-spacing: 3px;
+    font-family: "Manjari", sans-serif;
+  }
+  
+  .textfill-attest {
+    color: #ffffff;
+    font-size: 19px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    line-height: 29px;
+    margin-top: 20px;
+    font-family: "Manjari", sans-serif;
+  }
+  
+  .logo-wrapper {
+    display: flex;
+    justify-content: end;
+  }
+  
+  .logo-amedia {
+    width: 110px;
+    height: 26px;
+    background-image: url(/public/attest/logo-amedia.png);
+    background-size: cover;
+    border: none;
+    margin-top: 50px;
+  }
+  
+  /* Section: attest screensize 1024 */
+  @media (max-width: 1024px) {
+    .textbox-attest {
+      padding: 170px;
+    }
+  }
+  
+  /* Section: attest screensize 800 */
+  @media (max-width: 800px) {
+    .textbox-attest {
+      padding: 118px;
+    }
+  
+    .textfill-attest {
+      font-size: 15px;
+      line-height: 25px;
+    }
+  }
+  
+  /* Section: attest screensize 480 */
+  @media (max-width: 480px) {
+    .textbox-attest {
+      padding: 59px;
+    }
+  }
+  
+  /* Section: attester phonesize 375 */
+  @media (max-width: 375px) {
+    .textbox-attest {
+      padding: 65px;
+    }
+  
+    .nameTitle-attest {
+      font-size: 19px;
+    }
+  
+    .textfill-attest {
+      font-size: 15px;
+      line-height: 23px;
+    }
+  
+    .logo-amedia {
+      width: 100px;
+      height: 21px;
+      background-image: url(/public/attest/logo-amedia.png);
+      background-size: cover;
+      border: none;
+      margin-top: 50px;
+    }
+  }
+  
+  /* Section: portfolie phonesize 320 */
+  @media (max-width: 320px) {
+    .textbox-attest {
+      padding: 40px;
+    }
+  
+    .nameTitle-attest {
+      font-size: 19px;
+      letter-spacing: 2px;
+    }
+  }
+  

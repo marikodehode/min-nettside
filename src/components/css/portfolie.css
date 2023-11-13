@@ -1,0 +1,373 @@
+
+html{
+    scroll-behavior: smooth;
+  }
+  
+  .portfolie{
+    background-color: #0d0620;
+  }
+  
+  .portfolie-container {
+    padding-left: 200px;
+  }
+  
+  .nameTitle-portfolie {
+    color: #e4c982;
+    font-size: 23px;
+    letter-spacing: 3px;
+    font-family: "Manjari", sans-serif;
+    margin-bottom: 25px;
+  }
+  
+  .column-wrapper {
+    display: grid;
+    grid:
+      "photo1 photo2 photo3 photoBig"
+      "photo4 photo5 photo6 photoBig";
+    justify-content: flex-start;
+    gap: 20px;
+  }
+  
+  .photo {
+    position: relative;
+    width: 237px;
+    height: 323px;
+    border-radius: 19px;
+    background-color: aliceblue;
+    transition: transform 0.5s;
+    overflow: hidden;
+  }
+  
+  .photo:hover {
+    background-image: none;
+    background-color: #0D1134;
+    transform: rotateY(180deg);
+  }
+  
+  .photo::before {
+    content: attr(data-text);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #C3DBFF;
+    font-family: "Manjari", sans-serif;
+    font-size: 20px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .photo:hover::before {
+    opacity: 1;
+  }
+  
+  .photo1 {
+    background-image: url("/portfolie/annonseavis.webp");
+    background-size: cover;
+    grid-area: photo1;
+    cursor: pointer;
+  }
+  
+  .photo2 {
+    background-image: url("/portfolie/annonsesome.webp");
+    background-size: cover;
+    grid-area: photo2;
+    cursor: pointer;
+  }
+  .photo3 {
+    background-image: url("/public/portfolie/nettside.webp");
+    background-size: cover;
+    grid-area: photo3;
+    cursor: pointer;
+  }
+  
+  .photo4 {
+    background-image: url("/portfolie/annonsemagasin.webp");
+    background-size: cover;
+    grid-area: photo4;
+    cursor: pointer;
+  }
+  .photo5 {
+    background-image: url("/portfolie/opllogo.webp");
+    background-size: cover;
+    grid-area: photo5;
+    cursor: pointer;
+  }
+  .photo6 {
+    background-image: url("/portfolie/nyhetsbrev.webp");
+    background-size: cover;
+    grid-area: photo6;
+    cursor: pointer;
+  }
+  
+  .photoBig {
+    background-image: url("/portfolie/rollup.webp");
+    background-size: cover;
+    grid-area: photoBig;
+    width: 237px;
+    height: 669px;
+    border-radius: 19px;
+    cursor: pointer;
+    position: relative;
+    transition: transform 0.5s;
+    overflow: hidden;
+  }
+  
+  .photoBig:hover {
+    background-image: none;
+    background-color: #0D1134;
+    transform: rotateY(180deg);
+  }
+  
+  .photoBig::before {
+    content: attr(data-text);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #C3DBFF;
+    font-family: "Manjari", sans-serif;
+    font-size: 20px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .photoBig:hover::before {
+    opacity: 1;
+  }
+  
+  .undertext-portfolien {
+    color: #b1afaf;
+    font-size: 23px;
+    letter-spacing: 2px;
+    font-family: "Manjari", sans-serif;
+    margin-top: 30px;
+  }
+  
+  /* Section: portfolie screensize 1280 */
+  @media (max-width: 1280px) {
+      .photo {
+        width: 207px;
+        height: 279px;
+      }
+    
+      .photoBig {
+        width: 207px;
+        height: 570px;
+      }
+    
+      .column-wrapper {
+        gap: 14px;
+      }
+  
+      .undertext-portfolien{
+        font-size: 20px;
+      }
+    }
+  
+  
+  /* Section: portfolie screensize 1024 */
+  @media (max-width: 1024px) {
+    .column-wrapper {
+      display: grid;
+      grid:
+        "photoBig photo2 photo3 photo1"
+        "photoBig photo5 photo6 photo4";
+      justify-content: flex-start;
+    }
+  
+    .portfolie-container {
+      padding-left: 170px;
+    }
+  
+    .photo {
+      width: 160px;
+      height: 210px;
+    }
+  
+    .photoBig {
+      width: 160px;
+      height: 440px;
+    }
+  
+    .column-wrapper {
+      gap: 14px;
+    }
+  
+    .phototext{
+      font-size: 15px;
+    }
+  }
+  
+  
+  /* Section: portfolie screensize 800 */
+  @media (max-width: 800px) {
+    .photo {
+      width: 135px;
+      height: 180px;
+    }
+  
+    .photoBig {
+      width: 135px;
+      height: 370px;
+    }
+  
+    .column-wrapper {
+      gap: 13px;
+    }
+  
+    .undertext-portfolien {
+      font-size: 15px;
+    }
+  
+    .portfolie-container {
+      padding-left: 118px;
+    }
+  }
+  
+  /* Section: portfolie screensize 768 */
+  @media (max-width: 768px) {
+    .photo {
+      width: 130px;
+      height: 180px;
+    }
+  
+    .photoBig {
+      width: 130px;
+      height: 370px;
+    }
+  
+    .column-wrapper {
+      gap: 13px;
+    }
+  
+    .undertext-portfolien {
+      font-size: 15px;
+    }
+  }
+  
+  /* Section: portfolie screensize 600 */
+  @media (max-width: 600px){
+    .portfolie-container {
+      padding-left: 120px;
+      padding-right: 60px;
+    }
+  
+    .column-wrapper {
+      display: grid;
+      grid:
+        "photo1 photo2"
+        "photoBig photo3"
+        "photoBig photo5"
+        "photo6 photo4";
+      justify-content: flex-start;
+    }
+    .photo {
+      width: 170px;
+      height: 250px;
+    }
+  
+    .photoBig {
+      width: 170px;
+      height: 510px;
+    }
+  
+    .column-wrapper {
+      gap: 13px;
+    }
+  }
+  
+  /* Section: portfolie screensize 480 */
+  @media (max-width: 480px){
+    .portfolie-container {
+      padding-left: 59px;
+      padding-right: 50px;
+    }
+    .undertext-portfolien {
+      font-size: 15px;
+    }
+  }
+  
+  /* Section: portfolie phonesize 375 */
+  @media (max-width: 375px) {
+    .undertext-portfolien {
+      font-size: 15px;
+    }
+  
+    .portfolie-container {
+      padding-left: 60px;
+      padding-right: 60px;
+    }
+  
+    .column-wrapper {
+      display: grid;
+      grid:
+        "photo1 photo2"
+        "photoBig photo3"
+        "photoBig photo5"
+        "photo6 photo4";
+      justify-content: flex-start;
+    }
+  
+    .photo {
+      width: 122px;
+      height: 165px;
+    }
+  
+    .photoBig {
+      width: 122px;
+      height: 340px;
+    }
+  
+    .column-wrapper {
+      gap: 13px;
+    }
+  
+    .undertext-portfolie {
+      font-size: 13px;
+    }
+  
+    .nameTitle-portfolie{
+      font-size: 19px;
+      letter-spacing: 2px;
+    }
+  }
+  
+  /* Section: portfolie phonesize 320 */
+  @media (max-width: 320px){
+    .portfolie-container {
+      padding-left: 40px;
+    }
+    .photo {
+      width: 112px;
+      height: 145px;
+    }
+  
+    .photoBig {
+      width: 112px;
+      height: 305px;
+    }
+  
+    .column-wrapper {
+      gap: 13px;
+    }
+  
+    .undertext-portfolien {
+      font-size: 13px;
+      text-align: center;
+    }
+  
+    .nameTitle-portfolie{
+      font-size: 19px;
+      letter-spacing: 2px;
+    }
+  
+    .phototext{
+      font-size: 12px;
+    }
+  }
+  
+  
+  

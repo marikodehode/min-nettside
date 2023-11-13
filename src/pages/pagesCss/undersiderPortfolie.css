@@ -1,0 +1,2253 @@
+/* /////////////// */
+/* Underside avis */
+/* ///////////// */
+
+.avis {
+    padding-top: 70px;
+    padding-bottom: 80px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nameTitle-avis-head {
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-family: "Manjari", sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .textfill-avis-head {
+    color: #000000;
+    font-size: 19px;
+    font-weight: lighter;
+    letter-spacing: 3px;
+    font-family: "Manjari", sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 60px;
+  }
+  
+  .column-wrapper-avis {
+    display: grid;
+    grid:
+      "photoa1 photoa1 photo2"
+      "photo3 photo4 photo6"
+      "photo5 photoa7 photoa7"
+      "photoa8 photoa8 photo10"
+      "photo12 photoa11 photoa11";
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .photoa {
+    width: 285px;
+    height: 423px;
+    border-radius: 14px;
+    background-color: aliceblue;
+  }
+  
+  .photoa1 {
+    background-image: url("public/avis/annonse47.webp");
+    width: 588px;
+    height: 423px;
+    background-color: aliceblue;
+    background-size: cover;
+    grid-area: photoa1;
+    cursor: pointer;
+  }
+  .photoa2 {
+    background-image: url("/public/avis/annonse25.webp");
+    width: 285px;
+    height: 423px;
+    background-color: rgb(53, 99, 139);
+    background-size: cover;
+    grid-area: photo2;
+    cursor: pointer;
+  }
+  .photoa3 {
+    background-image: url("/public/avis/annonse10.webp");
+    background-color: rgb(122, 181, 126);
+    background-size: cover;
+    grid-area: photo3;
+    cursor: pointer;
+  }
+  
+  .photoa4 {
+    background-image: url("/public/avis/annonse29.webp");
+    background-color: rgb(139, 53, 119);
+    background-size: cover;
+    grid-area: photo4;
+    cursor: pointer;
+  }
+  .photoa5 {
+    background-image: url("/public/avis/annonse24.webp");
+    background-color: rgb(139, 53, 53);
+    background-size: cover;
+    grid-area: photo5;
+    cursor: pointer;
+  }
+  .photoa6 {
+    background-image: url("/public/avis/annonse4.webp");
+    background-color: rgb(12, 49, 108);
+    background-size: cover;
+    grid-area: photo6;
+    cursor: pointer;
+  }
+  
+  .photoa7 {
+    background-image: url("/public/avis/annonse1.webp");
+    width: 588px;
+    height: 423px;
+    background-color: rgb(38, 66, 90);
+    background-size: cover;
+    grid-area: photoa7;
+    cursor: pointer;
+  }
+  
+  .photoa8 {
+    background-image: url("/public/avis/annonse6.webp");
+    width: 588px;
+    height: 423px;
+    background-color: rgb(122, 181, 126);
+    background-size: cover;
+    grid-area: photoa8;
+    cursor: pointer;
+  }
+  
+  .photoa10 {
+    background-image: url("/public/avis/annonse7.webp");
+    background-color: rgb(139, 53, 53);
+    background-size: cover;
+    grid-area: photo10;
+    cursor: pointer;
+  }
+  .photoa11 {
+    background-image: url("public/avis/annonse38.webp");
+    width: 588px;
+    height: 423px;
+    background-color: aliceblue;
+    background-size: cover;
+    grid-area: photoa11;
+    cursor: pointer;
+  }
+  .photoa12 {
+    background-image: url("/public/avis/annonse41.webp");
+    width: 285px;
+    height: 423px;
+    background-color: rgb(53, 99, 139);
+    background-size: cover;
+    grid-area: photo12;
+    cursor: pointer;
+  }
+  
+  .linkBunnPortfolie {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    padding-top: 50px;
+  }
+  
+  .plinkbar {
+    color: #000000;
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    font-family: "Manjari", sans-serif;
+  }
+  
+  .plinkbar:hover {
+    color: #e4c982;
+  }
+  
+  @media (max-width: 1024px) {
+    .photoa {
+      width: 255px;
+      height: 383px;
+    }
+    .photoa2 {
+      width: 255px;
+      height: 383px;
+    }
+    .photoa12 {
+      width: 255px;
+      height: 383px;
+    }
+    .photoa1 {
+      width: 528px;
+      height: 383px;
+    }
+    .photoa7 {
+      width: 528px;
+      height: 383px;
+    }
+    .photoa8 {
+      width: 528px;
+      height: 383px;
+    }
+    .photoa11 {
+      width: 528px;
+      height: 383px;
+    }
+  }
+  
+  @media (max-width: 800px) {
+    .nameTitle-avis-head {
+      font-size: 25px;
+    }
+  
+    .textfill-avis-head {
+      font-size: 18px;
+    }
+  
+    .photoa {
+      width: 230px;
+      height: 343px;
+    }
+    .photoa2 {
+      width: 230px;
+      height: 343px;
+    }
+    .photoa12 {
+      width: 230px;
+      height: 343px;
+    }
+    .photoa1 {
+      width: 478px;
+      height: 343px;
+    }
+    .photoa7 {
+      width: 478px;
+      height: 343px;
+    }
+    .photoa8 {
+      width: 478px;
+      height: 343px;
+    }
+    .photoa11 {
+      width: 478px;
+      height: 343px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .avis {
+      padding-top: 70px;
+    }
+  
+    .nameTitle-avis-head {
+      font-size: 23px;
+    }
+  
+    .textfill-avis-head {
+      font-size: 16px;
+    }
+  
+    .photoa {
+      width: 205px;
+      height: 303px;
+    }
+    .photoa2 {
+      width: 205px;
+      height: 303px;
+    }
+    .photoa12 {
+      width: 205px;
+      height: 303px;
+    }
+    .photoa1 {
+      width: 425px;
+      height: 303px;
+    }
+    .photoa7 {
+      width: 425px;
+      height: 303px;
+    }
+    .photoa8 {
+      width: 425px;
+      height: 303px;
+    }
+    .photoa11 {
+      width: 425px;
+      height: 303px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .avis {
+      padding-top: 70px;
+    }
+  
+    .nameTitle-avis-head {
+      font-size: 23px;
+    }
+  
+    .textfill-avis-head {
+      font-size: 16px;
+    }
+  
+    .photoa {
+      width: 154px;
+      height: 228px;
+    }
+    .photoa2 {
+      width: 154px;
+      height: 225px;
+    }
+    .photoa12 {
+      display: none;
+    }
+    .photoa1 {
+      width: 320px;
+      height: 225px;
+    }
+    .photoa7 {
+      width: 320px;
+      height: 225px;
+    }
+    .photoa8 {
+      width: 320px;
+      height: 225px;
+    }
+    .photoa11 {
+      width: 320px;
+      height: 225px;
+    }
+    .column-wrapper-avis {
+      display: grid;
+      grid:
+        "photoa1 photoa1"
+        "photo2 photo3"
+        "photo4 photo6"
+        "photoa7 photoa7"
+        "photo5 photo10"
+        "photoa8 photoa8"
+        "photoa11 photoa11";
+      justify-content: center;
+      gap: 11px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .avis {
+      padding-top: 55px;
+    }
+  
+    .nameTitle-avis-head {
+      font-size: 20px;
+    }
+  
+    .textfill-avis-head {
+      font-size: 14px;
+      margin-bottom: 40px;
+    }
+  
+    .photoa {
+      width: 124px;
+      height: 188px;
+    }
+    .photoa2 {
+      width: 124px;
+      height: 188px;
+    }
+    .photoa12 {
+      width: 124px;
+      height: 188px;
+    }
+    .photoa1 {
+      width: 260px;
+      height: 188px;
+    }
+    .photoa7 {
+      width: 260px;
+      height: 188px;
+    }
+    .photoa8 {
+      width: 260px;
+      height: 188px;
+    }
+    .photoa11 {
+      width: 260px;
+      height: 188px;
+    }
+    .column-wrapper-avis {
+      gap: 9px;
+    }
+  }
+  
+  @media (max-width: 375px) {
+    .avis {
+      padding-top: 55px;
+    }
+  
+    .nameTitle-avis-head {
+      font-size: 20px;
+    }
+  
+    .textfill-avis-head {
+      font-size: 14px;
+      margin-bottom: 40px;
+    }
+  
+    .photoa {
+      width: 124px;
+      height: 188px;
+    }
+    .photoa2 {
+      width: 124px;
+      height: 188px;
+    }
+    .photoa12 {
+      width: 124px;
+      height: 188px;
+    }
+    .photoa1 {
+      width: 260px;
+      height: 188px;
+    }
+    .photoa7 {
+      width: 260px;
+      height: 188px;
+    }
+    .photoa8 {
+      width: 260px;
+      height: 188px;
+    }
+    .photoa11 {
+      width: 260px;
+      height: 188px;
+    }
+    .column-wrapper-avis {
+      gap: 9px;
+    }
+  }
+  
+  /* /////////////// */
+  /* Underside logo */
+  /* ///////////// */
+  
+  .logo {
+    padding-top: 70px;
+    padding-bottom: 80px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nameTitle-logo {
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-family: "Manjari", sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .textfill-logo {
+    color: #000000;
+    font-size: 19px;
+    font-weight: lighter;
+    letter-spacing: 3px;
+    font-family: "Manjari", sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 60px;
+  }
+  
+  .column-wrapper-logo {
+    display: grid;
+    grid:
+      "photo1 photo2 photo3"
+      "photo4 photo5 photo6"
+      "photo7 photo8 photo9";
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .photoL {
+    width: 249px;
+    height: 249px;
+    border-radius: 14px;
+  }
+  
+  .photoL1 {
+    background-image: url("/public/logo/back.svg");
+    background-size: cover;
+    background-color: rgb(246, 246, 246);
+    background-position: center;
+    grid-area: photo1;
+    cursor: pointer;
+  }
+  
+  .photoL2 {
+    background-image: url("/public/logo/holiday.svg");
+    background-size: cover;
+    background-color: rgb(246, 246, 246);
+    background-position: center;
+    grid-area: photo2;
+    cursor: pointer;
+  }
+  
+  .photoL3 {
+    background-image: url("/public/logo/beauty.svg");
+    background-size: cover;
+    background-color: rgb(246, 246, 246);
+    background-position: center;
+    grid-area: photo3;
+    cursor: pointer;
+  }
+  
+  .photoL4 {
+    background-image: url("/public/logo/kickstart.svg");
+    background-size: cover;
+    background-color: rgb(246, 246, 246);
+    background-position: center;
+    grid-area: photo4;
+    cursor: pointer;
+  }
+  
+  .photoL5 {
+    background-image: url("/public/logo/juli.svg");
+    background-size: cover;
+    background-color: rgb(246, 246, 246);
+    background-position: center;
+    grid-area: photo5;
+    cursor: pointer;
+  }
+  
+  .photoL6 {
+    background-image: url("/public/logo/juni.svg");
+    background-size: cover;
+    background-color: rgb(246, 246, 246);
+    background-position: center;
+    grid-area: photo6;
+    cursor: pointer;
+  }
+  
+  .photoL7 {
+    background-image: url("/public/logo/great.webp");
+    background-size: cover;
+    background-color: rgb(246, 246, 246);
+    background-position: center;
+    grid-area: photo7;
+    cursor: pointer;
+  }
+  
+  .photoL8 {
+    background-image: url("/public/logo/build.svg");
+    background-size: cover;
+    background-color: rgb(246, 246, 246);
+    background-position: center;
+    grid-area: photo8;
+    cursor: pointer;
+  }
+  
+  .photoL9 {
+    background-image: url("/public/logo/play.svg");
+    background-color: rgb(246, 246, 246);
+    background-size: cover;
+    background-position: center;
+    grid-area: photo9;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 800px) {
+    .photoL {
+      width: 209px;
+      height: 209px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .logo {
+      padding-top: 70px;
+    }
+    .nameTitle-logo {
+      font-size: 25px;
+    }
+    .textfill-logo {
+      font-size: 18px;
+      margin-bottom: 50px;
+    }
+  
+    .photoL {
+      width: 180px;
+      height: 180px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .logo {
+      padding-top: 70px;
+    }
+    .nameTitle-logo {
+      font-size: 23px;
+    }
+    .textfill-logo {
+      font-size: 16px;
+      margin-bottom: 50px;
+    }
+  
+    .photoL {
+      width: 150px;
+      height: 150px;
+    }
+  
+    .column-wrapper-logo {
+      gap: 13px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .logo {
+      padding-top: 70px;
+    }
+    .nameTitle-logo {
+      font-size: 20px;
+    }
+    .textfill-logo {
+      font-size: 14px;
+      margin-bottom: 50px;
+    }
+  
+    .photoL {
+      width: 120px;
+      height: 120px;
+    }
+  
+    .column-wrapper-logo {
+      gap: 13px;
+    }
+  }
+  
+  @media (max-width: 375px) {
+    .logo {
+      padding-top: 70px;
+    }
+    .nameTitle-logo {
+      font-size: 20px;
+    }
+    .textfill-logo {
+      font-size: 14px;
+      margin-bottom: 50px;
+    }
+  
+    .photoL {
+      width: 120px;
+      height: 120px;
+    }
+  
+    .column-wrapper-logo {
+      display: grid;
+      grid:
+        "photo1 photo2"
+        "photo3 photo4"
+        "photo5 photo6"
+        "photo7 photo8";
+      justify-content: center;
+      gap: 13px;
+    }
+    .photoL9 {
+      display: none;
+    }
+  }
+  
+  /* /////////////////// */
+  /* Underside: magasin */
+  /* ///////////////// */
+  
+  .magasin {
+    padding-top: 70px;
+    padding-bottom: 80px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+  }
+  .nameTitle-magasin {
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-family: "Manjari", sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .textfill-magasin {
+    color: #000000;
+    font-size: 19px;
+    font-weight: lighter;
+    letter-spacing: 3px;
+    font-family: "Manjari", sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 60px;
+  }
+  
+  .column-wrapper-magasin {
+    display: grid;
+    grid:
+      "annonseM1 annonseM2 annonseM3"
+      "annonseM4 annonseM5 annonseM6"
+      "annonseM7 annonseM8 annonseM9";
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .annonseM {
+    width: 305px;
+    height: 410px;
+    border-radius: 14px;
+  }
+  
+  .annonseM1 {
+    background-image: url("/public/magasin/avis1.webp");
+    background-size: cover;
+    grid-area: annonseM1;
+    cursor: pointer;
+  }
+  
+  .annonseM2 {
+    background-image: url("/public/magasin/avis2.webp");
+    background-size: cover;
+    grid-area: annonseM2;
+    cursor: pointer;
+  }
+  
+  .annonseM3 {
+    background-image: url("/public/magasin/avis3.webp");
+    background-size: cover;
+    grid-area: annonseM3;
+    cursor: pointer;
+  }
+  
+  .annonseM4 {
+    background-image: url("/public/magasin/avis4.webp");
+    background-size: cover;
+    grid-area: annonseM4;
+    cursor: pointer;
+  }
+  
+  .annonseM5 {
+    background-image: url("/public/magasin/avis5.webp");
+    background-size: cover;
+    grid-area: annonseM5;
+    cursor: pointer;
+  }
+  
+  .annonseM6 {
+    background-image: url("/public/magasin/avis6.webp");
+    background-size: cover;
+    grid-area: annonseM6;
+    cursor: pointer;
+  }
+  
+  .annonseM7 {
+    background-image: url("/public/magasin/avis7.webp");
+    background-size: cover;
+    grid-area: annonseM7;
+    cursor: pointer;
+  }
+  
+  .annonseM8 {
+    background-image: url("/public/magasin/avis8.webp");
+    background-size: cover;
+    grid-area: annonseM8;
+    cursor: pointer;
+  }
+  
+  .annonseM9 {
+    background-image: url("/public/magasin/avis10.webp");
+    background-size: cover;
+    grid-area: annonseM9;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 1280px) {
+    .magasin {
+      padding-top: 90px;
+    }
+  
+    .annonseM {
+      width: 280px;
+      height: 381px;
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    .magasin {
+      padding-top: 70px;
+    }
+  
+    .annonseM {
+      width: 230px;
+      height: 311px;
+    }
+  
+    .nameTitle-magasin {
+      font-size: 20px;
+    }
+  }
+  
+  @media (max-width: 800px) {
+    .magasin {
+      margin-top: 10px;
+    }
+  
+    .annonseM {
+      width: 175px;
+      height: 230px;
+    }
+  
+    .nameTitle-magasin {
+      font-size: 25px;
+    }
+  
+    .textfill-magasin {
+      font-size: 18px;
+    }
+  
+    .column-wrapper-magasin {
+      gap: 15px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .magasin {
+      margin-top: 10px;
+    }
+  
+    .nameTitle-magasin {
+      font-size: 23px;
+    }
+  
+    .textfill-magasin {
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .magasin {
+      margin-top: 0px;
+    }
+  
+    .annonseM {
+      width: 125px;
+      height: 170px;
+    }
+  
+    .nameTitle-magasin {
+      font-size: 23px;
+      margin-top: 2px;
+    }
+  
+    .textfill-magasin {
+      font-size: 16px;
+      margin-bottom: 40px;
+    }
+  
+    .column-wrapper-magasin {
+      gap: 12px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .magasin {
+      margin-top: 0px;
+    }
+  
+    .annonseM {
+      width: 100px;
+      height: 130px;
+    }
+  
+    .nameTitle-magasin {
+      font-size: 20px;
+      margin-top: 2px;
+    }
+  
+    .textfill-magasin {
+      font-size: 14px;
+      margin-bottom: 40px;
+    }
+  
+    .column-wrapper-magasin {
+      gap: 10px;
+    }
+  }
+  
+  @media (max-width: 375px) {
+    .column-wrapper-magasin {
+      display: grid;
+      grid:
+        "annonseM1 annonseM2"
+        "annonseM3 annonseM4"
+        "annonseM5 annonseM6"
+        "annonseM7 annonseM8";
+      justify-content: flex-start;
+      gap: 20px;
+    }
+  
+    .annonseM {
+      width: 120px;
+      height: 160px;
+    }
+  
+    .annonseM9 {
+      display: none;
+    }
+  
+    .column-wrapper-magasin {
+      gap: 8px;
+    }
+  
+    .nameTitle-magasin {
+      font-size: 20px;
+      margin-top: 2px;
+    }
+  
+    .textfill-magasin {
+      font-size: 14px;
+      margin-bottom: 40px;
+    }
+  }
+  
+  /* //////////////// */
+  /* Underside: some */
+  /* ////////////// */
+  
+  .some {
+    padding-top: 70px;
+    padding-bottom: 80px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nameTitle-some {
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-family: "Manjari", sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .textfill-some {
+    color: #000000;
+    font-size: 19px;
+    font-weight: lighter;
+    letter-spacing: 3px;
+    font-family: "Manjari", sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 60px;
+  }
+  
+  .column-wrapper-some {
+    display: grid;
+    grid:
+      "photo1 photo2 photo3 photo4"
+      "photoS5 photoS5 photo6 photo7"
+      "photo8 photoS9 photoS9 photoS9"
+      "photo10 photo11 photo12 photo13"
+      "photoS14 photoS14 photoS14 photo15";
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .photoS {
+    width: 246px;
+    height: 246px;
+    border-radius: 14px;
+    background-color: aliceblue;
+  }
+  
+  .photoS1 {
+    background-image: url("/public/some/some44.webp");
+    background-color: rgb(174, 207, 235);
+    background-size: cover;
+    grid-area: photo1;
+    cursor: pointer;
+  }
+  
+  .photoS2 {
+    background-image: url("/public/some/some43.webp");
+    background-color: aliceblue;
+    background-size: cover;
+    grid-area: photo2;
+    cursor: pointer;
+  }
+  
+  .photoS3 {
+    background-image: url("/public/some/some42.webp");
+    background-color: aliceblue;
+    background-size: cover;
+    grid-area: photo3;
+    cursor: pointer;
+  }
+  
+  .photoS4 {
+    background-image: url("/public/some/some28.webp");
+    background-color: aliceblue;
+    background-size: cover;
+    grid-area: photo4;
+    cursor: pointer;
+  }
+  
+  .photoS5 {
+    background-image: url("/public/some/medikomp.webp");
+    background-color: aliceblue;
+    width: 508px;
+    height: 287px;
+    border-radius: 14px;
+    background-size: cover;
+    grid-area: photoS5;
+    cursor: pointer;
+  }
+  
+  .photoS6 {
+    background-image: url("/public/some/some37.webp");
+    background-color: aliceblue;
+    width: 246px;
+    height: 287px;
+    border-radius: 14px;
+    background-size: cover;
+    grid-area: photo6;
+    cursor: pointer;
+  }
+  
+  .photoS7 {
+    background-image: url("/public/some/new.webp");
+    background-color: aliceblue;
+    width: 246px;
+    height: 287px;
+    border-radius: 14px;
+    background-size: cover;
+    grid-area: photo7;
+    cursor: pointer;
+  }
+  
+  .photoS8 {
+    background-image: url("/public/some/some60.webp");
+    background-color: aliceblue;
+    width: 246px;
+    height: 287px;
+    border-radius: 14px;
+    background-size: cover;
+    grid-area: photo8;
+    cursor: pointer;
+  }
+  
+  .photoS9 {
+    background-image: url("/public/some/some2.webp");
+    background-color: aliceblue;
+    width: 778px;
+    height: 287px;
+    border-radius: 14px;
+    background-size: cover;
+    grid-area: photoS9;
+    cursor: pointer;
+  }
+  
+  .photoS10 {
+    background-image: url("/public/some/some34.webp");
+    background-color: aliceblue;
+    background-size: cover;
+    grid-area: photo10;
+    cursor: pointer;
+  }
+  
+  .photoS11 {
+    background-image: url("/public/some/some36.webp");
+    background-color: aliceblue;
+    background-size: cover;
+    grid-area: photo11;
+    cursor: pointer;
+  }
+  
+  .photoS12 {
+    background-image: url("/public/some/some70.webp");
+    background-color: aliceblue;
+    background-size: cover;
+    grid-area: photo12;
+    cursor: pointer;
+  }
+  
+  .photoS13 {
+    background-image: url("/public/some/yoga2.webp");
+    background-color: aliceblue;
+    background-size: cover;
+    grid-area: photo13;
+    cursor: pointer;
+  }
+  
+  .photoS14 {
+    background-image: url("/public/some/some35.webp");
+    background-color: aliceblue;
+    width: 778px;
+    height: 287px;
+    border-radius: 14px;
+    background-size: cover;
+    grid-area: photoS14;
+    cursor: pointer;
+  }
+  
+  .photoS15 {
+    background-image: url("/public/some/some13.webp");
+    background-color: aliceblue;
+    width: 246px;
+    height: 287px;
+    border-radius: 14px;
+    background-size: cover;
+    grid-area: photo15;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 1024px) {
+    .some {
+      padding-top: 70px;
+    }
+  
+    .nameTitle-some {
+      font-size: 30px;
+    }
+  
+    .textfill-some {
+      font-size: 19px;
+    }
+  
+    .column-wrapper-some {
+      gap: 13px;
+    }
+  
+    .photoS {
+      width: 177px;
+      height: 176px;
+    }
+  
+    .photoS5 {
+      width: 364px;
+      height: 206px;
+    }
+  
+    .photoS6 {
+      width: 175px;
+      height: 206px;
+    }
+  
+    .photoS7 {
+      width: 175px;
+      height: 206px;
+    }
+  
+    .photoS8 {
+      width: 177px;
+      height: 206px;
+    }
+  
+    .photoS9 {
+      width: 558px;
+      height: 206px;
+    }
+  
+    .photoS14 {
+      width: 557px;
+      height: 206px;
+    }
+  
+    .photoS15 {
+      width: 176px;
+      height: 206px;
+    }
+  }
+  
+  @media (max-width: 800px) {
+    .some {
+      padding-top: 70px;
+    }
+  
+    .nameTitle-some {
+      font-size: 25px;
+    }
+  
+    .textfill-some {
+      font-size: 18px;
+    }
+  
+    .column-wrapper-some {
+      gap: 13px;
+    }
+  
+    .photoS {
+      width: 135px;
+      height: 135px;
+    }
+  
+    .photoS5 {
+      width: 279px;
+      height: 158px;
+    }
+  
+    .photoS6 {
+      width: 134px;
+      height: 158px;
+    }
+  
+    .photoS7 {
+      width: 134px;
+      height: 158px;
+    }
+  
+    .photoS8 {
+      width: 135px;
+      height: 158px;
+    }
+  
+    .photoS9 {
+      width: 427px;
+      height: 158px;
+    }
+  
+    .photoS14 {
+      width: 426px;
+      height: 158px;
+    }
+  
+    .photoS15 {
+      width: 135px;
+      height: 158px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .some {
+      padding-top: 60px;
+    }
+  
+    .nameTitle-some {
+      font-size: 23px;
+    }
+  
+    .textfill-some {
+      font-size: 16px;
+      margin-bottom: 45px;
+    }
+  
+    .column-wrapper-some {
+      gap: 10px;
+    }
+  
+    .photoS {
+      width: 95px;
+      height: 96px;
+    }
+  
+    .photoS5 {
+      width: 198px;
+      height: 112px;
+    }
+  
+    .photoS6 {
+      width: 95px;
+      height: 112px;
+    }
+  
+    .photoS7 {
+      width: 95px;
+      height: 112px;
+    }
+  
+    .photoS8 {
+      width: 95px;
+      height: 112px;
+    }
+  
+    .photoS9 {
+      width: 304px;
+      height: 112px;
+    }
+  
+    .photoS14 {
+      width: 302px;
+      height: 112px;
+    }
+  
+    .photoS15 {
+      width: 97px;
+      height: 112px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .some {
+      padding-top: 50px;
+    }
+  
+    .nameTitle-some {
+      font-size: 20px;
+    }
+  
+    .textfill-some {
+      font-size: 14px;
+      margin-bottom: 45px;
+    }
+  
+    .column-wrapper-some {
+      gap: 8px;
+    }
+  
+    .photoS {
+      width: 82px;
+      height: 83px;
+      border-radius: 9px;
+    }
+  
+    .photoS5 {
+      width: 170px;
+      height: 97px;
+      border-radius: 9px;
+    }
+  
+    .photoS6 {
+      width: 82px;
+      height: 97px;
+      border-radius: 9px;
+    }
+  
+    .photoS7 {
+      width: 82px;
+      height: 97px;
+      border-radius: 9px;
+    }
+  
+    .photoS8 {
+      width: 82px;
+      height: 96px;
+      border-radius: 9px;
+    }
+  
+    .photoS9 {
+      width: 261px;
+      height: 96px;
+      border-radius: 9px;
+    }
+  
+    .photoS14 {
+      width: 260px;
+      height: 96px;
+      border-radius: 9px;
+    }
+  
+    .photoS15 {
+      width: 83px;
+      height: 96px;
+      border-radius: 9px;
+    }
+  }
+  
+  @media (max-width: 375px) {
+    .some {
+      padding-top: 50px;
+    }
+  
+    .nameTitle-some {
+      font-size: 20px;
+    }
+  
+    .textfill-some {
+      font-size: 14px;
+      margin-bottom: 45px;
+    }
+  
+    .column-wrapper-some {
+      grid:
+        "photo1 photo2"
+        "photo11 photo4"
+        "photoS5 photoS5"
+        "photo10 photo3"
+        "photo12 photo13";
+      gap: 8px;
+    }
+  
+    .photoS1 {
+      width: 140px;
+      height: 140px;
+      border-radius: 9px;
+      grid-area: photo1;
+    }
+  
+    .photoS2 {
+      width: 140px;
+      height: 140px;
+      border-radius: 9px;
+      grid-area: photo2;
+    }
+  
+    .photoS3 {
+      width: 140px;
+      height: 140px;
+      border-radius: 9px;
+      grid-area: photo11;
+    }
+  
+    .photoS4 {
+      width: 140px;
+      height: 140px;
+      border-radius: 9px;
+      grid-area: photo4;
+    }
+  
+    .photoS5 {
+      width: 293px;
+      height: 160px;
+      border-radius: 9px;
+      grid-area: photoS5;
+    }
+  
+    .photoS10 {
+      width: 140px;
+      height: 140px;
+      border-radius: 9px;
+      grid-area: photo10;
+    }
+  
+    .photoS11 {
+      width: 140px;
+      height: 140px;
+      border-radius: 9px;
+      grid-area: photo3;
+    }
+  
+    .photoS12 {
+      width: 140px;
+      height: 140px;
+      border-radius: 9px;
+      grid-area: photo12;
+    }
+  
+    .photoS13 {
+      width: 140px;
+      height: 140px;
+      border-radius: 9px;
+      grid-area: photo13;
+    }
+  
+    .photoS6 {
+      display: none;
+    }
+  
+    .photoS7 {
+      display: none;
+    }
+  
+    .photoS8 {
+      display: none;
+    }
+  
+    .photoS9 {
+      display: none;
+    }
+  
+    .photoS14 {
+      display: none;
+    }
+  
+    .photoS15 {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 375px) {
+    .some {
+      padding-top: 50px;
+    }
+  
+    .nameTitle-some {
+      font-size: 20px;
+    }
+  
+    .textfill-some {
+      font-size: 14px;
+      margin-bottom: 45px;
+    }
+  
+    .column-wrapper-some {
+      grid:
+        "photo1 photo2"
+        "photo11 photo4"
+        "photoS5 photoS5"
+        "photo10 photo3"
+        "photo12 photo13";
+      gap: 8px;
+    }
+  
+    .photoS1 {
+      width: 120px;
+      height: 120px;
+      border-radius: 9px;
+      grid-area: photo1;
+    }
+  
+    .photoS2 {
+      width: 120px;
+      height: 120px;
+      border-radius: 9px;
+      grid-area: photo2;
+    }
+  
+    .photoS3 {
+      width: 120px;
+      height: 120px;
+      border-radius: 9px;
+      grid-area: photo11;
+    }
+  
+    .photoS4 {
+      width: 120px;
+      height: 120px;
+      border-radius: 9px;
+      grid-area: photo4;
+    }
+  
+    .photoS5 {
+      width: 248px;
+      height: 120px;
+      border-radius: 9px;
+      grid-area: photoS5;
+    }
+  
+    .photoS10 {
+      width: 120px;
+      height: 120px;
+      border-radius: 9px;
+      grid-area: photo10;
+    }
+  
+    .photoS11 {
+      width: 120px;
+      height: 120px;
+      border-radius: 9px;
+      grid-area: photo3;
+    }
+  
+    .photoS12 {
+      width: 120px;
+      height: 120px;
+      border-radius: 9px;
+      grid-area: photo12;
+    }
+  
+    .photoS13 {
+      width: 120px;
+      height: 120px;
+      border-radius: 9px;
+      grid-area: photo13;
+    }
+  
+    .photoS6 {
+      display: none;
+    }
+  
+    .photoS7 {
+      display: none;
+    }
+  
+    .photoS8 {
+      display: none;
+    }
+  
+    .photoS9 {
+      display: none;
+    }
+  
+    .photoS14 {
+      display: none;
+    }
+  
+    .photoS15 {
+      display: none;
+    }
+  }
+  
+  /* /////////////////// */
+  /* Underside nettside */
+  /* ///////////////// */
+  
+  .nettside {
+    padding-top: 70px;
+    padding-bottom: 80px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nameTitle-nettside {
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-family: "Manjari", sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .nameTitletwo-nettside {
+    color: #e4c982;
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-family: "Manjari", sans-serif;
+    font-weight: bold;
+    margin-top: 70px;
+    text-align: start;
+    width: 200px;
+  }
+  
+  .textfill-nettside {
+    color: #000000;
+    font-size: 19px;
+    font-weight: lighter;
+    letter-spacing: 3px;
+    font-family: "Manjari", sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 60px;
+  }
+  
+  .textfilltwo-nettside {
+    color: #000000;
+    font-size: 15px;
+    font-weight: lighter;
+    line-height: 25px;
+    letter-spacing: 1px;
+    font-family: "Manjari", sans-serif;
+    text-align: start;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    width: 750px;
+  }
+  
+  .column-wrapper-nettside {
+    display: grid;
+    grid:
+      "photo1 photo2 photo3"
+      "photo4 photo5 photo6";
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .photoN {
+    width: 300px;
+    height: 300px;
+    border-radius: 14px;
+  }
+  
+  .photoN1 {
+    background-image: url("/public/nettsider/nett1.webp");
+    background-size: cover;
+    background-color: rgb(246, 246, 246);
+    background-position: center;
+    grid-area: photo1;
+    cursor: pointer;
+  }
+  
+  .photoN2 {
+    background-image: url("/public/nettsider/nett4.webp");
+    background-size: cover;
+    background-color: rgb(246, 246, 246);
+    background-position: center;
+    grid-area: photo2;
+    cursor: pointer;
+  }
+  
+  .photoN3 {
+    background-image: url("/public/nettsider/nett2.webp");
+    background-size: cover;
+    background-color: rgb(246, 246, 246);
+    background-position: center;
+    grid-area: photo3;
+    cursor: pointer;
+  }
+  
+  .photoN4 {
+    background-image: url("/public/nettsider/nett3.webp");
+    background-size: cover;
+    background-color: rgb(246, 246, 246);
+    background-position: center;
+    grid-area: photo4;
+    cursor: pointer;
+  }
+  
+  .photoN5 {
+    background-image: url("/public/nettsider/side6.webp");
+    background-size: cover;
+    background-color: rgb(246, 246, 246);
+    background-position: center;
+    grid-area: photo5;
+    cursor: pointer;
+  }
+  
+  .photoN6 {
+    background-image: url("/public/nettsider/delove.webp");
+    background-size: cover;
+    background-color: rgb(246, 246, 246);
+    background-position: center;
+    grid-area: photo6;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 1024px) {
+    .photoN {
+      width: 250px;
+      height: 250px;
+      border-radius: 14px;
+    }
+  
+    .tekst-nettside-bunn {
+      margin-left: 20px;
+      width: 100px;
+    }
+  
+    .nameTitletwo-nettside {
+      font-size: 30px;
+      margin-top: 70px;
+      width: 200px;
+    }
+  
+    .textfilltwo-nettside {
+      font-size: 15px;
+      margin-top: 10px;
+      margin-bottom: 60px;
+      width: 750px;
+    }
+  }
+  @media (max-width: 800px) {
+    .photoN {
+      width: 180px;
+      height: 180px;
+      border-radius: 14px;
+    }
+  
+    .tekst-nettside-bunn {
+      margin-left: 20px;
+      width: 100px;
+    }
+  
+    .nameTitletwo-nettside {
+      font-size: 25px;
+      margin-top: 70px;
+      width: 200px;
+    }
+  
+    .textfilltwo-nettside {
+      font-size: 15px;
+      margin-top: 10px;
+      margin-bottom: 60px;
+      width: 550px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .photoN {
+      width: 150px;
+      height: 150px;
+      border-radius: 10px;
+    }
+  
+    .tekst-nettside-bunn {
+      margin-left: 20px;
+      width: 100px;
+    }
+  
+    .nameTitletwo-nettside {
+      font-size: 23px;
+      margin-top: 50px;
+      width: 200px;
+    }
+  
+    .textfilltwo-nettside {
+      font-size: 15px;
+      margin-top: 10px;
+      margin-bottom: 60px;
+      width: 450px;
+    }
+  }
+  @media (max-width: 480px) {
+    .nettside {
+      padding-top: 70px;
+    }
+    .photoN {
+      width: 120px;
+      height: 120px;
+      border-radius: 10px;
+    }
+  
+    .column-wrapper-nettside {
+      gap: 10px;
+    }
+  
+    .tekst-nettside-bunn {
+      margin-left: 20px;
+      width: 100px;
+    }
+  
+    .nameTitletwo-nettside {
+      font-size: 23px;
+      margin-top: 50px;
+      width: 200px;
+    }
+  
+    .textfilltwo-nettside {
+      font-size: 15px;
+      margin-top: 10px;
+      margin-bottom: 60px;
+      width: 350px;
+    }
+  }
+  @media (max-width: 375px) {
+    .column-wrapper-nettside {
+      grid:
+        "photo1 photo2"
+        "photo3 photo4"
+        "photo5 photo6";
+    }
+  
+    .photoN {
+      width: 130px;
+      height: 130px;
+    }
+  
+    .photoN1 {
+      grid-area: photo1;
+    }
+  
+    .photoN2 {
+      grid-area: photo2;
+    }
+  
+    .photoN3 {
+      grid-area: photo3;
+    }
+  
+    .photoN4 {
+      grid-area: photo4;
+    }
+  
+    .photoN5 {
+      grid-area: photo5;
+    }
+  
+    .photoN6 {
+      grid-area: photo6;
+    }
+  
+    .textfilltwo-nettside {
+      font-size: 12px;
+      line-height: 19px;
+  
+      width: 250px;
+    }
+  }
+  
+  /* ///////////////// */
+  /* Underside plakat */
+  /* /////////////// */
+  
+  .plakat {
+    padding-top: 70px;
+    padding-bottom: 80px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nameTitle-plakat {
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-family: "Manjari", sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .textfill-plakat {
+    color: #000000;
+    font-size: 19px;
+    font-weight: lighter;
+    letter-spacing: 3px;
+    font-family: "Manjari", sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 60px;
+  }
+  
+  .column-wrapper-plakat {
+    display: grid;
+    grid:
+      "photo1 photo2 photo3"
+      "photo4 photo5 photoPBig6"
+      "photo7 photo8 photoPBig6"
+      "photo9 photo10 photoPBig6";
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .photoP {
+    width: 249px;
+    height: 449px;
+    border-radius: 14px;
+  }
+  
+  .photoP1 {
+    background-image: url("/public/plakater/plakat3.webp");
+    width: 249px;
+    height: 239px;
+    background-size: cover;
+    background-color: rgb(246, 246, 246);
+    background-position: center;
+    grid-area: photo1;
+    cursor: pointer;
+  }
+  
+  .photoP2 {
+    background-image: url("/public/plakater/plakat1.webp");
+    width: 249px;
+    height: 239px;
+    background-size: cover;
+    background-color: rgb(246, 246, 246);
+    background-position: center;
+    grid-area: photo2;
+    cursor: pointer;
+  }
+  
+  .photoP3 {
+    background-image: url("/public/plakater/plakat8.webp");
+    width: 249px;
+    height: 239px;
+    border-radius: 19px;
+    background-size: cover;
+    background-color: rgb(246, 246, 246);
+    background-position: center;
+    grid-area: photo3;
+    cursor: pointer;
+  }
+  
+  .photoP4 {
+    background-image: url("/public/plakater/plakat8.webp");
+    width: 249px;
+    height: 229px;
+    border-radius: 19px;
+    background-size: cover;
+    background-color: rgb(246, 246, 246);
+    background-position: center;
+    grid-area: photo4;
+    cursor: pointer;
+  }
+  
+  .photoP5 {
+    background-image: url("/public/plakater/plakat5.webp");
+    width: 249px;
+    height: 229px;
+    border-radius: 19px;
+    background-size: cover;
+    background-color: rgb(246, 246, 246);
+    background-position: center;
+    grid-area: photo5;
+    cursor: pointer;
+  }
+  
+  .photoPBig6 {
+    background-image: url("/public/plakater/rollupen.webp");
+    width: 249px;
+    height: 962px;
+    border-radius: 19px;
+    background-size: cover;
+    background-color: rgb(246, 246, 246);
+    background-position: center;
+    grid-area: photoPBig6;
+    cursor: pointer;
+  }
+  
+  .photoP7 {
+    background-image: url("/public/plakater/plakat2.webp");
+    width: 249px;
+    height: 351px;
+    border-radius: 19px;
+    background-size: cover;
+    background-color: rgb(246, 246, 246);
+    background-position: center;
+    grid-area: photo7;
+    cursor: pointer;
+  }
+  
+  .photoP8 {
+    background-image: url("/public/plakater/plakat10.webp");
+    width: 249px;
+    height: 351px;
+    border-radius: 19px;
+    background-size: cover;
+    background-color: rgb(246, 246, 246);
+    background-position: center;
+    grid-area: photo8;
+    cursor: pointer;
+  }
+  .photoP9 {
+    background-image: url("/public/plakater/plakat9.webp");
+    width: 249px;
+    height: 340px;
+    border-radius: 19px;
+    background-size: cover;
+    background-color: rgb(246, 246, 246);
+    background-position: center;
+    grid-area: photo9;
+    cursor: pointer;
+  }
+  
+  .photoP10 {
+    background-image: url("/public/plakater/plakat7.webp");
+    width: 249px;
+    height: 340px;
+    border-radius: 19px;
+    background-size: cover;
+    background-color: rgb(246, 246, 246);
+    background-position: center;
+    grid-area: photo10;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 800px) {
+    .nameTitle-plakat {
+      font-size: 25px;
+    }
+  
+    .textfill-plakat {
+      font-size: 18px;
+    }
+  
+    .column-wrapper-plakat {
+      display: grid;
+      grid:
+        "photo1 photo2"
+        "photo4 photo5"
+        "photo7 photo8"
+        "photo9 photo10";
+      justify-content: center;
+      gap: 15px;
+    }
+  
+  .photoP3 {
+      display: none;
+    }
+    
+    .photoPBig6 {
+      display: none;
+    }
+    
+    .photoP1 {
+      width: 239px;
+      height: 219px;
+    }
+    
+    .photoP2 {
+      width: 239px;
+      height: 219px;
+    }
+    
+    .photoP4 {
+      width: 239px;
+      height: 219px;
+    }
+    
+    .photoP5 {
+      width: 239px;
+      height: 219px;
+    }
+    
+    .photoP7 {
+      width: 239px;
+      height: 351px;
+    }
+    
+    .photoP8 {
+      width: 239px;
+      height: 351px;
+    }
+    .photoP9 {
+      width: 239px;
+      height: 340px;
+    }
+    
+    .photoP10 {
+      width: 239px;
+      height: 340px;
+    }
+  }
+  
+  
+  @media (max-width: 480px) {
+    .nameTitle-plakat {
+      font-size: 20px;
+    }
+  
+    .textfill-plakat {
+      font-size: 14px;
+    }
+  
+    .plakat {
+      padding-top: 60px;
+    }
+    .photoP1 {
+      width: 180px;
+      height: 180px;
+    }
+  
+    .photoP2 {
+      width: 180px;
+      height: 180px;
+    }
+  
+    .photoP4 {
+      width: 180px;
+      height: 180px;
+    }
+  
+    .photoP5 {
+      width: 180px;
+      height: 180px;
+    }
+  
+    .photoP7 {
+      width: 180px;
+      height: 270px;
+    }
+  
+    .photoP8 {
+      width: 180px;
+      height: 270px;
+    }
+    .photoP9 {
+      width: 180px;
+      height: 270px;
+    }
+  
+    .photoP10 {
+      width: 180px;
+      height: 270px;
+    }
+  }
+  
+  @media (max-width: 375px) {
+    .nameTitle-plakat {
+      font-size: 20px;
+    }
+  
+    .textfill-plakat {
+      font-size: 14px;
+    }
+  
+    .plakat {
+      padding-top: 60px;
+    }
+    .photoP1 {
+      width: 150px;
+      height: 150px;
+    }
+  
+    .photoP2 {
+      width: 150px;
+      height: 150px;
+    }
+  
+    .photoP4 {
+      width: 150px;
+      height: 150px;
+    }
+  
+    .photoP5 {
+      width: 150px;
+      height: 150px;
+    }
+  
+    .photoP7 {
+      width: 150px;
+      height: 240px;
+    }
+  
+    .photoP8 {
+      width: 150px;
+      height: 240px;
+    }
+    .photoP9 {
+      width: 150px;
+      height: 240px;
+    }
+  
+    .photoP10 {
+      width: 150px;
+      height: 240px;
+    }
+  }
+  
+  @media (max-width: 375px) {
+    .nameTitle-plakat {
+      font-size: 20px;
+    }
+  
+    .textfill-plakat {
+      font-size: 14px;
+    }
+  
+    .plakat {
+      padding-top: 60px;
+    }
+    .photoP1 {
+      width: 120px;
+      height: 120px;
+    }
+  
+    .photoP2 {
+      width: 120px;
+      height: 120px;
+    }
+  
+    .photoP4 {
+      width: 120px;
+      height: 120px;
+    }
+  
+    .photoP5 {
+      width: 120px;
+      height: 120px;
+    }
+  
+    .photoP7 {
+      width: 120px;
+      height: 210px;
+    }
+  
+    .photoP8 {
+      width: 120px;
+      height: 210px;
+    }
+    .photoP9 {
+      width: 120px;
+      height: 210px;
+    }
+  
+    .photoP10 {
+      width: 120px;
+      height: 210px;
+    }
+  
+    .column-wrapper-plakat {
+      gap: 12px;
+    }
+  }
+  

@@ -1,0 +1,45 @@
+.kontakt-container{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(13, 6, 32);
+    height: 85vh;
+}
+
+
+.nameTitle-kontakt{
+    color: #e4c982;
+    font-size: 30px;
+    font-weight: normal;
+    letter-spacing: 4px;
+    font-family: "Manjari", sans-serif;
+    margin-bottom: 10px;
+    text-align: center;
+    }
+
+    .textfill-kontakt {
+        color: #ffffff;
+        font-size: 19px;
+        font-weight: lighter;
+        letter-spacing: 3px;
+        font-family: "Manjari", sans-serif;
+        text-align: center;
+        margin-bottom: 60px;
+      }
+
+    .infoTextKontakt{
+    color: #ffffff;
+    font-size: 23px;
+    font-family: "Manjari", sans-serif;
+    margin-top: 15px;
+    text-align: center;
+    }
+/* 
+    .extraText{
+        color: #ffffff;
+        font-size: 13px;
+        font-family: "Manjari", sans-serif;
+        margin-top: 10px;
+        text-align: center;
+    } */

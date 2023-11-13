@@ -1,0 +1,357 @@
+.portfolieside {
+    padding-top: 70px;
+    padding-bottom: 180px;
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+  }
+  
+  .portfolieside-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .nameTitle-portfolie-siden-head {
+    color: #000000;
+    font-size: 29px;
+    letter-spacing: 3px;
+    font-family: "Manjari", sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .textfill-portfolieside-head {
+    color: #000000;
+    font-size: 19px;
+    font-weight: lighter;
+    letter-spacing: 3px;
+    font-family: "Manjari", sans-serif;
+    text-align: center;
+    margin-top: 7px;
+    margin-bottom: 60px;
+  }
+  
+  .column-wrapper-two {
+    display: grid;
+    grid:
+      "phototwo1 phototwo2 phototwo3 photoBigtwo"
+      "phototwo4 phototwo5 phototwo6 photoBigtwo";
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .phototwo {
+    position: relative;
+    width: 237px;
+    height: 323px;
+    border-radius: 19px;
+    background-color: #e4c982;
+    transition: transform 0.5s;
+    overflow: hidden;
+  }
+  
+  .phototwo:hover {
+    background-image: none;
+    background-color: #e4c982;
+    transform: rotateY(180deg);
+  }
+  
+  .phototwo::before {
+    content: attr(data-text);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #ffffff;
+    font-family: "Manjari", sans-serif;
+    font-size: 20px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .phototwo:hover::before {
+    opacity: 1;
+  }
+  
+  .phototwo1 {
+    background-image: url("/portfolie/annonseavis.webp");
+    background-size: cover;
+    grid-area: phototwo1;
+    cursor: pointer;
+  }
+  
+  .phototwo2 {
+    background-image: url("/portfolie/annonsesome.webp");
+    background-size: cover;
+    grid-area: phototwo2;
+    cursor: pointer;
+  }
+  .phototwo3 {
+    background-image: url("/public/portfolie/nettside.webp");
+    background-size: cover;
+    grid-area: phototwo3;
+    cursor: pointer;
+  }
+  
+  .phototwo4 {
+    background-image: url("/portfolie/annonsemagasin.webp");
+    background-size: cover;
+    grid-area: phototwo4;
+    cursor: pointer;
+  }
+  .phototwo5 {
+    background-image: url("/portfolie/opllogo.webp");
+    background-size: cover;
+    grid-area: phototwo5;
+    cursor: pointer;
+  }
+  .phototwo6 {
+    background-image: url("/portfolie/nyhetsbrev.webp");
+    background-size: cover;
+    grid-area: phototwo6;
+    cursor: pointer;
+  }
+  
+  .photoBigtwo {
+    background-image: url("/portfolie/rollup.webp");
+    background-size: cover;
+    grid-area: photoBigtwo;
+    width: 237px;
+    height: 669px;
+    border-radius: 19px;
+    cursor: pointer;
+    position: relative;
+    transition: transform 0.5s;
+    overflow: hidden;
+  }
+  
+  .photoBigtwo:hover {
+    background-image: none;
+    background-color: #e4c982;
+    transform: rotateY(180deg);
+  }
+  
+  .photoBigtwo::before {
+    content: attr(data-text);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #ffffff;
+    font-family: "Manjari", sans-serif;
+    font-size: 20px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .photoBigtwo:hover::before {
+    opacity: 1;
+  }
+  
+  .undertext-portfolie {
+    color: #b1afaf;
+    font-size: 23px;
+    letter-spacing: 2px;
+    font-family: "Manjari", sans-serif;
+    margin-top: 30px;
+  }
+  
+  /* portfolieside 1280 */
+  @media (max-width: 1280px) {
+    .portfolieside {
+      padding-top: 60px;
+    }
+    .portfolieside-container {
+      margin-top: 20px;
+    }
+    .portfolieside-container {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+  }
+  
+  /* portfolieside 1024 */
+  @media (max-width: 1024px) {
+    .column-wrapper-two {
+      display: grid;
+      grid:
+        "photoBigtwo phototwo2 phototwo3 phototwo1"
+        "photoBigtwo phototwo5 phototwo6 phototwo4";
+      justify-content: center;
+    }
+  
+    .phototwo {
+      width: 160px;
+      height: 210px;
+    }
+  
+    .photoBigtwo {
+      width: 160px;
+      height: 440px;
+    }
+  
+    .portfolieside-container {
+      margin-top: 0px;
+      width: 670px;
+    }
+  
+    .portfolieside {
+      padding-bottom: 100px;
+    }
+  }
+  
+  /* portfolieside 800 */
+  @media (max-width: 800px) {
+    .portfolieside-container {
+      margin-top: 10px;
+      width: 570px;
+    }
+    .nameTitle-portfolie-siden-head {
+      font-size: 23px;
+    }
+  
+    .textfill-portfolieside-head {
+      font-size: 16px;
+    }
+  
+    .column-wrapper-two {
+      gap: 13px;
+    }
+    .phototwo {
+      width: 135px;
+      height: 180px;
+    }
+  
+    .photoBigtwo {
+      width: 135px;
+      height: 370px;
+    }
+  }
+  
+  /* portfolieside 600 */
+  @media (max-width: 600px) {
+    .portfolieside-container {
+      margin-top: 10px;
+      width: 570px;
+    }
+    .nameTitle-portfolie-siden-head {
+      font-size: 23px;
+    }
+  
+    .textfill-portfolieside-head {
+      font-size: 16px;
+    }
+  
+    .column-wrapper-two {
+      display: grid;
+      grid:
+        "phototwo1 phototwo2"
+        "photoBigtwo phototwo3"
+        "photoBigtwo phototwo5"
+        "phototwo6 phototwo4";
+      justify-content: center;
+      gap: 13px;
+    }
+    .phototwo {
+      width: 170px;
+      height: 250px;
+    }
+  
+    .photoBigtwo {
+      width: 170px;
+      height: 510px;
+    }
+  }
+  
+  /* portfolieside 480 */
+  @media (max-width: 480px) {
+    .portfolieside-container {
+      margin-top: 10px;
+      width: 340px;
+    }
+  }
+  
+  /* portfolieside 375 */
+  @media (max-width: 375px) {
+    .portfolieside-container {
+      margin-top: 10px;
+      width: 570px;
+    }
+    .nameTitle-portfolie-siden-head {
+      font-size: 20px;
+    }
+  
+    .textfill-portfolieside-head {
+      font-size: 13px;
+    }
+  
+    .column-wrapper-two {
+      display: grid;
+      grid:
+        "phototwo1 phototwo2"
+        "photoBigtwo phototwo3"
+        "photoBigtwo phototwo5"
+        "phototwo6 phototwo4";
+      justify-content: center;
+      gap: 13px;
+    }
+    .phototwo {
+      width: 122px;
+      height: 165px;
+    }
+  
+    .photoBigtwo {
+      width: 122px;
+      height: 340px;
+    }
+  }
+  
+  /* Underside: portfolieside 320 */
+  @media (max-width: 320px) {
+    .portfolieside-container {
+      margin-top: 10px;
+      width: 340px;
+    }
+  }
+  
+  /* portfolieside 375 */
+  @media (max-width: 375px) {
+    .portfolieside-container {
+      margin-top: 0px;
+      width: 570px;
+    }
+    .nameTitle-portfolie-siden-head {
+      font-size: 20px;
+    }
+  
+    .textfill-portfolieside-head {
+      font-size: 12px;
+      margin-bottom: 30px;
+    }
+  
+    .column-wrapper-two {
+      display: grid;
+      grid:
+        "phototwo1 phototwo2"
+        "photoBigtwo phototwo3"
+        "photoBigtwo phototwo5"
+        "phototwo6 phototwo4";
+      justify-content: center;
+      gap: 13px;
+    }
+    .phototwo {
+      width: 122px;
+      height: 165px;
+    }
+  
+    .photoBigtwo {
+      width: 122px;
+      height: 340px;
+    }
+  }
+  

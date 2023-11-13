@@ -1,0 +1,154 @@
+/* /////// */
+/* Navbar */
+/* ///// */
+
+.navbar {
+    padding-top: 40px;
+    padding-bottom: 25px;
+    position: relative;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    z-index: 100;
+    background-color: #080415;
+  }
+  
+  .link {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-inline-start: 0px;
+    height: 100%;
+    gap: 40px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .hovedlinkbar {
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+    font-weight: normal;
+    font-family: "Manjari", sans-serif;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s;
+  }
+  
+  .hovedlinkbar:hover {
+    border-bottom: 2px solid #e98d8d;
+  }
+  
+  .portfolieside-navbar * {
+    font-weight: normal;
+    color: #000;
+  }
+  
+  .portfolieside-navbar {
+    font-weight: normal;
+    color: #000;
+    position: relative;
+    background-color:#ffffff;
+    width: 100vw;
+  }
+  
+  .avis-nav * {
+    font-weight: normal;
+    color: #000;
+  }
+  
+  .avis-nav {
+    font-weight: normal;
+    color: #000;
+    position: relative;
+    background-color:#ffffff;
+    width: 100vw;
+  }
+  
+  .logo-nav * {
+    font-weight: normal;
+    color: #000;
+  }
+  
+  .logo-nav {
+    font-weight: normal;
+    color: #000;
+    position: relative;
+    background-color:#ffffff;
+    width: 100vw;
+  }
+  
+  .magasin-nav * {
+    font-weight: normal;
+    color: #000;
+  }
+  
+  .magasin-nav {
+    font-weight: normal;
+    color: #000;
+    position: relative;
+    background-color:#ffffff;
+    width: 100vw;
+  }
+  
+  .some-nav * {
+    font-weight: normal;
+    color: #000;
+  }
+  
+  .some-nav {
+    font-weight: normal;
+    color: #000;
+    position: relative;
+    background-color:#ffffff;
+    width: 100vw;
+  }
+  
+  .plakat-nav * {
+    font-weight: normal;
+    color: #000;
+  }
+  
+  .plakat-nav {
+    font-weight: normal;
+    color: #000;
+    position: relative;
+    background-color:#ffffff;
+    width: 100vw;
+  }
+  
+  .nettside-nav * {
+    font-weight: normal;
+    color: #000;
+  }
+  
+  .nettside-nav {
+    font-weight: normal;
+    color: #000;
+    position: relative;
+    background-color:#ffffff;
+    width: 100vw;
+  }
+  
+  /* Section: navbar 375px */
+  @media (max-width: 375px) {
+    .link {
+      gap: 20px;
+    }
+  }
+  
+  /* Section: navbar 320px */
+  @media (max-width: 320px) {
+    .link {
+      gap: 16px;
+    }
+  
+    .hovedlinkbar {
+      font-size: 17px;
+    }
+  }
+  

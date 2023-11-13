@@ -1,0 +1,670 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+  }
+  
+  .cv {
+    background-color: #0d0620;
+    padding-top: 150px;
+    padding-left: 180px;
+  }
+  
+  .cv-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+  }
+  
+  /* ////////////////////// */
+  /* Bilde og tekst av meg */
+  /* //////////////////// */
+  
+  .id {
+    width: 294px;
+    height: 464px;
+    position: sticky;
+    top: 0;
+    padding-top: 40px;
+  }
+  
+  .photo-profil {
+    width: 274px;
+    height: 274px;
+    background-image: url(/public/profil/meg.png);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 50px;
+  }
+  
+  .name-profil {
+    font-family: "Manjari", sans-serif;
+    font-size: 28px;
+    color: #ffffff;
+    margin-left: 30px;
+  }
+  
+  .stilling-profil {
+    font-family: "Manjari", sans-serif;
+    color: #e4c982;
+    font-size: 17px;
+    font-weight: lighter;
+    letter-spacing: 3px;
+    margin-left: 30px;
+  }
+  
+  .stillingTo-profil {
+    font-family: "Manjari", sans-serif;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: lighter;
+    letter-spacing: 3px;
+    margin-top: 5px;
+    margin-left: 30px;
+  }
+  
+  /* ///// */
+  /* Link */
+  /* /// */
+  
+  .linkCV {
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+    font-family: "Manjari", sans-serif;
+    text-decoration: none;
+    margin-top: 40px;
+    list-style-type: none;
+    line-height: 25px;
+    padding-inline-start: 35px;
+  }
+  
+  .linkcvbar {
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+    font-weight: 200;
+    font-family: "Manjari", sans-serif;
+    text-decoration: none;
+  }
+  
+  .linkcvbar:hover {
+    size: 105%;
+    font-weight: 600;
+  }
+  
+  /* //////////////// */
+  /* Arbeidserfaring */
+  /* ////////////// */
+  
+  .workexperience {
+    width: 610px;
+  }
+  
+  .nameTitle-cv {
+    color: #ffffff;
+    font-size: 19px;
+    font-weight: lighter;
+    letter-spacing: 4px;
+    font-family: "Manjari", sans-serif;
+    margin-top: 60px;
+  }
+  
+  .textfill-cv {
+    color: #e4c982;
+    font-size: 27px;
+    letter-spacing: 3px;
+    font-family: "Manjari", sans-serif;
+    font-weight: bold;
+    margin-top: 14px;
+  }
+  
+  .timePlaceOne {
+    color: #ffffff;
+    font-size: 12px;
+    font-family: "Manjari", sans-serif;
+  }
+  
+  .timePlaceTwo {
+    color: #ffffff;
+    font-size: 12px;
+    font-family: "Manjari", sans-serif;
+    margin-top: 5px;
+  }
+  
+  .job {
+    margin-top: 60px;
+  }
+  
+  .jobName {
+    color: #ffffff;
+    font-size: 23px;
+    font-family: "Manjari", sans-serif;
+    margin-top: 30px;
+  }
+  
+  .jobInfo {
+    color: #ffffff;
+    font-size: 13px;
+    font-family: "Manjari", sans-serif;
+    line-height: 19px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .program-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 610px;
+    gap: 10px;
+  }
+  
+  .programButton {
+    background-color: #0a152a;
+    color: #ecdbb0;
+    font-family: "Manjari", sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+    border-radius: 19px;
+    width: fit-content;
+    padding: 12px;
+    border: none;
+  }
+  
+  /* /////////// */
+  /* Sommerjobb */
+  /* ///////// */
+  
+  .summerJob {
+    margin-top: 80px;
+  }
+  
+  .nameTitle-summerjob {
+    color: #e4c982;
+    font-size: 24px;
+    letter-spacing: 3px;
+    font-family: "Manjari", sans-serif;
+    font-weight: bold;
+    padding-top: 70px;
+    margin-bottom: 25px;
+  }
+  
+  .timePlaceOneSummerjob {
+    color: #ffffff;
+    font-size: 12px;
+    font-family: "Manjari", sans-serif;
+  }
+  
+  .summerjob-wrapper-text {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .summerjob-wrapper-text-inside {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .jobNameSummerjob {
+    color: #ffffff;
+    font-size: 23px;
+    font-family: "Manjari", sans-serif;
+  }
+  
+  .jobInfoSummerjob {
+    color: #ffffff;
+    font-size: 13px;
+    font-family: "Manjari", sans-serif;
+    margin-top: 7px;
+    margin-left: 10px;
+  }
+  
+  /* ////////// */
+  /* Utdanning */
+  /* //////// */
+  
+  .myeducation {
+    margin-top: 40px;
+  }
+  
+  .nameTitle-education {
+    color: #e4c982;
+    font-size: 27px;
+    letter-spacing: 3px;
+    font-family: "Manjari", sans-serif;
+    font-weight: bold;
+    margin-top: 80px;
+  }
+  
+  .timePlaceOneEducation {
+    color: #ffffff;
+    font-size: 12px;
+    font-family: "Manjari", sans-serif;
+  }
+  
+  .NameEducation {
+    color: #ffffff;
+    font-size: 23px;
+    font-family: "Manjari", sans-serif;
+    margin-top: 30px;
+  }
+  
+  .InfoEducation {
+    color: #ffffff;
+    font-size: 13px;
+    font-family: "Manjari", sans-serif;
+    line-height: 19px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  /* ///// */
+  /* Kurs */
+  /* /// */
+  
+  .mycourse {
+    margin-top: 50px;
+  }
+  
+  .nameTitle-course {
+    color: #e4c982;
+    font-size: 27px;
+    letter-spacing: 3px;
+    font-family: "Manjari", sans-serif;
+    font-weight: bold;
+    margin-top: 70px;
+  }
+  
+  .timePlaceOnecourse {
+    color: #ffffff;
+    font-size: 12px;
+    font-family: "Manjari", sans-serif;
+  }
+  
+  .Namecourse {
+    color: #ffffff;
+    font-size: 23px;
+    font-family: "Manjari", sans-serif;
+    margin-top: 30px;
+  }
+  
+  .Infocourse {
+    color: #ffffff;
+    font-size: 13px;
+    font-family: "Manjari", sans-serif;
+    line-height: 19px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  /* ///////////////////////////////////////// */
+  /* Section: arbeidserfaring screensize 1024 */
+  /* /////////////////////////////////////// */
+  
+  @media (max-width: 1024px) {
+    .cv {
+      padding-top: 140px;
+      padding-left: 100px;
+    }
+  
+    .photo-profil {
+      width: 214px;
+      height: 214px;
+    }
+  
+    .workexperience {
+      width: 430px;
+    }
+  
+    .program-container {
+      width: 430px;
+    }
+  
+    .nameTitle-cv {
+      padding-top: 30px;
+    }
+  
+    .linkCV {
+      padding-inline-start: 20px;
+    }
+  }
+  
+  /* //////////////////////////////////////// */
+  /* Section: arbeidserfaring screensize 800 */
+  /* ////////////////////////////////////// */
+  
+  @media (max-width: 800px) {
+    .cv {
+      padding-top: 150px;
+    }
+  
+    .photo-profil {
+      width: 214px;
+      height: 214px;
+    }
+  
+    .job {
+      margin-top: 10px;
+    }
+  
+    .nameTitle-cv {
+      font-size: 28px;
+    }
+  
+    .workexperience {
+      width: 300px;
+    }
+  
+    .program-container {
+      display: none;
+    }
+  
+    .nameTitle-cv {
+      padding-top: 40px;
+    }
+  
+    .nameTitle-summerjob {
+      font-size: 28px;
+      padding-top: 60px;
+      margin-bottom: 15px;
+    }
+  
+    .summerJob {
+      margin-top: 30px;
+    }
+  
+    .myeducation {
+      margin-top: 20px;
+    }
+  
+    .nameTitle-education {
+      font-size: 28px;
+      padding-top: 60px;
+      margin-bottom: 15px;
+    }
+  
+    .mycourse {
+      margin-top: 20px;
+    }
+  
+    .nameTitle-course {
+      font-size: 28px;
+      padding-top: 60px;
+    }
+  }
+  
+  /* //////////////////////////////////////// */
+  /* Section: arbeidserfaring screensize 768 */
+  /* ////////////////////////////////////// */
+  
+  @media (max-width: 768px) {
+    .cv {
+     padding-top: 150px;
+  padding-left: 120px;
+    }
+  
+    .nameTitle-cv{
+      font-size: 18px;
+    }
+  
+    .textfill-cv{
+      font-size: 22px;
+      margin-bottom: 30px;
+    }
+  
+    .nameTitle-summerjob{
+      font-size: 18px;
+    }
+  
+    .nameTitle-education{
+      font-size: 22px;
+    }
+  
+    .nameTitle-course{
+      font-size: 22px;
+    }
+  
+    .workexperience {
+      width: 270px;
+    }
+  
+    .cv-container {
+      gap: 30px;
+    }
+  
+    .id {
+      width: 210px;
+    }
+  
+    .photo-profil {
+      width: 190px;
+      height: 190px;
+    }
+  
+    .name-profil {
+      font-size: 23px;
+    }
+  
+    .stilling-profil {
+      font-size: 12px;
+    }
+  
+    .stillingTo-profil {
+      font-size: 12px;
+    }
+  
+    .linkcvbar {
+      font-size: 15px;
+    }
+  
+    .linkCV {
+      line-height: 22px;
+    }
+  }
+  
+  /* //////////////////////////////////////// */
+  /* Section: arbeidserfaring screensize 600 */
+  /* ////////////////////////////////////// */
+  
+  @media (max-width: 600px) {
+    .cv {
+      padding-top: 150px;
+      padding-left: 70px;
+    }
+  
+    .workexperience {
+      width: 250px;
+    }
+  
+    .cv-container {
+      gap: 5px;
+    }
+  
+    .photo-profil {
+      width: 150px;
+      height: 150px;
+    }
+  
+    .id {
+      width: 204px;
+    }
+  
+    .linkcvbar {
+      font-size: 15px;
+    }
+  
+    .linkCV {
+      line-height: 22px;
+      padding-inline-start: 10px;
+    }
+  
+    .name-profil {
+      margin-left: 10px;
+    }
+  
+    .stilling-profil {
+      margin-left: 10px;
+    }
+  
+    .stillingTo-profil {
+      margin-left: 10px;
+    }
+  
+    .nameTitle-cv {
+      font-size: 18px;
+    }
+  
+    .textfill-cv{
+      font-size: 20px;
+    }
+  
+    .nameTitle-summerjob {
+      font-size: 20px;
+    }
+  
+    .nameTitle-education {
+      font-size: 23px;
+    }
+  
+    .nameTitle-course {
+      font-size: 23px;
+    }
+  }
+  
+  /* //////////////////////////////////////// */
+  /* Section: arbeidserfaring screensize 480 */
+  /* ////////////////////////////////////// */
+  
+  @media (max-width: 480px) {
+    .cv {
+      padding-top: 70px;
+      padding-left: 60px;
+    }
+  
+    .id {
+      display: none;
+    }
+  
+    .link-container {
+      display: none;
+    }
+  
+    .workexperience {
+      width: 350px;
+    }
+  
+  
+    .nameTitle-cv {
+      font-size: 18px;
+      letter-spacing: 3px;
+    }
+  
+    .nameTitle-summerjob {
+      font-size: 22px;
+      letter-spacing: 3px;
+      padding-top: 40px;
+    }
+  
+    .nameTitle-education {
+      font-size: 28px;
+      letter-spacing: 3px;
+      padding-top: 40px;
+    }
+  
+    .nameTitle-course {
+      font-size: 28px;
+      letter-spacing: 3px;
+      padding-top: 40px;
+    }
+  
+    /* //////////////////////////////////////// */
+    /* Section: arbeidserfaring screensize 375 */
+    /* ////////////////////////////////////// */
+  
+    @media (max-width: 375px) {
+  
+      .workexperience {
+        width: 250px;
+      }
+  
+      .nameTitle-cv {
+        font-size: 18px;
+        letter-spacing: 3px;
+      }
+  
+      .nameTitle-summerjob {
+        font-size: 22px;
+        letter-spacing: 3px;
+        padding-top: 40px;
+      }
+  
+      .nameTitle-education {
+        font-size: 25px;
+        letter-spacing: 3px;
+        padding-top: 40px;
+      }
+  
+      .nameTitle-course {
+        font-size: 25px;
+        letter-spacing: 3px;
+        padding-top: 40px;
+      }
+  
+      .jobInfoSummerjob {
+        margin-left: 10px;
+      }
+  
+      /* //////////////////////////////////////// */
+      /* Section: arbeidserfaring screensize 320 */
+      /* ////////////////////////////////////// */
+  
+      @media (max-width: 320px) {
+                .cv {
+      padding-top: 70px;
+      padding-left: 45px;
+    }
+  
+        .workexperience {
+          width: 215px;
+        }
+  
+        .nameTitle-cv {
+          font-size: 21px;
+          letter-spacing: 2px;
+        }
+  
+        .jobName {
+          font-size: 21px;
+        }
+  
+        .nameTitle-summerjob {
+          font-size: 20px;
+          letter-spacing: 2px;
+        }
+  
+        .jobNameSummerjob {
+          font-size: 20px;
+        }
+  
+        .jobInfoSummerjob {
+          margin-top: 4px;
+          margin-left: 10px;
+        }
+  
+        .nameTitle-education {
+          font-size: 21px;
+          letter-spacing: 2px;
+        }
+  
+        .nameTitle-course {
+          font-size: 21px;
+          letter-spacing: 2px;
+        }
+      }
+    }
+  }
+  
