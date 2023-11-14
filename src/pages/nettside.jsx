@@ -14,10 +14,24 @@ export const Nettside = () => {
             <a className="https://marikodehode.github.io/test-bilder/"><div className='photoN photoN2'></div></a>
 
             <a className="https://marikodehode.github.io/API-vits/"><div className='photoN photoN3'></div></a>
+
             <a className="https://marikodehode.github.io/API-vits/"><div className='photoN photoN4'></div></a>
 
             <a className="https://marikodehode.github.io/Extra-oppgave-Frontend/"><div className='photoN photoN5'></div></a>
             <div className='photoN photoN6'></div>
+
+
+
+            <a href=""><div className='photoN photoN7'></div></a>
+            
+            <a className=""><div className='photoN photoN8'></div></a>
+
+            <a className=""><div className='photoN photoN9'></div></a>
+            
+            <a className=""><div className='photoN photoN10'></div></a>
+
+            <a className=""><div className='photoN photoN11'></div></a>
+            <div className='photoN photoN12'></div>
         </div>
 
          <div className="tekst-nettside-bunn">

@@ -1637,7 +1637,9 @@
     display: grid;
     grid:
       "photo1 photo2 photo3"
-      "photo4 photo5 photo6";
+      "photo4 photo5 photo6"
+      "photo7 photo8 photo9"
+      "photo10 photo11 photo12";
     justify-content: center;
     gap: 20px;
   }
@@ -1699,6 +1701,60 @@
     background-color: rgb(246, 246, 246);
     background-position: center;
     grid-area: photo6;
+    cursor: pointer;
+  }
+
+  .photoN7 {
+    background-image: url("/public/nettsider/nett1.webp");
+    background-size: cover;
+    background-color: rgb(246, 246, 246);
+    background-position: center;
+    grid-area: photo7;
+    cursor: pointer;
+  }
+
+  .photoN8 {
+    background-image: url("/public/nettsider/nett1.webp");
+    background-size: cover;
+    background-color: rgb(246, 246, 246);
+    background-position: center;
+    grid-area: photo8;
+    cursor: pointer;
+  }
+
+  .photoN9 {
+    background-image: url("/public/nettsider/nett1.webp");
+    background-size: cover;
+    background-color: rgb(246, 246, 246);
+    background-position: center;
+    grid-area: photo9;
+    cursor: pointer;
+  }
+
+  .photoN10 {
+    background-image: url("/public/nettsider/nett1.webp");
+    background-size: cover;
+    background-color: rgb(246, 246, 246);
+    background-position: center;
+    grid-area: photo10;
+    cursor: pointer;
+  }
+
+  .photoN11 {
+    background-image: url("/public/nettsider/nett1.webp");
+    background-size: cover;
+    background-color: rgb(246, 246, 246);
+    background-position: center;
+    grid-area: photo11;
+    cursor: pointer;
+  }
+
+  .photoN12 {
+    background-image: url("/public/nettsider/nett1.webp");
+    background-size: cover;
+    background-color: rgb(246, 246, 246);
+    background-position: center;
+    grid-area: photo12;
     cursor: pointer;
   }
   

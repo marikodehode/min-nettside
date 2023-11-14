@@ -15,7 +15,8 @@ export const Hero = () => {
         <div className='iconboxheroOne'>
         <a href='https://www.linkedin.com/in/mari-frøysnes-karlsen-716156113/' target='_blank' rel='noopener noreferrer'><GrLinkedinOption className='iconsheroOne' /></a></div>
 
-        <div className='iconboxhero'><BsGithub className='iconshero'/></div>
+        <div className='iconboxhero'>
+          <a href='https://github.com/marikodehode?tab=repositories' target='_blank' rel='noopener noreferrer'><BsGithub className='iconshero'/></a></div>
         </div>
       </div>
       </section>     
