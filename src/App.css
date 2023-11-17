@@ -24,7 +24,7 @@ body {
 
 .textbox {
   text-align: center;
-  margin-top: 90px;
+  padding-top: 110px;
 }
 
 .image-overlay {
@@ -42,7 +42,7 @@ body {
   justify-content: center;
   flex-direction: row;
   gap: 10px;
-  margin-top: 140px;
+  margin-top: 210px;
 }
 
 .iconboxhero {
@@ -100,30 +100,31 @@ body {
   letter-spacing: 3px;
   font-family: "Manjari", sans-serif;
   text-align: center;
-  margin-bottom: 60px;
+  margin-bottom: 0px;
 }
 
 /* Section: top-body-container screensize 1280 */
 @media (max-width: 1280px) {
   .textbox {
-    margin-top: 190px;
-  }
+    padding-top: 100px;
+  } 
 
   .icon-overlay {
-    margin-top: 90px;
+    margin-top: 160px;
   }
 }
 
 /* Section: top-body-container screensize 1024 */
-@media (max-width: 1024px) {
+@media (max-width: 1024px) { 
   .textbox {
-    margin-top: 190px;
+    margin-top: 1px;
   }
 
   .icon-overlay {
-    margin-top: 90px;
+    margin-top: 165px;
   }
 }
+
 
 /* Section: top-body-container screensize 800 */
 @media (max-width: 800px) {
@@ -162,26 +163,28 @@ body {
 /* Section: top-body-container phonesize 375 */
 @media (max-width: 375px) {
   .nameTitle {
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .textfill-hero {
-    font-size: 20px;
-    letter-spacing: 4px;
+    font-size: 18px;
+    letter-spacing: 3px;
   }
 
   .textfill-herotwo {
-    font-size: 20px;
-    letter-spacing: 4px;
+    font-size: 18px;
+    letter-spacing: 3px;
   }
+ 
 
-  .textbox {
+
+  /* .textbox {
     margin-top: 200px;
   }
 
   .icon-overlay {
     margin-top: 110px;
-  }
+  } */
 }
 /* Section: top-body-container phonesize 320 */
 @media (max-width: 320px) {
@@ -196,15 +199,15 @@ body {
   }
 
   .nameTitle {
-    font-size: 25px;
+    font-size: 22px;
   }
   .textfill-hero {
-    font-size: 20px;
-    letter-spacing: 4px;
+    font-size: 18px;
+    letter-spacing: 2px;
   }
 
   .textfill-herotwo {
-    font-size: 20px;
-    letter-spacing: 4px;
+    font-size: 18px;
+    letter-spacing: 2px;
   }
 }
