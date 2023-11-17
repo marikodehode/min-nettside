@@ -1651,7 +1651,7 @@
   }
   
   .photoN1 {
-    background-image: url("/public/nettsider/nett1.webp");
+    background-image: url("/public/nettsider/four.webp");
     background-size: cover;
     background-color: rgb(246, 246, 246);
     background-position: center;
@@ -1660,7 +1660,7 @@
   }
   
   .photoN2 {
-    background-image: url("/public/nettsider/nett4.webp");
+    background-image: url("/public/nettsider/five.webp");
     background-size: cover;
     background-color: rgb(246, 246, 246);
     background-position: center;
@@ -1669,7 +1669,7 @@
   }
   
   .photoN3 {
-    background-image: url("/public/nettsider/nett2.webp");
+    background-image: url("/public/nettsider/elleven.webp");
     background-size: cover;
     background-color: rgb(246, 246, 246);
     background-position: center;
@@ -1678,7 +1678,7 @@
   }
   
   .photoN4 {
-    background-image: url("/public/nettsider/nett3.webp");
+    background-image: url("/public/nettsider/one.webp");
     background-size: cover;
     background-color: rgb(246, 246, 246);
     background-position: center;
@@ -1687,7 +1687,7 @@
   }
   
   .photoN5 {
-    background-image: url("/public/nettsider/side6.webp");
+    background-image: url("/public/nettsider/seven.webp");
     background-size: cover;
     background-color: rgb(246, 246, 246);
     background-position: center;
@@ -1696,7 +1696,7 @@
   }
   
   .photoN6 {
-    background-image: url("/public/nettsider/delove.webp");
+    background-image: url("/public/nettsider/three.webp");
     background-size: cover;
     background-color: rgb(246, 246, 246);
     background-position: center;
@@ -1705,7 +1705,7 @@
   }
 
   .photoN7 {
-    background-image: url("/public/nettsider/nett1.webp");
+    background-image: url("/public/nettsider/nine.webp");
     background-size: cover;
     background-color: rgb(246, 246, 246);
     background-position: center;
@@ -1714,7 +1714,7 @@
   }
 
   .photoN8 {
-    background-image: url("/public/nettsider/nett1.webp");
+    background-image: url("/public/nettsider/tvelv.webp");
     background-size: cover;
     background-color: rgb(246, 246, 246);
     background-position: center;
@@ -1723,7 +1723,7 @@
   }
 
   .photoN9 {
-    background-image: url("/public/nettsider/nett1.webp");
+    background-image: url("/public/nettsider/skjematwo.webp");
     background-size: cover;
     background-color: rgb(246, 246, 246);
     background-position: center;
@@ -1732,7 +1732,7 @@
   }
 
   .photoN10 {
-    background-image: url("/public/nettsider/nett1.webp");
+    background-image: url("/public/nettsider/eight.webp");
     background-size: cover;
     background-color: rgb(246, 246, 246);
     background-position: center;
@@ -1741,7 +1741,7 @@
   }
 
   .photoN11 {
-    background-image: url("/public/nettsider/nett1.webp");
+    background-image: url("/public/nettsider/ten.webp");
     background-size: cover;
     background-color: rgb(246, 246, 246);
     background-position: center;
@@ -1750,7 +1750,7 @@
   }
 
   .photoN12 {
-    background-image: url("/public/nettsider/nett1.webp");
+    background-image: url("/public/nettsider/six.webp");
     background-size: cover;
     background-color: rgb(246, 246, 246);
     background-position: center;
@@ -1764,48 +1764,12 @@
       height: 250px;
       border-radius: 14px;
     }
-  
-    .tekst-nettside-bunn {
-      margin-left: 20px;
-      width: 100px;
-    }
-  
-    .nameTitletwo-nettside {
-      font-size: 30px;
-      margin-top: 70px;
-      width: 200px;
-    }
-  
-    .textfilltwo-nettside {
-      font-size: 15px;
-      margin-top: 10px;
-      margin-bottom: 60px;
-      width: 750px;
-    }
   }
   @media (max-width: 800px) {
     .photoN {
       width: 180px;
       height: 180px;
       border-radius: 14px;
-    }
-  
-    .tekst-nettside-bunn {
-      margin-left: 20px;
-      width: 100px;
-    }
-  
-    .nameTitletwo-nettside {
-      font-size: 25px;
-      margin-top: 70px;
-      width: 200px;
-    }
-  
-    .textfilltwo-nettside {
-      font-size: 15px;
-      margin-top: 10px;
-      margin-bottom: 60px;
-      width: 550px;
     }
   }
   
@@ -1814,24 +1778,6 @@
       width: 150px;
       height: 150px;
       border-radius: 10px;
-    }
-  
-    .tekst-nettside-bunn {
-      margin-left: 20px;
-      width: 100px;
-    }
-  
-    .nameTitletwo-nettside {
-      font-size: 23px;
-      margin-top: 50px;
-      width: 200px;
-    }
-  
-    .textfilltwo-nettside {
-      font-size: 15px;
-      margin-top: 10px;
-      margin-bottom: 60px;
-      width: 450px;
     }
   }
   @media (max-width: 480px) {
@@ -1846,24 +1792,6 @@
   
     .column-wrapper-nettside {
       gap: 10px;
-    }
-  
-    .tekst-nettside-bunn {
-      margin-left: 20px;
-      width: 100px;
-    }
-  
-    .nameTitletwo-nettside {
-      font-size: 23px;
-      margin-top: 50px;
-      width: 200px;
-    }
-  
-    .textfilltwo-nettside {
-      font-size: 15px;
-      margin-top: 10px;
-      margin-bottom: 60px;
-      width: 350px;
     }
   }
   @media (max-width: 375px) {
@@ -1902,13 +1830,7 @@
     .photoN6 {
       grid-area: photo6;
     }
-  
-    .textfilltwo-nettside {
-      font-size: 12px;
-      line-height: 19px;
-  
-      width: 250px;
-    }
+
   }
   
   /* ///////////////// */
