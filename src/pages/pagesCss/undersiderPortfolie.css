@@ -51,7 +51,7 @@
   }
   
   .photoa1 {
-    background-image: url("public/avis/avistwo.png");
+    background-image: url("/avis/avistwo.png");
     width: 588px;
     height: 423px;
     background-color: aliceblue;
@@ -60,7 +60,7 @@
     cursor: pointer;
   }
   .photoa2 {
-    background-image: url("/public/avis/annonse25.webp");
+    background-image: url("/avis/annonse25.webp");
     width: 285px;
     height: 423px;
     background-color: rgb(53, 99, 139);
@@ -69,7 +69,7 @@
     cursor: pointer;
   }
   .photoa3 {
-    background-image: url("/public/avis/annonse10.webp");
+    background-image: url("/avis/annonse10.webp");
     background-color: rgb(122, 181, 126);
     background-size: cover;
     grid-area: photo3;
@@ -77,21 +77,21 @@
   }
   
   .photoa4 {
-    background-image: url("/public/avis/annonse29.webp");
+    background-image: url("/avis/annonse29.webp");
     background-color: rgb(139, 53, 119);
     background-size: cover;
     grid-area: photo4;
     cursor: pointer;
   }
   .photoa5 {
-    background-image: url("/public/avis/annonse24.webp");
+    background-image: url("/avis/annonse24.webp");
     background-color: rgb(139, 53, 53);
     background-size: cover;
     grid-area: photo5;
     cursor: pointer;
   }
   .photoa6 {
-    background-image: url("/public/avis/annonse4.webp");
+    background-image: url("/avis/annonse4.webp");
     background-color: rgb(12, 49, 108);
     background-size: cover;
     grid-area: photo6;
@@ -99,7 +99,7 @@
   }
   
   .photoa7 {
-    background-image: url("/public/avis/annonse1.webp");
+    background-image: url("/avis/annonse1.webp");
     width: 588px;
     height: 423px;
     background-color: rgb(38, 66, 90);
@@ -109,7 +109,7 @@
   }
   
   .photoa8 {
-    background-image: url("/public/avis/annonse6.webp");
+    background-image: url("/avis/annonse6.webp");
     width: 588px;
     height: 423px;
     background-color: rgb(122, 181, 126);
@@ -119,14 +119,14 @@
   }
   
   .photoa10 {
-    background-image: url("/public/avis/annonse7.webp");
+    background-image: url("/avis/annonse7.webp");
     background-color: rgb(139, 53, 53);
     background-size: cover;
     grid-area: photo10;
     cursor: pointer;
   }
   .photoa11 {
-    background-image: url("public/avis/avisone.png");
+    background-image: url("/avis/avisone.png");
     width: 588px;
     height: 423px;
     background-color: aliceblue;
@@ -135,7 +135,7 @@
     cursor: pointer;
   }
   .photoa12 {
-    background-image: url("/public/avis/annonse41.webp");
+    background-image: url("/avis/annonse41.webp");
     width: 285px;
     height: 423px;
     background-color: rgb(53, 99, 139);
