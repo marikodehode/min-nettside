@@ -112,16 +112,28 @@ body {
   .icon-overlay {
     margin-top: 160px;
   }
+
+  .nameTitle {
+    font-size: 32px;
+  }
+
+  .textfill-hero {
+    font-size: 21px;
+  }
+  
+  .textfill-herotwo {
+    font-size: 21px;
+  }
 }
 
 /* Section: top-body-container screensize 1024 */
 @media (max-width: 1024px) { 
   .textbox {
-    margin-top: 1px;
+    padding-top: 40px;
   }
 
   .icon-overlay {
-    margin-top: 165px;
+    margin-top: 170px;
   }
 }
 
@@ -129,36 +141,55 @@ body {
 /* Section: top-body-container screensize 800 */
 @media (max-width: 800px) {
   .nameTitle {
-    font-size: 35px;
+    font-size: 30px;
   }
 
   .textfill-hero {
-    font-size: 22px;
-    letter-spacing: 4px;
+    font-size: 19px;
   }
-
+  
   .textfill-herotwo {
-    font-size: 22px;
-    letter-spacing: 4px;
+    font-size: 19px;
   }
 }
 
 /* Section: top-body-container screensize 768 */
 @media (max-width: 768px) {
   .nameTitle {
-    font-size: 35px;
+    font-size: 32px;
   }
 
   .textfill-hero {
-    font-size: 22px;
-    letter-spacing: 4px;
+    font-size: 21px;
   }
-
+  
   .textfill-herotwo {
-    font-size: 22px;
-    letter-spacing: 4px;
+    font-size: 21px;
   }
 }
+
+/* Section: top-body-container screensize 600 */
+@media (max-width: 600px) {  
+  .icon-overlay {
+  margin-top: 150px;
+}
+.nameTitle {
+  font-size: 28px;
+}
+
+.textfill-hero {
+  font-size: 19px;
+}
+
+.textfill-herotwo {
+  font-size: 19px;
+}}
+
+/* Section: top-body-container screensize 500 */
+@media (max-width: 500px) {  
+  .icon-overlay {
+  margin-top: 150px;
+}}
 
 /* Section: top-body-container phonesize 375 */
 @media (max-width: 375px) {

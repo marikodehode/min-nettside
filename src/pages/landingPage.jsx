@@ -1,16 +1,17 @@
-import { Attester } from "../components/attester";
 import { Hero } from "../components/hero";
-import { Om } from "../components/om";
-import { PortFolie } from "../components/portfolie";
+import { OmPortfolieAttest } from "../components/omPortfolieAttest";
+// import { PortFolie } from "../components/portfolie";
+// import { Om } from "../components/om";
+// import { Attester } from "../components/attester";
 
 export const LandingPage = () => {
   return (
     <>
       <Hero/>
-      <Om/>
-      <PortFolie/>
-      <Attester/>
-      
+      <OmPortfolieAttest/>
+      {/* <Om/> */}
+      {/* <PortFolie/> */}
+      {/* <Attester/> */} 
     </>
   );
 };

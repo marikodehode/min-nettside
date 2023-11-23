@@ -133,11 +133,22 @@
     background-color:#ffffff;
     width: 100vw;
   }
+
+  /* Section: navbar screensize 500 */
+@media (max-width: 500px) {
+  .link {
+    gap: 21px;
+  }
+}
   
   /* Section: navbar 375px */
   @media (max-width: 375px) {
     .link {
       gap: 20px;
+    }
+
+    .hovedlinkbar {
+      font-size: 17px;
     }
   }
   
