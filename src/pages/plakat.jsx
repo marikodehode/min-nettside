@@ -22,7 +22,7 @@ export const Plakat = () => {
         </div>
         </div>
 
-        kflajfl
+    
         </section>
 )
 }

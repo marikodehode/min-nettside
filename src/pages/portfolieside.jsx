@@ -1,8 +1,25 @@
 import "./pagesCss/portfolieside.css";
-import { Link } from 'react-router-dom'
-
+import { Link, useNavigate } from 'react-router-dom';
+import React, { useLayoutEffect } from 'react';
 
 export const Portfolieside = () => {
+  const navigate = useNavigate();
+
+  useLayoutEffect(() => {
+    navigate(); // Du må kanskje initialisere navigasjonen på en bestemt måte avhengig av din rutekonfigurasjon
+  }, [navigate]);
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  };
+
+  const handleLinkClick = (path) => {
+    navigate(path);
+    scrollToTop();
+  };
     return (
         <>
       <section id="portfolie-section" className="portfolieside">
@@ -12,33 +29,33 @@ export const Portfolieside = () => {
         <p className='textfill-portfolieside-head'>GRAFISK DESIGN PORTFOLIE</p>
         
         <div className="column-wrapper-two">
-        <Link className="phototwo" to="/avis">
-        <div className="phototwo phototwo1" data-text=
-        "Se flere annonser til aviser"></div></Link>
+        <Link to="/avis" onClick={() => handleLinkClick('/avis')} className="phototwo">
+<div className="phototwo phototwo1" data-text="Se flere annonser til aviser"></div>
+</Link>
 
-        <Link className="phototwo" to="/some">
-        <div className="phototwo phototwo2" data-text=
-        "Se flere annonser til sosiale medier"></div></Link>
-            
-        <Link className="phototwo" to="/nettside">
-        <div className="phototwo phototwo3" data-text=
-        "Les om min erfaring med nettsider"></div></Link>
-            
-        <Link className="phototwo" to="/magasin">
-        <div className="phototwo phototwo4" data-text=
-        "Se flere annonser til magasiner"></div></Link>
+<Link to="/some" onClick={() => handleLinkClick('/some')} className="phototwo">
+<div className="phototwo phototwo2" data-text="Se flere annonser til sosiale medier"></div>
+</Link>
 
-        <Link className="phototwo" to="/logo">
-        <div className="phototwo phototwo5" data-text=
-        "Se flere logoer"></div></Link>
+ <Link to="/nettside" onClick={() => handleLinkClick('/nettside')} className="phototwo">
+<div className="phototwo phototwo3" data-text="Se hva jeg har lært"></div>
+</Link>
 
-        <Link className="phototwo" to="">
-        <div className="phototwo phototwo6" data-text=
-        "Se flere nyhetsbrev"></div></Link>
+<Link to="/magasin" onClick={() => handleLinkClick('/magasin')} className="phototwo">
+<div className="phototwo phototwo4" data-text="Se flere annonser til magasiner"></div>
+</Link>
 
-        <Link className="photoBigtwo" to="/plakat">
-        <div className="photoBigtwo" data-text=
-        "Se flere plakater og rollup"></div></Link>
+<Link to="/logo" onClick={() => handleLinkClick('/logo')} className="phototwo">
+<div className="phototwo phototwo5" data-text="Se flere logoer"></div>
+</Link>     
+
+<Link className="phototwo" to="">
+<div className="phototwo phototwo6" data-text=
+"Se flere nyhetsbrev"></div></Link>
+
+<Link to="/plakat" onClick={() => handleLinkClick('/plakat')} className="photoBigtwo">
+<div className="photoBigtwo" data-text="Se flere plakater og rollup"></div>
+</Link>
         </div>
         </div>
       </section>

@@ -1,7 +1,25 @@
-import './css/omPortfolieAttest.css'
-import { Link } from 'react-router-dom'
+import './css/omPortfolieAttest.css';
+import { Link, useNavigate } from 'react-router-dom';
+import React, { useLayoutEffect } from 'react';
 
 export const OmPortfolieAttest = () => {
+  const navigate = useNavigate();
+
+  useLayoutEffect(() => {
+    navigate(); // Du må kanskje initialisere navigasjonen på en bestemt måte avhengig av din rutekonfigurasjon
+  }, [navigate]);
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  };
+
+  const handleLinkClick = (path) => {
+    navigate(path);
+    scrollToTop();
+  };
     return(
 <div className='opa'>
     <div className='opa-container'>
@@ -30,35 +48,34 @@ Undervisning gikk ut på å lage statiske nettsider med bruk av HTML, CSS, Javas
 
 
 <div className="column-wrapper">
-<Link className="photo" to="/avis">
-<div className="photo photo1" 
-data-text="Se flere annonser til aviser"></div></Link>
+<Link to="/avis" onClick={() => handleLinkClick('/avis')} className="photo">
+<div className="photo photo1" data-text="Se flere annonser til aviser"></div>
+</Link>
 
-<Link className="photo" to="/some">
-<div className="photo photo2" data-text=
-"Se flere annonser til sosiale medier"></div></Link>
-            
-<Link className="photo" to="/nettside">
-<div className="photo photo3" data-text=
-"Les om min erfaring med nettsider"></div></Link>
-            
-<Link className="photo" to="/magasin">
-<div className="photo photo4" data-text=
-"Se flere annonser til magasiner"></div></Link>
+<Link to="/some" onClick={() => handleLinkClick('/some')} className="photo">
+<div className="photo photo2" data-text="Se flere annonser til sosiale medier"></div>
+</Link>
 
-<Link className="photo" to="/logo">
-<div className="photo photo5" data-text=
-"Se flere logoer"></div></Link>
+ <Link to="/nettside" onClick={() => handleLinkClick('/nettside')} className="photo">
+<div className="photo photo3" data-text="Se hva jeg har lært"></div>
+</Link>
+
+<Link to="/magasin" onClick={() => handleLinkClick('/magasin')} className="photo">
+<div className="photo photo4" data-text="Se flere annonser til magasiner"></div>
+</Link>
+
+<Link to="/logo" onClick={() => handleLinkClick('/logo')} className="photo">
+<div className="photo photo5" data-text="Se flere logoer"></div>
+</Link>     
 
 <Link className="photo" to="">
 <div className="photo photo6" data-text=
 "Se flere nyhetsbrev"></div></Link>
 
-<Link className="photoBig" to="/plakat">
-<div className="photoBig" data-text=
-"Se flere plakater og rollup"></div></Link>
+<Link to="/plakat" onClick={() => handleLinkClick('/plakat')} className="photoBig">
+<div className="photoBig" data-text="Se flere plakater og rollup"></div>
+</Link>
 </div>
-{/* <h1 className="undertext-portfolien">For mer arbeid ta kontakt</h1> */}
 </div>
 </section>
 
