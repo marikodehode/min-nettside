@@ -31,8 +31,7 @@ export const OmPortfolieAttest = () => {
 <article className='textbox-om'>
 <div className='text-container'>
 <h1 className='nameTitle-om'>OM MEG</h1>
-<p className='textfill-om'>Mitt navn er Mari Karlsen og jeg har akkurat fullført et kurs i koding og programmering.
-Undervisning gikk ut på å lage statiske nettsider med bruk av HTML, CSS, Javascript og Figma. Jeg har lang bakgrunn på grafisk designer og bred erfaring fra firmaer som Amedia, Norli, New Nordic og Motivation Boxes. Så har mye erfaring med oppsett av annonser, brosjyrer, materiell til SoMe, utforming av logoer pluss mye mer.</p>
+<p className='textfill-om'>Mitt navn er Mari Karlsen, og jeg jobber for tiden i et vikariat ved Universitetet i Sørøst-Norge, der mine hovedoppgaver er å sette opp og vedlikeholde nettsider. Jeg har lang erfaring som grafisk designer og har jobbet for selskaper som Amedia, Norli, New Nordic og Motivation Boxes. Gjennom min karriere har jeg opparbeidet bred kompetanse innen blant annet utforming av annonser, brosjyrer og materiell til sosiale medier, utvikling av logoer – og mye mer.</p>
 <h1 className="nameTitle-om">PORTFOLIE</h1>
 </div>
 </article>
@@ -49,31 +48,31 @@ Undervisning gikk ut på å lage statiske nettsider med bruk av HTML, CSS, Javas
 
 <div className="column-wrapper">
 <Link to="/avis" onClick={() => handleLinkClick('/avis')} className="photo">
-<div className="photo photo1" data-text="Se flere annonser til aviser"></div>
+<div className="photo photo1" data-text="Annonser til aviser"></div>
 </Link>
 
 <Link to="/some" onClick={() => handleLinkClick('/some')} className="photo">
-<div className="photo photo2" data-text="Se flere annonser til sosiale medier"></div>
+<div className="photo photo2" data-text="Annonser til sosiale medier"></div>
 </Link>
 
  <Link to="/nettside" onClick={() => handleLinkClick('/nettside')} className="photo">
-<div className="photo photo3" data-text="Se hva jeg har lært"></div>
+<div className="photo photo3" data-text="Nettsider"></div>
 </Link>
 
 <Link to="/magasin" onClick={() => handleLinkClick('/magasin')} className="photo">
-<div className="photo photo4" data-text="Se flere annonser til magasiner"></div>
+<div className="photo photo4" data-text="Annonser magasiner"></div>
 </Link>
 
 <Link to="/logo" onClick={() => handleLinkClick('/logo')} className="photo">
-<div className="photo photo5" data-text="Se flere logoer"></div>
+<div className="photo photo5" data-text="Logoer"></div>
 </Link>     
 
 <Link className="photo" to="">
 <div className="photo photo6" data-text=
-"Se flere nyhetsbrev"></div></Link>
+"Nyhetsbrev"></div></Link>
 
 <Link to="/plakat" onClick={() => handleLinkClick('/plakat')} className="photoBig">
-<div className="photoBig" data-text="Se flere plakater og rollup"></div>
+<div className="photoBig" data-text="Plakater og rollup"></div>
 </Link>
 </div>
 </div>

@@ -5,8 +5,8 @@ export const Some = () => {
     return (
         <section className="some">
             <div className="some-container">
-            <h1 className="nameTitle-some">PORTFOLIE</h1>
-            <p className='textfill-some'>MATERIELL SOSIALE MEDIER</p>
+            <h1 className="nameTitle-some">SOSIALE MEDIER</h1>
+            <p className='textfill-some'>Utvalg av annonser</p>
 
             <div className='column-wrapper-some'>
                 <div className='photoS photoS1'></div>

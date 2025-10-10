@@ -116,7 +116,7 @@
 
 .textfill-om {
   color: #ffffff;
-  font-size: 19px;
+  font-size: 17px;
   font-weight: lighter;
   letter-spacing: 1px;
   line-height: 29px;
@@ -204,17 +204,19 @@ html {
   width: 245px;
   height: 323px;
   border-radius: 19px;
-  background-color: #0d1134;
-  transition: transform 0.5s;
+  background-size: cover;
+  background-position: center;
   overflow: hidden;
+ transition: background-color 1.5s ease-in-out, color 1.s ease-in-out;
 }
 
+/* Hover: bytt bakgrunn og vis tekst */
 .photo:hover {
-  background-image: none;
-  background-color: #0d1134;
-  transform: rotateY(180deg);
+  background-image: none; /* fjerner bildet */
+  background-color: #0d1134; /* blåfarge på bakside */
 }
 
+/* Tekst over bildet */
 .photo::before {
   content: attr(data-text);
   position: absolute;
@@ -222,16 +224,16 @@ html {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  color: #ffffff;
+  color: transparent; /* skjult som standard */
   font-family: "Manjari", sans-serif;
   font-size: 20px;
-  opacity: 0;
-  transition: opacity 0.3s;
+  transition: color 0.5s ease;
 }
 
 .photo:hover::before {
-  opacity: 1;
+  color: #ffffff; /* vis tekst */
 }
+
 
 .photo1 {
   background-image: url("/portfolie/annonseavis.webp");
@@ -241,13 +243,13 @@ html {
 }
 
 .photo2 {
-  background-image: url("/portfolie/annonsesome.webp");
+  background-image: url("/public/portfolie/annonsesome-ny2.webp");
   background-size: cover;
   grid-area: photo2;
   cursor: pointer;
 }
 .photo3 {
-  background-image: url("/public/portfolie/nettside.webp");
+  background-image: url("/public/nettsider/nettside-ny.webp");
   background-size: cover;
   grid-area: photo3;
   cursor: pointer;
@@ -281,7 +283,7 @@ html {
   border-radius: 19px;
   cursor: pointer;
   position: relative;
-  transition: transform 0.5s;
+  transition: background-color 1.5s ease-in-out, color 1.s ease-in-out;
   overflow: hidden;
 }
 
@@ -556,7 +558,7 @@ html {
 
 .textfill-attest {
   color: #ffffff;
-  font-size: 19px;
+  font-size: 17px;
   font-weight: lighter;
   letter-spacing: 1px;
   line-height: 29px;
@@ -575,7 +577,7 @@ html {
   background-image: url(/public/attest/logo-amedia.png);
   background-size: cover;
   border: none;
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
 /* Section: attest screensize 1400 */

@@ -1,3 +1,4 @@
+
 /* /////////////// */
 /* Underside avis */
 /* ///////////// */
@@ -1648,10 +1649,47 @@
     width: 300px;
     height: 300px;
     border-radius: 14px;
+    position: relative;           /* viktig for ::before-posisjonering */
+    overflow: hidden;
   }
+/* Tekst-overlay */
+.photoN::before {
+  content: attr(data-text);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #A19B9B;
+  font-family: "Manjari", sans-serif;
+  font-size: 20px;
+  line-height: 1.6;
+  padding: 10px 15px;
+  white-space: pre-line;
+  white-space: normal;     /* ⬅️ ikke pre-line */
+  width: 85%;              /* gjør boksen bred nok til flere ord per linje */
+  max-width: 90%;
+  opacity: 0;
+  pointer-events: none;            /* unngå “hover-fangst” */
+  transition: opacity .2s ease-in; /* fade IN */
+}
+
+/* 🔸 Farge på hover + skjul bakgrunnsbildet */
+.photoN:hover {
+  background-image: none;
+  background-color: #F2F0F0;
+  /* ingen transform her */
+}
+
+/* Vis tekst */
+.photoN:hover::before { opacity: 1; }
+
+/* 🔸 Fjern fade UT → teksten forsvinner med én gang */
+.photoN:not(:hover)::before { transition-duration: 0s; }
+
   
   .photoN1 {
-    background-image: url("/public/nettsider/four.webp");
+    background-image: url("/public/nettsider/usnll.webp");
     background-size: cover;
     background-color: rgb(246, 246, 246);
     background-position: center;
@@ -1660,7 +1698,7 @@
   }
   
   .photoN2 {
-    background-image: url("/public/nettsider/five.webp");
+    background-image: url("/public/nettsider/praktisk.webp");
     background-size: cover;
     background-color: rgb(246, 246, 246);
     background-position: center;
@@ -1669,7 +1707,7 @@
   }
   
   .photoN3 {
-    background-image: url("/public/nettsider/elleven.webp");
+    background-image: url("/public/nettsider/flex1.webp");
     background-size: cover;
     background-color: rgb(246, 246, 246);
     background-position: center;
@@ -1678,7 +1716,7 @@
   }
   
   .photoN4 {
-    background-image: url("/public/nettsider/one.webp");
+    background-image: url("/public/nettsider/leselop3.webp");
     background-size: cover;
     background-color: rgb(246, 246, 246);
     background-position: center;
@@ -1687,7 +1725,7 @@
   }
   
   .photoN5 {
-    background-image: url("/public/nettsider/seven.webp");
+    background-image: url("/public/nettsider/arter3.webp");
     background-size: cover;
     background-color: rgb(246, 246, 246);
     background-position: center;
@@ -1696,7 +1734,7 @@
   }
   
   .photoN6 {
-    background-image: url("/public/nettsider/three.webp");
+    background-image: url("/public/nettsider/one.webp");
     background-size: cover;
     background-color: rgb(246, 246, 246);
     background-position: center;
@@ -1705,7 +1743,7 @@
   }
 
   .photoN7 {
-    background-image: url("/public/nettsider/nine.webp");
+    background-image: url("/public/nettsider/four2.webp");
     background-size: cover;
     background-color: rgb(246, 246, 246);
     background-position: center;
@@ -1714,7 +1752,7 @@
   }
 
   .photoN8 {
-    background-image: url("/public/nettsider/tvelv.webp");
+    background-image: url("/public/nettsider/hund.webp");
     background-size: cover;
     background-color: rgb(246, 246, 246);
     background-position: center;
@@ -1723,7 +1761,7 @@
   }
 
   .photoN9 {
-    background-image: url("/public/nettsider/skjematwo.webp");
+    background-image: url("/public/nettsider/three.webp");
     background-size: cover;
     background-color: rgb(246, 246, 246);
     background-position: center;
@@ -1732,7 +1770,7 @@
   }
 
   .photoN10 {
-    background-image: url("/public/nettsider/eight.webp");
+    background-image: url("/public/nettsider/knapp.webp");
     background-size: cover;
     background-color: rgb(246, 246, 246);
     background-position: center;
@@ -1741,7 +1779,7 @@
   }
 
   .photoN11 {
-    background-image: url("/public/nettsider/ten.webp");
+    background-image: url("/public/nettsider/two.webp");
     background-size: cover;
     background-color: rgb(246, 246, 246);
     background-position: center;
@@ -1750,7 +1788,7 @@
   }
 
   .photoN12 {
-    background-image: url("/public/nettsider/six.webp");
+    background-image: url("/public/nettsider/five.webp");
     background-size: cover;
     background-color: rgb(246, 246, 246);
     background-position: center;

@@ -5,14 +5,14 @@
 .navbar {
     padding-top: 40px;
     padding-bottom: 25px;
-    position: relative;
+    position: sticky;
     top: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100vw;
-    z-index: 100;
-    background-color: #080415;
+    z-index: 1000;
+    background-color: #0A0228;
   }
   
   .link {
@@ -45,14 +45,14 @@
   
   .portfolieside-navbar * {
     font-weight: normal;
-    color: #000;
+    color: #ffffff;
   }
   
   .portfolieside-navbar {
     font-weight: normal;
-    color: #000;
-    position: relative;
-    background-color:#ffffff;
+    color: #ffffff;
+    position: sticky;
+    background-color: #0A0228;
     width: 100vw;
   }
   
@@ -64,7 +64,7 @@
   .avis-nav {
     font-weight: normal;
     color: #000;
-    position: relative;
+    position: sticky;
     background-color:#ffffff;
     width: 100vw;
   }
@@ -77,7 +77,7 @@
   .logo-nav {
     font-weight: normal;
     color: #000;
-    position: relative;
+    position: sticky;
     background-color:#ffffff;
     width: 100vw;
   }
@@ -90,7 +90,7 @@
   .magasin-nav {
     font-weight: normal;
     color: #000;
-    position: relative;
+    position: sticky;
     background-color:#ffffff;
     width: 100vw;
   }
@@ -103,7 +103,7 @@
   .some-nav {
     font-weight: normal;
     color: #000;
-    position: relative;
+    position: sticky;
     background-color:#ffffff;
     width: 100vw;
   }
@@ -116,7 +116,7 @@
   .plakat-nav {
     font-weight: normal;
     color: #000;
-    position: relative;
+    position: sticky;
     background-color:#ffffff;
     width: 100vw;
   }
@@ -129,7 +129,7 @@
   .nettside-nav {
     font-weight: normal;
     color: #000;
-    position: relative;
+    position: sticky;
     background-color:#ffffff;
     width: 100vw;
   }

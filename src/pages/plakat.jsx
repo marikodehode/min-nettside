@@ -5,8 +5,8 @@ export const Plakat = () => {
 
         <section className="plakat">
         <div className="plakat-container">
-        <h1 className="nameTitle-plakat">PORTFOLIE</h1>
-        <p className='textfill-plakat'>Plakater og Rollup</p>
+        <h1 className="nameTitle-plakat">PLAKATER</h1>
+        <p className='textfill-plakat'>Utvalg av plakater</p>
 
         <div className='column-wrapper-plakat'>
             <div className='photoP photoP1'></div>

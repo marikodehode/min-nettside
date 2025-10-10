@@ -68,8 +68,45 @@
     margin-top: 5px;
     margin-left: 30px;
   }
-  
 
+/* CV-lenker under hverandre */
+.cv-links {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 12px;
+  margin-top: 50px;
+}
+
+/* Selve lenken (tekst + ikon tett sammen) */
+.cv-link-row {
+  display: inline-flex;
+  align-items: baseline;   
+  gap: 6px;         
+  text-decoration: none;  
+  color: #ffffff;   
+  font-family: "Manjari", sans-serif;
+  font-size: 16px;
+  font-weight: lighter;
+  letter-spacing: 1.5px;
+  margin-left: 30px;
+  line-height: 1.2;   
+}
+
+/* Sørg for at den ikke får strek ved hover/fokus */
+.cv-link-row svg:hover {
+  text-decoration: none;
+   color: #ffffff;
+}
+
+/* Ikonet: farge + liten “nudge” oppover */
+.cv-link-row svg {
+  color: #dc918f; 
+  width: 16px;
+  height: 16px;
+  transform: translateY(3px); /* løfter ikonet litt – juster til -1px/-3px etter smak */
+  flex-shrink: 0;
+}
   
   /* //////////////// */
   /* Arbeidserfaring */
@@ -115,15 +152,16 @@
     color: #ffffff;
     font-size: 23px;
     font-family: "Manjari", sans-serif;
-    margin-top: 30px;
+    margin-top: 16px;
   }
   
   .jobInfo {
     color: #ffffff;
     font-size: 13px;
+    font-weight: 300;
     font-family: "Manjari", sans-serif;
-    line-height: 19px;
-    margin-top: 30px;
+    line-height: 20px;
+    margin-top: 16px;
     margin-bottom: 30px;
   }
   
@@ -206,7 +244,7 @@
   /* //////// */
   
   .myeducation {
-    margin-top: 40px;
+    margin-top: 60px;
   }
   
   .nameTitle-education {
@@ -228,7 +266,7 @@
     color: #ffffff;
     font-size: 23px;
     font-family: "Manjari", sans-serif;
-    margin-top: 30px;
+    margin-top: 16px;
   }
   
   .InfoEducation {
@@ -236,7 +274,8 @@
     font-size: 13px;
     font-family: "Manjari", sans-serif;
     line-height: 19px;
-    margin-top: 30px;
+    font-weight: 300;
+    margin-top: 16px;
     margin-bottom: 30px;
   }
   
@@ -245,7 +284,7 @@
   /* /// */
   
   .mycourse {
-    margin-top: 50px;
+    margin-top: 70px;
   }
   
   .nameTitle-course {
@@ -254,7 +293,7 @@
     letter-spacing: 3px;
     font-family: "Manjari", sans-serif;
     font-weight: bold;
-    margin-top: 70px;
+    margin-top: 120px;
   }
   
   .timePlaceOnecourse {
@@ -267,7 +306,7 @@
     color: #ffffff;
     font-size: 23px;
     font-family: "Manjari", sans-serif;
-    margin-top: 30px;
+    margin-top: 16px;
   }
   
   .Infocourse {
@@ -275,7 +314,8 @@
     font-size: 13px;
     font-family: "Manjari", sans-serif;
     line-height: 19px;
-    margin-top: 30px;
+    font-weight: 300;
+    margin-top: 16px;
     margin-bottom: 30px;
   }
 

@@ -21,6 +21,11 @@
     width: 25px;
     height: 25px;
     cursor: pointer;
+    transition: transform 0.2s ease, fill 0.2s ease;
+  }
+
+  .icons:hover {
+      transform: scale(1.2);
   }
   
   .iconText {

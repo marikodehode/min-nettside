@@ -4,8 +4,8 @@ export const Logo = () => {
     return (
         <section className="logo">
             <div className="logo-container">
-            <h1 className="nameTitle-logo">PORTFOLIE</h1>
-            <p className='textfill-logo'>Logo</p>
+            <h1 className="nameTitle-logo">LOGO</h1>
+            <p className='textfill-logo'>Utvalg av mine logoer</p>
 
             <div className='column-wrapper-logo'>
                 <div className='photoL photoL1'></div>

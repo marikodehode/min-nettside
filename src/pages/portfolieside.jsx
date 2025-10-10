@@ -25,36 +25,36 @@ export const Portfolieside = () => {
       <section id="portfolie-section" className="portfolieside">
       
         <div className="portfolieside-container">
-        <h1 className="nameTitle-portfolie-siden-head">MARI KARLSEN</h1>
-        <p className='textfill-portfolieside-head'>GRAFISK DESIGN PORTFOLIE</p>
+        <h1 className="nameTitle-portfolie-siden-head">PORTFOLIE</h1>
+        <p className='textfill-portfolieside-head'>Velg det du vil se</p>
         
         <div className="column-wrapper-two">
         <Link to="/avis" onClick={() => handleLinkClick('/avis')} className="phototwo">
-<div className="phototwo phototwo1" data-text="Se flere annonser til aviser"></div>
+<div className="phototwo phototwo1" data-text="Annonser til aviser"></div>
 </Link>
 
 <Link to="/some" onClick={() => handleLinkClick('/some')} className="phototwo">
-<div className="phototwo phototwo2" data-text="Se flere annonser til sosiale medier"></div>
+<div className="phototwo phototwo2" data-text="Annonser til sosiale medier"></div>
 </Link>
 
  <Link to="/nettside" onClick={() => handleLinkClick('/nettside')} className="phototwo">
-<div className="phototwo phototwo3" data-text="Se hva jeg har lært"></div>
+<div className="phototwo phototwo3" data-text="Nettsider"></div>
 </Link>
 
 <Link to="/magasin" onClick={() => handleLinkClick('/magasin')} className="phototwo">
-<div className="phototwo phototwo4" data-text="Se flere annonser til magasiner"></div>
+<div className="phototwo phototwo4" data-text="Annonser til magasiner"></div>
 </Link>
 
 <Link to="/logo" onClick={() => handleLinkClick('/logo')} className="phototwo">
-<div className="phototwo phototwo5" data-text="Se flere logoer"></div>
+<div className="phototwo phototwo5" data-text="Logoer"></div>
 </Link>     
 
 <Link className="phototwo" to="">
 <div className="phototwo phototwo6" data-text=
-"Se flere nyhetsbrev"></div></Link>
+"Nyhetsbrev"></div></Link>
 
 <Link to="/plakat" onClick={() => handleLinkClick('/plakat')} className="photoBigtwo">
-<div className="photoBigtwo" data-text="Se flere plakater og rollup"></div>
+<div className="photoBigtwo" data-text="Plakater og rollup"></div>
 </Link>
         </div>
         </div>

@@ -3,7 +3,7 @@
     padding-bottom: 180px;
     display: flex;
     justify-content: center;
-    background-color: #ffffff;
+    background-color: #0d0620;
   }
   
   .portfolieside-container {
@@ -13,7 +13,7 @@
   }
   
   .nameTitle-portfolie-siden-head {
-    color: #000000;
+    color: #e4c982;
     font-size: 29px;
     letter-spacing: 3px;
     font-family: "Manjari", sans-serif;
@@ -23,7 +23,7 @@
   }
   
   .textfill-portfolieside-head {
-    color: #000000;
+    color: #ffffff;
     font-size: 19px;
     font-weight: lighter;
     letter-spacing: 3px;
@@ -41,20 +41,23 @@
     justify-content: center;
     gap: 20px;
   }
+
+  .phototwo, .photoBigtwo {
+  transition: background-color 1.5s ease-in-out, color 1.5s ease-in-out;
+}
   
   .phototwo {
     position: relative;
     width: 237px;
     height: 323px;
     border-radius: 19px;
-    background-color: #e4c982;
-    transition: transform 0.5s;
+    background-color: #0d1134;
     overflow: hidden;
   }
   
   .phototwo:hover {
     background-image: none;
-    background-color: #e4c982;
+    background-color: #0d1134;
     transform: rotateY(180deg);
   }
   
@@ -84,13 +87,13 @@
   }
   
   .phototwo2 {
-    background-image: url("/portfolie/annonsesome.webp");
+    background-image: url("/portfolie/annonsesome-ny2.webp");
     background-size: cover;
     grid-area: phototwo2;
     cursor: pointer;
   }
   .phototwo3 {
-    background-image: url("/public/portfolie/nettside.webp");
+    background-image: url("/public/nettsider/nettside-ny.webp");
     background-size: cover;
     grid-area: phototwo3;
     cursor: pointer;
@@ -119,12 +122,13 @@
     background-image: url("/portfolie/rollup.webp");
     background-size: cover;
     grid-area: photoBigtwo;
+    cursor: pointer;
+
+    position: relative;
     width: 237px;
     height: 669px;
     border-radius: 19px;
-    cursor: pointer;
-    position: relative;
-    transition: transform 0.5s;
+    background-color: #e4c982;
     overflow: hidden;
   }
   
@@ -147,10 +151,12 @@
     opacity: 0;
     transition: opacity 0.3s;
   }
-  
+
   .photoBigtwo:hover::before {
     opacity: 1;
   }
+  
+  
   
   .undertext-portfolie {
     color: #b1afaf;

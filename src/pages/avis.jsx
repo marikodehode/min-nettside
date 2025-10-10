@@ -5,8 +5,8 @@ export const Avis = () => {
   return (
     <section className="avis">
       <div className="avis-container">
-      <h1 className="nameTitle-avis-head">PORTFOLIE</h1>
-      <p className='textfill-avis-head'>ANNONSEMATERIELL AVIS</p>
+      <h1 className="nameTitle-avis-head">ANNONSER</h1>
+      <p className='textfill-avis-head'>Utvalg av annonser til avis</p>
 
 
         <div className="column-wrapper-avis">
