@@ -2,7 +2,7 @@
 import "./App.css";
 import { Footer } from "./components/footer";
 import { NavBar } from "./components/navbar";
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { LandingPage } from "./pages/landingPage";
 import { Magasin } from "./pages/magasin";
 import { Avis } from "./pages/avis";
