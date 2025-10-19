@@ -41,7 +41,38 @@
   
   .hovedlinkbar:hover {
     border-bottom: 2px solid #e98d8d;
-  }
+  /* Dropdown base */
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  list-style: none;
+  padding: 0.5rem 0;
+  min-width: 150px;
+  z-index: 1000;
+}
+
+.dropdown-menu li {
+  padding: 0.5rem 1rem;
+}
+
+.dropdown-menu li:hover {
+  background: #f2f2f2;
+}
+
+.dropdown-menu a {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+}
+}
   
   .portfolieside-navbar * {
     font-weight: normal;
