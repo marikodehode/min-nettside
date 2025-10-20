@@ -41,28 +41,28 @@
 /* Section: opa screensize 700 */
 @media (max-width: 700px) {
     .opa-container{
-        width: 470px;
+        width: 550px;
     }
 }
 
 /* Section: opa screensize 600 */
 @media (max-width: 600px) {
     .opa-container{
-        width: 410px;
+        width: 450px;
     }
 }
 
 /* Section: opa screensize 550 */
 @media (max-width: 550px) {
     .opa-container{
-        width: 360px;
+        width: 400px;
     }
 }
 
 /* Section: opa screensize 500 */
 @media (max-width: 500px) {
     .opa-container{
-        width: 300px;
+        width: 350px;
     }
     .opa {
         padding-left: 140px;
@@ -73,34 +73,30 @@
 /* Section: opa screensize 450 */
 @media (max-width: 450px) {
     .opa-container{
-        width: 275px;
+        width: 342px;
     }
-    .opa {
-        padding-left: 100px;
-        padding-right: 100px;
-      }
+   
 }
 
 /* Section: opa screensize 410 */
 @media (max-width: 410px) {
     .opa-container{
-        width: 250px;
+        width: 290px;
     }
-    .opa {
-        padding-left: 100px;
-        padding-right: 100px;
-      }
 }
 
 /* Section: opa screensize 360 */
 @media (max-width: 360px) {
     .opa-container{
-        width: 240px;
+        width: 260px;
     }
-    .opa {
-        padding-left: 70px;
-        padding-right: 70px;
-      }
+}
+
+/* Section: opa screensize 320 */
+@media (max-width: 320px) {
+    .opa-container{
+        width: 230px;
+    }
 }
 
 /* /////////////////////// */
@@ -127,8 +123,12 @@
 
 /* Section: om meg screensize 800 */
 @media (max-width: 800px) {
+  .nameTitle-om {
+  font-size: 20px;
+}
+
   .textfill-om {
-    font-size: 15px;
+    font-size: 16px;
     line-height: 25px;
   }
 
@@ -140,30 +140,30 @@
 /* Section: om meg screensize 500 */
 @media (max-width: 500px) {
     .nameTitle-om {
-        font-size: 21px;
+        font-size: 20px;
       }
 
       .textfill-om {
-        font-size: 14px;
-        line-height: 23px;
+        font-size: 15.5px;
+        line-height: 24px;
       }
 }
 
 /* Section: om meg phonesize 375 */
 @media (max-width: 375px) {
   .nameTitle-om {
-    font-size: 15px;
+    font-size: 18px;
   }
   .textfill-om {
-    font-size: 12px;
-    line-height: 20px;
+    font-size: 15px;
+    line-height: 24px;
   }
 }
 
 /* Section: om meg phonesize 320 */
 @media (max-width: 320px) {
   .nameTitle-om {
-    font-size: 19px;
+    font-size: 18px;
     letter-spacing: 2px;
   }
 }
@@ -380,13 +380,13 @@ html {
   }
 
   .photo {
-    width: 135px;
-    height: 180px;
+    width: 160px;
+    height: 207px;
   }
 
   .photoBig {
-    width: 170px;
-    height: 570px;
+    width: 190px;
+    height: 650px;
   }
 }
 
@@ -403,13 +403,13 @@ html {
     gap: 13px;
   }
   .photo {
-    width: 200px;
-    height: 270px;
+    width: 212px;
+    height: 282px;
   }
 
   .photoBig {
-    width: 200px;
-    height: 552px;
+    width: 212px;
+    height: 564px;
   }
 }
 
@@ -417,40 +417,40 @@ html {
 /* portfolie 550 */
 @media (max-width: 550px) {
     .photo {
-      width: 170px;
-      height: 230px;
+      width: 190px;
+      height: 250px;
     }
   
     .photoBig {
-      width: 170px;
-      height: 475px;
+      width: 190px;
+      height: 510px;
     }
   }
 
   /* portfolie 500 */
 @media (max-width: 500px) {
     .photo {
-      width: 140px;
-      height: 200px;
+      width: 165px;
+      height: 225px;
     }
   
     .photoBig {
-      width: 140px;
-      height: 415px;
+      width: 165px;
+      height: 462px;
     }
   }
 
 /* portfolie 410 */
 @media (max-width: 410px) {
     .photo {
-        width: 120px;
-        height: 160px;
+        width: 135px;
+        height: 175px;
         border-radius: 12px;
       }
     
       .photoBig {
-        width: 120px;
-        height: 335px;
+        width: 135px;
+        height: 363px;
         border-radius: 12px;
       }
 
@@ -496,12 +496,6 @@ html {
     }
   }
 
-/* Underside: portfolieside 320 */
-@media (max-width: 320px) {
-  .portfolie-container {
-    margin-top: 10px;
-  }
-}
 
 /* portfolieside 375 */
 @media (max-width: 375px) {
@@ -520,13 +514,26 @@ html {
     gap: 13px;
   }
   .photo {
-    width: 122px;
-    height: 165px;
+    width: 132px;
+    height: 172px;
   }
 
   .photoBig {
-    width: 122px;
-    height: 340px;
+    width: 132px;
+    height: 355px;
+  }
+}
+
+/* portfolieside 320 */
+@media (max-width: 320px) {
+  .photo {
+    width: 103px;
+    height: 146px;
+  }
+
+  .photoBig {
+    width: 103px;
+    height: 307px;
   }
 }
 
@@ -599,8 +606,12 @@ html {
 
 /* Section: attest screensize 800 */
 @media (max-width: 800px) {
+.nameTitle-attest {
+        font-size: 20px;
+      }
+
   .textfill-attest {
-    font-size: 15px;
+    font-size: 16px;
     line-height: 25px;
     font-weight: normal;
   }
@@ -610,11 +621,11 @@ html {
 @media (max-width: 500px) {
 
     .nameTitle-attest {
-        font-size: 21px;
+        font-size: 20px;
       }
 
     .textfill-attest {
-      font-size: 14px;
+      font-size: 15.5px;
       line-height: 23px;
       font-weight: normal;
     }
@@ -624,11 +635,11 @@ html {
 /* Section: attester phonesize 375 */
 @media (max-width: 375px) {
   .nameTitle-attest {
-    font-size: 15px;
+    font-size: 18px;
   }
 
   .textfill-attest {
-    font-size: 12px;
+    font-size: 15px;
     line-height: 23px;
   }
 
@@ -645,7 +656,7 @@ html {
 /* Section: portfolie phonesize 320 */
 @media (max-width: 320px) {
   .nameTitle-attest {
-    font-size: 19px;
+    font-size: 18px;
     letter-spacing: 2px;
   }
 }
