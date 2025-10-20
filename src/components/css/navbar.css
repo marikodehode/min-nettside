@@ -1,196 +1,137 @@
-/* /////// */
-/* Navbar */
-/* ///// */
-
+/* ===== NAVBAR (samme på alle sider) ===== */
 .navbar {
-    padding-top: 40px;
-    padding-bottom: 25px;
-    position: sticky;
-    top: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    z-index: 1000;
-    background-color: #0A0228;
-  }
-  
-  .link {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-inline-start: 0px;
-    height: 100%;
-    gap: 40px;
-  }
-  
-  a {
-    text-decoration: none;
-  }
-  
-  .hovedlinkbar {
-    color: rgb(255, 255, 255);
-    font-size: 19px;
-    font-weight: normal;
-    font-family: "Manjari", sans-serif;
-    text-decoration: none;
-    border-bottom: 2px solid transparent;
-    transition: border-color 0.3s;
-  }
-  
-  .hovedlinkbar:hover {
-    border-bottom: 2px solid #e98d8d;
-  /* Dropdown base */
-.dropdown {
-  position: relative;
+  --underline-thickness: 3px;     /* justér tykkelse (2px/3px/4px) */
+
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100vw;
+  background-color: #0A0228;
+  padding: 40px 0 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* Font og farge arves av alt i navbaren */
+  font-family: "Manjari", sans-serif;
+  color: #fff;
 }
 
+/* Fjern bullets/innrykk på begge nivåer */
+.navbar ul,
+.navbar li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Horisontal topplist */
+.nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+/* ===== Toppmeny-lenker og Portfolie-knappen ===== */
+.nav-link,
+.dropdown-toggle {
+  display: inline-block;          /* gir plass til understreken */
+  line-height: 1.2;
+  padding-bottom: 3px;            /* luft over streken */
+  text-decoration: none !important;
+  color: inherit;
+  font: inherit;
+
+  background: none;
+  border: 0;
+  cursor: pointer;
+
+  border-bottom: var(--underline-thickness) solid transparent !important;
+  transition: border-color 0.15s ease, border-bottom-width 0.15s ease;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+/* ===== HOVER-STREK (KUN for vanlige lenker – IKKE Portfolie) ===== */
+.navbar .nav-link:hover {
+  border-bottom-color: #e98d8d !important;
+  border-bottom-width: var(--underline-thickness);
+}
+
+/* Eksplicit: ingen hover-strek under Portfolie-knappen */
+.navbar .dropdown .dropdown-toggle:hover {
+  border-bottom-color: transparent !important;
+}
+
+/* ===== DROPDOWN ===== */
+.dropdown { position: relative; }
+
+/* Dropdown-lista (skjult til vanlig, vises under Portfolie) */
 .dropdown-menu {
   position: absolute;
-  top: 100%;
-  left: 0;
-  background: white;
+  display: none;
+  top: 100%;        /* ingen gap som bryter hover */
+  left: 0;          /* venstrejustert med trigger */
+  background: #0d0620;             /* mørk boks (matcher temaet) */
   border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  list-style: none;
-  padding: 0.5rem 0;
-  min-width: 150px;
-  z-index: 1000;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+  min-width: 180px;
+  padding: 8px 0;
+  z-index: 2000;
 }
 
-.dropdown-menu li {
-  padding: 0.5rem 1rem;
-}
-
-.dropdown-menu li:hover {
-  background: #f2f2f2;
-}
-
-.dropdown-menu a {
-  color: inherit;
-  text-decoration: none;
+/* Vis menyen ved hover, fokus eller React-state “open” */
+.dropdown:hover .dropdown-menu,
+.dropdown:focus-within .dropdown-menu,
+.dropdown.open .dropdown-menu {
   display: block;
 }
-}
-  
-  .portfolieside-navbar * {
-    font-weight: normal;
-    color: #ffffff;
-  }
-  
-  .portfolieside-navbar {
-    font-weight: normal;
-    color: #ffffff;
-    position: sticky;
-    background-color: #0A0228;
-    width: 100vw;
-  }
-  
-  .avis-nav * {
-    font-weight: normal;
-    color: #000;
-  }
-  
-  .avis-nav {
-    font-weight: normal;
-    color: #000;
-    position: sticky;
-    background-color:#ffffff;
-    width: 100vw;
-  }
-  
-  .logo-nav * {
-    font-weight: normal;
-    color: #000;
-  }
-  
-  .logo-nav {
-    font-weight: normal;
-    color: #000;
-    position: sticky;
-    background-color:#ffffff;
-    width: 100vw;
-  }
-  
-  .magasin-nav * {
-    font-weight: normal;
-    color: #000;
-  }
-  
-  .magasin-nav {
-    font-weight: normal;
-    color: #000;
-    position: sticky;
-    background-color:#ffffff;
-    width: 100vw;
-  }
-  
-  .some-nav * {
-    font-weight: normal;
-    color: #000;
-  }
-  
-  .some-nav {
-    font-weight: normal;
-    color: #000;
-    position: sticky;
-    background-color:#ffffff;
-    width: 100vw;
-  }
-  
-  .plakat-nav * {
-    font-weight: normal;
-    color: #000;
-  }
-  
-  .plakat-nav {
-    font-weight: normal;
-    color: #000;
-    position: sticky;
-    background-color:#ffffff;
-    width: 100vw;
-  }
-  
-  .nettside-nav * {
-    font-weight: normal;
-    color: #000;
-  }
-  
-  .nettside-nav {
-    font-weight: normal;
-    color: #000;
-    position: sticky;
-    background-color:#ffffff;
-    width: 100vw;
-  }
 
-  /* Section: navbar screensize 500 */
+/* Dropdown-elementer */
+.dropdown-item {
+  display: block;
+  padding: 8px 14px;
+  color: #fff;
+  text-decoration: none;
+  font: inherit;          /* samme font som toppen */
+  white-space: nowrap;
+  transition: background 0.15s ease;
+}
+
+/* Hover-bakgrunn i dropdown */
+.dropdown-item:hover {
+  background: #000;
+}
+
+/* ===== TILGJENGELIG FOKUS ===== */
+.navbar .nav-link:focus-visible,
+.navbar .dropdown-toggle:focus-visible {
+  outline: 2px dashed #e98d8d;
+  outline-offset: 3px;
+}
+
+/* ===== RESPONSIVE ===== */
 @media (max-width: 500px) {
-  .link {
-    gap: 21px;
-  }
+  .nav-list { gap: 21px; }
 }
-  
-  /* Section: navbar 375px */
-  @media (max-width: 375px) {
-    .link {
-      gap: 20px;
-    }
+@media (max-width: 375px) {
+  .nav-link,
+  .dropdown-toggle { font-size: 17px; }
+}
+@media (max-width: 320px) {
+  .nav-list { gap: 16px; }
+}
 
-    .hovedlinkbar {
-      font-size: 17px;
-    }
-  }
-  
-  /* Section: navbar 320px */
-  @media (max-width: 320px) {
-    .link {
-      gap: 16px;
-    }
-  
-    .hovedlinkbar {
-      font-size: 17px;
-    }
-  }
-  
+/* ===== AKTIV-LENKE-LOGIKK ===== */
+/* 1) Ikke vis fast strek på aktiv lenke (for at hover skal gi mening) */
+.navbar .nav-link.active {
+  border-bottom-color: transparent !important;
+  border-bottom-width: var(--underline-thickness);
+}
+
+/* 2) MEN: Når aktiv lenke hoveres (f.eks. Home), skal streken vises */
+.navbar .nav-link.active:hover {
+  border-bottom-color: #e98d8d !important;
+  border-bottom-width: var(--underline-thickness);
+}

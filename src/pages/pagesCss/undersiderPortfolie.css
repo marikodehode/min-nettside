@@ -6,13 +6,13 @@
 .avis {
     padding-top: 70px;
     padding-bottom: 80px;
-    background-color: #ffffff;
+    background-color: #0d0620;
     display: flex;
     justify-content: center;
   }
   
   .nameTitle-avis-head {
-    color: #000000;
+    color: #e4c982;
     font-size: 30px;
     letter-spacing: 3px;
     font-family: "Manjari", sans-serif;
@@ -22,7 +22,7 @@
   }
   
   .textfill-avis-head {
-    color: #000000;
+    color: #fff;
     font-size: 19px;
     font-weight: lighter;
     letter-spacing: 3px;
@@ -434,13 +434,13 @@
   .logo {
     padding-top: 70px;
     padding-bottom: 80px;
-    background-color: #ffffff;
+    background-color: #0d0620;
     display: flex;
     justify-content: center;
   }
   
   .nameTitle-logo {
-    color: #000000;
+    color: #e4c982;
     font-size: 30px;
     letter-spacing: 3px;
     font-family: "Manjari", sans-serif;
@@ -450,7 +450,7 @@
   }
   
   .textfill-logo {
-    color: #000000;
+    color: #fff;
     font-size: 19px;
     font-weight: lighter;
     letter-spacing: 3px;
@@ -665,12 +665,12 @@
   .magasin {
     padding-top: 70px;
     padding-bottom: 80px;
-    background-color: #ffffff;
+    background-color: #0d0620;
     display: flex;
     justify-content: center;
   }
   .nameTitle-magasin {
-    color: #000000;
+    color: #e4c982;
     font-size: 30px;
     letter-spacing: 3px;
     font-family: "Manjari", sans-serif;
@@ -680,7 +680,7 @@
   }
   
   .textfill-magasin {
-    color: #000000;
+    color: #fff;
     font-size: 19px;
     font-weight: lighter;
     letter-spacing: 3px;
@@ -925,13 +925,13 @@
   .some {
     padding-top: 70px;
     padding-bottom: 80px;
-    background-color: #ffffff;
+    background-color: #0d0620;
     display: flex;
     justify-content: center;
   }
   
   .nameTitle-some {
-    color: #000000;
+    color: #e4c982;
     font-size: 30px;
     letter-spacing: 3px;
     font-family: "Manjari", sans-serif;
@@ -941,7 +941,7 @@
   }
   
   .textfill-some {
-    color: #000000;
+    color: #fff;
     font-size: 19px;
     font-weight: lighter;
     letter-spacing: 3px;
@@ -1584,13 +1584,13 @@
   .nettside {
     padding-top: 70px;
     padding-bottom: 80px;
-    background-color: #ffffff;
+    background-color: #0d0620;
     display: flex;
     justify-content: center;
   }
   
   .nameTitle-nettside {
-    color: #000000;
+    color: #e4c982;
     font-size: 30px;
     letter-spacing: 3px;
     font-family: "Manjari", sans-serif;
@@ -1600,7 +1600,7 @@
   }
   
   .nameTitletwo-nettside {
-    color: #e4c982;
+    color: #fff;
     font-size: 30px;
     letter-spacing: 3px;
     font-family: "Manjari", sans-serif;
@@ -1878,13 +1878,13 @@
   .plakat {
     padding-top: 70px;
     padding-bottom: 80px;
-    background-color: #ffffff;
+    background-color: #0d0620;
     display: flex;
     justify-content: center;
   }
   
   .nameTitle-plakat {
-    color: #000000;
+    color: #e4c982;
     font-size: 30px;
     letter-spacing: 3px;
     font-family: "Manjari", sans-serif;
@@ -1894,7 +1894,7 @@
   }
   
   .textfill-plakat {
-    color: #000000;
+    color: #fff;
     font-size: 19px;
     font-weight: lighter;
     letter-spacing: 3px;

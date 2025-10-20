@@ -32,7 +32,7 @@ export const OmPortfolieAttest = () => {
 <div className='text-container'>
 <h1 className='nameTitle-om'>OM MEG</h1>
 <p className='textfill-om'>Mitt navn er Mari Karlsen, og jeg jobber for tiden i et vikariat ved Universitetet i Sørøst-Norge, der mine hovedoppgaver er å sette opp og vedlikeholde nettsider. Jeg har lang erfaring som grafisk designer og har jobbet for selskaper som Amedia, Norli, New Nordic og Motivation Boxes. Gjennom min karriere har jeg opparbeidet bred kompetanse innen blant annet utforming av annonser, brosjyrer og materiell til sosiale medier, utvikling av logoer – og mye mer.</p>
-<h1 className="nameTitle-om">PORTFOLIE</h1>
+<h1 className="nameTitle-om">TIDLIGERE ARBEID</h1>
 </div>
 </article>
 

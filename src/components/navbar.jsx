@@ -1,65 +1,55 @@
-import { Link, useLocation } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
+import { useState, useRef, useEffect } from 'react';
 import './css/navbar.css';
-import { useState } from 'react';
 
 export const NavBar = () => {
-  const location = useLocation();
-  const [isOpen, setIsOpen] = useState(false);
+  const [open, setOpen] = useState(false);
+  const ddRef = useRef(null);
+
+  useEffect(() => {
+    const onDocClick = (e) => {
+      if (ddRef.current && !ddRef.current.contains(e.target)) setOpen(false);
+    };
+    document.addEventListener('click', onDocClick);
+    return () => document.removeEventListener('click', onDocClick);
+  }, []);
 
   return (
-    <nav
-      className={`navbar ${
-        location.pathname === '/portfolieside' ? 'portfolieside-navbar' :
-        location.pathname === '/avis' ? 'avis-nav' :
-        location.pathname === '/logo' ? 'logo-nav' :
-        location.pathname === '/magasin' ? 'magasin-nav' :
-        location.pathname === '/some' ? 'some-nav' :
-        location.pathname === '/plakat' ? 'plakat-nav' :
-        location.pathname === '/nettside' ? 'nettside-nav' :
-        'default-class'
-      }`}
-    >
-      <ul className='link'>
+    <nav className="navbar">
+      <ul className="nav-list">
         <li>
-          <Link to='/'>
-            <p className='hovedlinkbar'>Home</p>
-          </Link>
+          <NavLink className="nav-link" to="/" end>
+            Home
+          </NavLink>
         </li>
 
-        {/* --- Dropdown for Portfolie --- */}
         <li
-          className='dropdown'
-          onMouseEnter={() => setIsOpen(true)}
-          onMouseLeave={() => setIsOpen(false)}
+          className={`dropdown ${open ? 'open' : ''}`}
+          ref={ddRef}
+          onMouseEnter={() => setOpen(true)}
+          onMouseLeave={() => setOpen(false)}
         >
-          <p className={`hovedlinkbar ${location.pathname.startsWith('/portfolieside') ? 'portfolieside-link' : ''}`}>
-            Portfolie ▾
-          </p>
+          <button
+            className="dropdown-toggle nav-link"
+            onClick={() => setOpen(v => !v)}
+            aria-haspopup="true"
+            aria-expanded={open}
+          >
+            Portfolie
+          </button>
 
-          {isOpen && (
-            <ul className='dropdown-menu'>
-              <li><Link to='/magasin'>Magasin</Link></li>
-              <li><Link to='/avis'>Avis</Link></li>
-              <li><Link to='/logo'>Logo</Link></li>
-              <li><Link to='/plakat'>Plakat</Link></li>
-              <li><Link to='/nettside'>Nettside</Link></li>
-              <li><Link to='/some'>SoMe</Link></li>
-            </ul>
-          )}
-        </li>
-        {/* --- Slutt på dropdown --- */}
-
-        <li>
-          <Link to='/cv'>
-            <p className='hovedlinkbar'>CV</p>
-          </Link>
+          <ul className="dropdown-menu">
+            <li><Link className="dropdown-item" to="/magasin">Magasin</Link></li>
+            <li><Link className="dropdown-item" to="/avis">Avis</Link></li>
+            <li><Link className="dropdown-item" to="/logo">Logo</Link></li>
+            <li><Link className="dropdown-item" to="/plakat">Plakat</Link></li>
+            <li><Link className="dropdown-item" to="/nettside">Nettside</Link></li>
+            <li><Link className="dropdown-item" to="/some">SoMe</Link></li>
+          </ul>
         </li>
 
-        <li>
-          <Link to='/kontakt'>
-            <p className='hovedlinkbar'>Kontakt</p>
-          </Link>
-        </li>
+        <li><NavLink className="nav-link" to="/cv">CV</NavLink></li>
+        <li><NavLink className="nav-link" to="/kontakt">Kontakt</NavLink></li>
       </ul>
     </nav>
   );
