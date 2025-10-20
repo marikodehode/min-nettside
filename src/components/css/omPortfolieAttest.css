@@ -236,7 +236,7 @@ html {
 
 
 .photo1 {
-  background-image: url("/portfolie/annonseavis.webp");
+  background-image: url("/portfolie/annonse-dinveske.webp");
   background-size: cover;
   grid-area: photo1;
   cursor: pointer;
