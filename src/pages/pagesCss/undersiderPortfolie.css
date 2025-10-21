@@ -4,8 +4,8 @@
 /* ///////////// */
 
 .avis {
-    padding-top: 70px;
-    padding-bottom: 80px;
+    padding-top: 90px;
+    padding-bottom: 100px;
     background-color: #0d0620;
     display: flex;
     justify-content: center;
@@ -13,7 +13,7 @@
   
   .nameTitle-avis-head {
     color: #e4c982;
-    font-size: 30px;
+    font-size: 23px;
     letter-spacing: 3px;
     font-family: "Manjari", sans-serif;
     font-weight: bold;
@@ -23,7 +23,7 @@
   
   .textfill-avis-head {
     color: #fff;
-    font-size: 19px;
+    font-size: 17px;
     font-weight: lighter;
     letter-spacing: 3px;
     font-family: "Manjari", sans-serif;
@@ -432,8 +432,8 @@
   /* ///////////// */
   
   .logo {
-    padding-top: 70px;
-    padding-bottom: 80px;
+    padding-top: 90px;
+    padding-bottom: 100px;
     background-color: #0d0620;
     display: flex;
     justify-content: center;
@@ -441,7 +441,7 @@
   
   .nameTitle-logo {
     color: #e4c982;
-    font-size: 30px;
+    font-size: 23px;
     letter-spacing: 3px;
     font-family: "Manjari", sans-serif;
     font-weight: bold;
@@ -451,7 +451,7 @@
   
   .textfill-logo {
     color: #fff;
-    font-size: 19px;
+    font-size: 17px;
     font-weight: lighter;
     letter-spacing: 3px;
     font-family: "Manjari", sans-serif;
@@ -663,15 +663,15 @@
   /* ///////////////// */
   
   .magasin {
-    padding-top: 70px;
-    padding-bottom: 80px;
+    padding-top: 90px;
+    padding-bottom: 100px;
     background-color: #0d0620;
     display: flex;
     justify-content: center;
   }
   .nameTitle-magasin {
     color: #e4c982;
-    font-size: 30px;
+    font-size: 23px;
     letter-spacing: 3px;
     font-family: "Manjari", sans-serif;
     font-weight: bold;
@@ -681,7 +681,7 @@
   
   .textfill-magasin {
     color: #fff;
-    font-size: 19px;
+    font-size: 17px;
     font-weight: lighter;
     letter-spacing: 3px;
     font-family: "Manjari", sans-serif;
@@ -923,8 +923,8 @@
   /* ////////////// */
   
   .some {
-    padding-top: 70px;
-    padding-bottom: 80px;
+    padding-top: 90px;
+    padding-bottom: 100px;
     background-color: #0d0620;
     display: flex;
     justify-content: center;
@@ -932,7 +932,7 @@
   
   .nameTitle-some {
     color: #e4c982;
-    font-size: 30px;
+    font-size: 23px;
     letter-spacing: 3px;
     font-family: "Manjari", sans-serif;
     font-weight: bold;
@@ -942,7 +942,7 @@
   
   .textfill-some {
     color: #fff;
-    font-size: 19px;
+    font-size: 17px;
     font-weight: lighter;
     letter-spacing: 3px;
     font-family: "Manjari", sans-serif;
@@ -1582,8 +1582,8 @@
   /* ///////////////// */
   
   .nettside {
-    padding-top: 70px;
-    padding-bottom: 80px;
+    padding-top: 90px;
+    padding-bottom: 100px;
     background-color: #0d0620;
     display: flex;
     justify-content: center;
@@ -1591,7 +1591,7 @@
   
   .nameTitle-nettside {
     color: #e4c982;
-    font-size: 30px;
+    font-size: 23px;
     letter-spacing: 3px;
     font-family: "Manjari", sans-serif;
     font-weight: bold;
@@ -1611,8 +1611,8 @@
   }
   
   .textfill-nettside {
-    color: #000000;
-    font-size: 19px;
+    color: #fff;
+    font-size: 17px;
     font-weight: lighter;
     letter-spacing: 3px;
     font-family: "Manjari", sans-serif;
@@ -1649,7 +1649,7 @@
     width: 300px;
     height: 300px;
     border-radius: 14px;
-    position: relative;           /* viktig for ::before-posisjonering */
+    position: relative;         
     overflow: hidden;
   }
 /* Tekst-overlay */
@@ -1660,24 +1660,24 @@
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  color: #A19B9B;
+  color: #FFF;
   font-family: "Manjari", sans-serif;
   font-size: 20px;
   line-height: 1.6;
   padding: 10px 15px;
   white-space: pre-line;
-  white-space: normal;     /* ⬅️ ikke pre-line */
-  width: 85%;              /* gjør boksen bred nok til flere ord per linje */
+  white-space: normal;   
+  width: 85%;              
   max-width: 90%;
   opacity: 0;
-  pointer-events: none;            /* unngå “hover-fangst” */
-  transition: opacity .2s ease-in; /* fade IN */
+  pointer-events: none;          
+  transition: opacity .2s ease-in; 
 }
 
 /* 🔸 Farge på hover + skjul bakgrunnsbildet */
 .photoN:hover {
   background-image: none;
-  background-color: #F2F0F0;
+  background-color: #0d1134;
   /* ingen transform her */
 }
 
@@ -1876,8 +1876,8 @@
   /* /////////////// */
   
   .plakat {
-    padding-top: 70px;
-    padding-bottom: 80px;
+    padding-top: 90px;
+    padding-bottom: 100px;
     background-color: #0d0620;
     display: flex;
     justify-content: center;
@@ -1885,7 +1885,7 @@
   
   .nameTitle-plakat {
     color: #e4c982;
-    font-size: 30px;
+    font-size: 23px;
     letter-spacing: 3px;
     font-family: "Manjari", sans-serif;
     font-weight: bold;
@@ -1895,7 +1895,7 @@
   
   .textfill-plakat {
     color: #fff;
-    font-size: 19px;
+    font-size: 17px;
     font-weight: lighter;
     letter-spacing: 3px;
     font-family: "Manjari", sans-serif;
@@ -1926,7 +1926,7 @@
     width: 249px;
     height: 239px;
     background-size: cover;
-    background-color: rgb(246, 246, 246);
+    background-color: #0d1134;
     background-position: center;
     grid-area: photo1;
     cursor: pointer;
@@ -1937,31 +1937,31 @@
     width: 249px;
     height: 239px;
     background-size: cover;
-    background-color: rgb(246, 246, 246);
+    background-color: #0d1134;
     background-position: center;
     grid-area: photo2;
     cursor: pointer;
   }
   
   .photoP3 {
-    background-image: url("/public/plakater/plakat8.webp");
+    background-image: url("/public/plakater/plakat13.webp");
     width: 249px;
     height: 239px;
     border-radius: 19px;
     background-size: cover;
-    background-color: rgb(246, 246, 246);
+    background-color: #0d1134;
     background-position: center;
     grid-area: photo3;
     cursor: pointer;
   }
   
   .photoP4 {
-    background-image: url("/public/plakater/plakat8.webp");
+    background-image: url("/public/plakater/plakat13.webp");
     width: 249px;
     height: 229px;
     border-radius: 19px;
     background-size: cover;
-    background-color: rgb(246, 246, 246);
+    background-color: #0d1134;
     background-position: center;
     grid-area: photo4;
     cursor: pointer;
@@ -1973,7 +1973,7 @@
     height: 229px;
     border-radius: 19px;
     background-size: cover;
-    background-color: rgb(246, 246, 246);
+    background-color: #0d1134;
     background-position: center;
     grid-area: photo5;
     cursor: pointer;
@@ -1985,7 +1985,7 @@
     height: 962px;
     border-radius: 19px;
     background-size: cover;
-    background-color: rgb(246, 246, 246);
+    background-color: #0d1134;
     background-position: center;
     grid-area: photoPBig6;
     cursor: pointer;
@@ -1997,7 +1997,7 @@
     height: 351px;
     border-radius: 19px;
     background-size: cover;
-    background-color: rgb(246, 246, 246);
+    background-color: #0d1134;
     background-position: center;
     grid-area: photo7;
     cursor: pointer;
@@ -2009,7 +2009,7 @@
     height: 351px;
     border-radius: 19px;
     background-size: cover;
-    background-color: rgb(246, 246, 246);
+    background-color: #0d1134;
     background-position: center;
     grid-area: photo8;
     cursor: pointer;
@@ -2020,7 +2020,7 @@
     height: 340px;
     border-radius: 19px;
     background-size: cover;
-    background-color: rgb(246, 246, 246);
+    background-color: #0d1134;
     background-position: center;
     grid-area: photo9;
     cursor: pointer;
@@ -2032,7 +2032,7 @@
     height: 340px;
     border-radius: 19px;
     background-size: cover;
-    background-color: rgb(246, 246, 246);
+    background-color: #0d1134;
     background-position: center;
     grid-area: photo10;
     cursor: pointer;

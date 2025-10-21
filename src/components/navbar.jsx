@@ -1,11 +1,14 @@
-import { NavLink, Link } from 'react-router-dom';
+import { NavLink, Link, useLocation } from 'react-router-dom';
 import { useState, useRef, useEffect } from 'react';
 import './css/navbar.css';
 
 export const NavBar = () => {
+  // Brukes på mobil (der hover ikke finnes)
   const [open, setOpen] = useState(false);
   const ddRef = useRef(null);
+  const location = useLocation();
 
+  // Lukk ved klikk utenfor (mobil)
   useEffect(() => {
     const onDocClick = (e) => {
       if (ddRef.current && !ddRef.current.contains(e.target)) setOpen(false);
@@ -13,6 +16,11 @@ export const NavBar = () => {
     document.addEventListener('click', onDocClick);
     return () => document.removeEventListener('click', onDocClick);
   }, []);
+
+  // Lukk ved rute-endring (belt & bukseseler)
+  useEffect(() => {
+    setOpen(false);
+  }, [location]);
 
   return (
     <nav className="navbar">
@@ -26,19 +34,21 @@ export const NavBar = () => {
         <li
           className={`dropdown ${open ? 'open' : ''}`}
           ref={ddRef}
-          onMouseEnter={() => setOpen(true)}
-          onMouseLeave={() => setOpen(false)}
         >
           <button
             className="dropdown-toggle nav-link"
-            onClick={() => setOpen(v => !v)}
+            onClick={() => setOpen(v => !v)}   // mobil: toggle
             aria-haspopup="true"
             aria-expanded={open}
           >
             Portfolie
           </button>
 
-          <ul className="dropdown-menu">
+          <ul
+            className="dropdown-menu"
+            // Lukker raskt når man velger en lenke (mobil)
+            onClickCapture={() => setOpen(false)}
+          >
             <li><Link className="dropdown-item" to="/magasin">Magasin</Link></li>
             <li><Link className="dropdown-item" to="/avis">Avis</Link></li>
             <li><Link className="dropdown-item" to="/logo">Logo</Link></li>

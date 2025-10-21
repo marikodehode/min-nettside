@@ -4,8 +4,8 @@ export const Nettside = () => {
   return (
     <section className="nettside">
       <div className="nettside-container">
-        <h1 className="nameTitle-nettside">Nettsider</h1>
-        <p className="textfill-nettside">Utvalg av mine nettsider</p>
+        <h1 className="nameTitle-nettside">NETTSIDER</h1>
+        <p className="textfill-nettside">Publiserte prosjekter</p>
 
         <div className="column-wrapper-nettside">
           <a

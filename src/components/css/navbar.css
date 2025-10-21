@@ -1,6 +1,6 @@
 /* ===== NAVBAR (samme på alle sider) ===== */
 .navbar {
-  --underline-thickness: 3px;     /* justér tykkelse (2px/3px/4px) */
+  --underline-thickness: 3px;
 
   position: sticky;
   top: 0;
@@ -12,7 +12,6 @@
   justify-content: center;
   align-items: center;
 
-  /* Font og farge arves av alt i navbaren */
   font-family: "Manjari", sans-serif;
   color: #fff;
 }
@@ -36,9 +35,9 @@
 /* ===== Toppmeny-lenker og Portfolie-knappen ===== */
 .nav-link,
 .dropdown-toggle {
-  display: inline-block;          /* gir plass til understreken */
+  display: inline-block;
   line-height: 1.2;
-  padding-bottom: 3px;            /* luft over streken */
+  padding-bottom: 3px;
   text-decoration: none !important;
   color: inherit;
   font: inherit;
@@ -53,13 +52,13 @@
   -webkit-appearance: none;
 }
 
-/* ===== HOVER-STREK (KUN for vanlige lenker – IKKE Portfolie) ===== */
+/* HOVER-strek for vanlige lenker (ikke dropdown-knapp) */
 .navbar .nav-link:hover {
   border-bottom-color: #e98d8d !important;
   border-bottom-width: var(--underline-thickness);
 }
 
-/* Eksplicit: ingen hover-strek under Portfolie-knappen */
+/* Ingen hover-strek under Portfolie-knappen */
 .navbar .dropdown .dropdown-toggle:hover {
   border-bottom-color: transparent !important;
 }
@@ -67,13 +66,13 @@
 /* ===== DROPDOWN ===== */
 .dropdown { position: relative; }
 
-/* Dropdown-lista (skjult til vanlig, vises under Portfolie) */
+/* Skjult som standard */
 .dropdown-menu {
   position: absolute;
   display: none;
-  top: 100%;        /* ingen gap som bryter hover */
-  left: 0;          /* venstrejustert med trigger */
-  background: #0d0620;             /* mørk boks (matcher temaet) */
+  top: 100%;
+  left: 0;
+  background: #0d0620;
   border-radius: 8px;
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
   min-width: 180px;
@@ -81,12 +80,23 @@
   z-index: 2000;
 }
 
-/* Vis menyen ved hover, fokus eller React-state “open” */
-.dropdown:hover .dropdown-menu,
-.dropdown:focus-within .dropdown-menu,
-.dropdown.open .dropdown-menu {
-  display: block;
+/* =========== VIKTIG DEL: VISNING =========== */
+/* DESKTOP/LAPTOP: vis på hover */
+@media (hover: hover) {
+  .dropdown:hover .dropdown-menu {
+    display: block;         /* <-- hover-styrt på desktop */
+  }
 }
+
+/* MOBIL/TAB: vis når .open (JS-toggle) */
+@media (hover: none) {
+  .dropdown.open .dropdown-menu {
+    display: block;         /* <-- klikksyrt på mobil */
+  }
+}
+
+/* Ikke la fokus holde den åpen etter klikk */
+ /* (IKKE ha: .dropdown:focus-within .dropdown-menu { display:block; }) */
 
 /* Dropdown-elementer */
 .dropdown-item {
@@ -94,15 +104,11 @@
   padding: 8px 14px;
   color: #fff;
   text-decoration: none;
-  font: inherit;          /* samme font som toppen */
+  font: inherit;
   white-space: nowrap;
   transition: background 0.15s ease;
 }
-
-/* Hover-bakgrunn i dropdown */
-.dropdown-item:hover {
-  background: #000;
-}
+.dropdown-item:hover { background: #000; }
 
 /* ===== TILGJENGELIG FOKUS ===== */
 .navbar .nav-link:focus-visible,
@@ -123,14 +129,11 @@
   .nav-list { gap: 16px; }
 }
 
-/* ===== AKTIV-LENKE-LOGIKK ===== */
-/* 1) Ikke vis fast strek på aktiv lenke (for at hover skal gi mening) */
+/* ===== AKTIV-LENKE ===== */
 .navbar .nav-link.active {
   border-bottom-color: transparent !important;
   border-bottom-width: var(--underline-thickness);
 }
-
-/* 2) MEN: Når aktiv lenke hoveres (f.eks. Home), skal streken vises */
 .navbar .nav-link.active:hover {
   border-bottom-color: #e98d8d !important;
   border-bottom-width: var(--underline-thickness);
