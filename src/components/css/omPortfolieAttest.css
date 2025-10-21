@@ -26,6 +26,11 @@
     .opa-container{
         width: 690px;
     }
+
+    .opa {
+       padding-top: 120px;
+    }
+
     .textfill-om {
         margin-bottom: 90px;
       }
@@ -50,12 +55,19 @@
     .opa-container{
         width: 450px;
     }
+
+    .opa {
+       padding-top: 90px;
+    }
 }
 
 /* Section: opa screensize 550 */
 @media (max-width: 550px) {
     .opa-container{
         width: 400px;
+    }
+      .opa {
+       padding-top: 70px;
     }
 }
 
@@ -65,9 +77,11 @@
         width: 350px;
     }
     .opa {
+        padding-top: 60px;
         padding-left: 140px;
         padding-right: 140px;
       }
+
 }
 
 /* Section: opa screensize 450 */
@@ -75,6 +89,10 @@
     .opa-container{
         width: 342px;
     }
+    
+    .opa {
+        padding-top: 40px;
+      }
    
 }
 
@@ -130,11 +148,25 @@
   .textfill-om {
     font-size: 16px;
     line-height: 25px;
+    margin-bottom: 120px;
   }
 
   .textfill-om {
     font-weight: normal;
   }
+}
+
+/* Section: om meg screensize 550 */
+@media (max-width: 550px) {
+    .nameTitle-om {
+        font-size: 20px;
+      }
+
+      .textfill-om {
+        font-size: 15.5px;
+        line-height: 24px;
+        margin-bottom: 100px;
+      }
 }
 
 /* Section: om meg screensize 500 */
@@ -409,7 +441,7 @@ html {
 
   .photoBig {
     width: 212px;
-    height: 564px;
+    height: 577px;
   }
 }
 
@@ -616,6 +648,24 @@ html {
     font-weight: normal;
   }
 }
+
+/* Section: attest screensize 550 */
+@media (max-width: 550px) {
+  
+  .textbox-attest {
+  padding-top: 110px;
+}
+
+    .nameTitle-attest {
+        font-size: 20px;
+      }
+
+    .textfill-attest {
+      font-size: 15.5px;
+      line-height: 23px;
+      font-weight: normal;
+    }
+  }
 
 /* Section: attest screensize 500 */
 @media (max-width: 500px) {
