@@ -3,21 +3,22 @@ import { useState, useRef, useEffect } from 'react';
 import './css/navbar.css';
 
 export const NavBar = () => {
-  // Brukes på mobil (der hover ikke finnes)
-  const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(false); // Brukes på mobil
   const ddRef = useRef(null);
   const location = useLocation();
 
-  // Lukk ved klikk utenfor (mobil)
+  // Lukk ved klikk utenfor
   useEffect(() => {
-    const onDocClick = (e) => {
-      if (ddRef.current && !ddRef.current.contains(e.target)) setOpen(false);
+    const handleClick = (e) => {
+      if (ddRef.current && !ddRef.current.contains(e.target)) {
+        setOpen(false);
+      }
     };
-    document.addEventListener('click', onDocClick);
-    return () => document.removeEventListener('click', onDocClick);
+    document.addEventListener('click', handleClick);
+    return () => document.removeEventListener('click', handleClick);
   }, []);
 
-  // Lukk ved rute-endring (belt & bukseseler)
+  // Lukk ved sideskifte
   useEffect(() => {
     setOpen(false);
   }, [location]);
@@ -25,19 +26,12 @@ export const NavBar = () => {
   return (
     <nav className="navbar">
       <ul className="nav-list">
-        <li>
-          <NavLink className="nav-link" to="/" end>
-            Home
-          </NavLink>
-        </li>
+        <li><NavLink className="nav-link" to="/" end>Home</NavLink></li>
 
-        <li
-          className={`dropdown ${open ? 'open' : ''}`}
-          ref={ddRef}
-        >
+        <li className={`dropdown ${open ? 'open' : ''}`} ref={ddRef}>
           <button
             className="dropdown-toggle nav-link"
-            onClick={() => setOpen(v => !v)}   // mobil: toggle
+            onClick={() => setOpen(v => !v)} // klikktoggle for mobil
             aria-haspopup="true"
             aria-expanded={open}
           >
@@ -46,8 +40,7 @@ export const NavBar = () => {
 
           <ul
             className="dropdown-menu"
-            // Lukker raskt når man velger en lenke (mobil)
-            onClickCapture={() => setOpen(false)}
+            onClickCapture={() => setOpen(false)} // lukker ved valg
           >
             <li><Link className="dropdown-item" to="/magasin">Magasin</Link></li>
             <li><Link className="dropdown-item" to="/avis">Avis</Link></li>

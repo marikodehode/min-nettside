@@ -48,11 +48,11 @@ export const OmPortfolieAttest = () => {
 
 <div className="column-wrapper">
 <Link to="/avis" onClick={() => handleLinkClick('/avis')} className="photo">
-<div className="photo photo1" data-text="Annonser til aviser"></div>
+<div className="photo photo1" data-text="Avis"></div>
 </Link>
 
 <Link to="/some" onClick={() => handleLinkClick('/some')} className="photo">
-<div className="photo photo2" data-text="Annonser til sosiale medier"></div>
+<div className="photo photo2" data-text="Sosiale medier"></div>
 </Link>
 
  <Link to="/nettside" onClick={() => handleLinkClick('/nettside')} className="photo">
@@ -60,7 +60,7 @@ export const OmPortfolieAttest = () => {
 </Link>
 
 <Link to="/magasin" onClick={() => handleLinkClick('/magasin')} className="photo">
-<div className="photo photo4" data-text="Annonser magasiner"></div>
+<div className="photo photo4" data-text="Magasiner"></div>
 </Link>
 
 <Link to="/logo" onClick={() => handleLinkClick('/logo')} className="photo">
@@ -72,7 +72,7 @@ export const OmPortfolieAttest = () => {
 "Nyhetsbrev"></div></Link>
 
 <Link to="/plakat" onClick={() => handleLinkClick('/plakat')} className="photoBig">
-<div className="photoBig" data-text="Plakater og rollup"></div>
+<div className="photoBig" data-text="Plakater"></div>
 </Link>
 </div>
 </div>

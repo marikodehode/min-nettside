@@ -34,11 +34,12 @@
   }
   
   .photo-profil {
-    width: 224px;
-    height: 224px;
+    width: 200px;
+    height: 200px;
     background-image: url(/public/profil/meg.png);
     background-size: cover;
     background-position: center;
+    padding-top: 20px;
     margin-left: 20px;
     margin-bottom: 50px;
   }
