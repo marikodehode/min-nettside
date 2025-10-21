@@ -206,32 +206,32 @@
     }
   
     .photoa {
-      width: 230px;
-      height: 343px;
+      width: 210px;
+      height: 323px;
     }
     .photoa2 {
-      width: 230px;
-      height: 343px;
+      width: 210px;
+      height: 323px;
     }
     .photoa12 {
-      width: 230px;
-      height: 343px;
+      width: 210px;
+      height: 323px;
     }
     .photoa1 {
-      width: 478px;
-      height: 343px;
+      width: 440px;
+      height: 323px;
     }
     .photoa7 {
-      width: 478px;
-      height: 343px;
+      width: 440px;
+      height: 323px;
     }
     .photoa8 {
-      width: 478px;
-      height: 343px;
+      width: 440px;
+      height: 323px;
     }
     .photoa11 {
-      width: 478px;
-      height: 343px;
+      width: 440px;
+      height: 323px;
     }
   }
   
@@ -277,6 +277,41 @@
       height: 303px;
     }
   }
+
+
+  @media (max-width: 700px) {
+  
+    .photoa {
+      width: 185px;
+      height: 283px;
+    }
+    .photoa2 {
+      width: 185px;
+      height: 283px;
+    }
+    .photoa12 {
+      width: 185px;
+      height: 283px;
+    }
+    .photoa1 {
+      width: 385px;
+      height: 283px;
+    }
+    .photoa7 {
+      width: 385px;
+      height: 283px;
+    }
+    .photoa8 {
+      width: 385px;
+      height: 283px;
+    }
+    .photoa11 {
+      width: 385px;
+      height: 283px;
+    }
+  }
+
+
   
   @media (max-width: 600px) {
     .avis {
@@ -295,28 +330,59 @@
       width: 154px;
       height: 228px;
     }
-    .photoa2 {
-      width: 154px;
-      height: 225px;
+
+     .photoa1 {
+      width: 480px;
+      height: 365px;
     }
+
+    .photoa2 {
+      width: 235px;
+      height: 340px;
+    }
+
+     .photoa3 {
+      width: 235px;
+      height: 340px;
+    }
+
+     .photoa4 {
+      width: 235px;
+      height: 340px;
+    }
+
+  .photoa5 {
+      width: 235px;
+      height: 340px;
+    }
+
+     .photoa6 {
+      width: 235px;
+      height: 340px;
+    }
+
     .photoa12 {
       display: none;
     }
-    .photoa1 {
-      width: 320px;
-      height: 225px;
-    }
+   
     .photoa7 {
-      width: 320px;
-      height: 225px;
+     width: 480px;
+    height: 365px;
     }
+
     .photoa8 {
-      width: 320px;
-      height: 225px;
+     width: 480px;
+    height: 365px;
     }
+
+      .photoa10 {
+      width: 235px;
+      height: 340px;
+    }
+
     .photoa11 {
-      width: 320px;
-      height: 225px;
+    width: 480px;
+    height: 365px;
     }
     .column-wrapper-avis {
       display: grid;
@@ -332,7 +398,122 @@
       gap: 11px;
     }
   }
-  
+
+    
+  @media (max-width: 550px) {
+     .photoa1 {
+      width: 435px;
+    height: 315px;
+    }
+
+    .photoa2 {
+      width: 212px;
+      height: 315px;
+    }
+
+     .photoa3 {
+      width: 212px;
+      height: 315px;
+    }
+
+     .photoa4 {
+      width: 212px;
+      height: 315px;
+    }
+
+     .photoa5 {
+      width: 212px;
+      height: 315px;
+    }
+
+     .photoa6 {
+       width: 212px;
+      height: 315px;
+    }
+
+    .photoa12 {
+      display: none;
+    }
+   
+    .photoa7 {
+    width: 435px;
+    height: 315px;
+    }
+
+    .photoa8 {
+     width: 435px;
+    height: 315px;
+    }
+
+      .photoa10 {
+      width: 212px;
+      height: 315px;
+    }
+
+    .photoa11 {
+    width: 435px;
+    height: 315px;
+    }
+   }
+
+
+   @media (max-width: 500px) {
+    .photoa1 {
+    width: 370px;
+    height: 265px;
+    }
+
+    .photoa2 {
+      width: 180px;
+      height: 265px;
+    }
+
+     .photoa3 {
+      width: 180px;
+      height: 265px;
+    }
+
+     .photoa4 {
+      width: 180px;
+      height: 265px;
+    }
+
+     .photoa5 {
+      width: 180px;
+      height: 265px;
+    }
+
+     .photoa6 {
+      width: 180px;
+      height: 265px;
+    }
+
+    .photoa12 {
+      display: none;
+    }
+   
+    .photoa7 {
+    width: 370px;
+    height: 265px;
+    }
+
+    .photoa8 {
+    width: 370px;
+    height: 265px;
+    }
+
+      .photoa10 {
+      width: 180px;
+      height: 265px;
+    }
+
+    .photoa11 {
+    width: 370px;
+    height: 265px;
+    }
+   }
+
+
   @media (max-width: 480px) {
     .avis {
       padding-top: 55px;
@@ -347,36 +528,114 @@
       margin-bottom: 40px;
     }
   
-    .photoa {
-      width: 124px;
-      height: 188px;
+        .photoa1 {
+    width: 370px;
+    height: 265px;
     }
+
     .photoa2 {
-      width: 124px;
-      height: 188px;
+      width: 180px;
+      height: 265px;
     }
+
+     .photoa3 {
+      width: 180px;
+      height: 265px;
+    }
+
+     .photoa4 {
+      width: 180px;
+      height: 265px;
+    }
+
+     .photoa5 {
+      width: 180px;
+      height: 265px;
+    }
+
+     .photoa6 {
+      width: 180px;
+      height: 265px;
+    }
+
     .photoa12 {
-      width: 124px;
-      height: 188px;
+      display: none;
     }
-    .photoa1 {
-      width: 260px;
-      height: 188px;
-    }
+   
     .photoa7 {
-      width: 260px;
-      height: 188px;
+    width: 370px;
+    height: 265px;
     }
+
     .photoa8 {
-      width: 260px;
-      height: 188px;
+    width: 370px;
+    height: 265px;
     }
+
+      .photoa10 {
+      width: 180px;
+      height: 265px;
+    }
+
     .photoa11 {
-      width: 260px;
-      height: 188px;
+    width: 370px;
+    height: 265px;
     }
-    .column-wrapper-avis {
-      gap: 9px;
+  }
+
+    @media (max-width: 410px) {
+    .photoa1 {
+    width: 335px;
+    height: 235px;
+    }
+
+    .photoa2 {
+      width: 162px;
+      height: 235px;
+    }
+
+     .photoa3 {
+      width: 162px;
+      height: 235px;
+    }
+
+     .photoa4 {
+     width: 162px;
+      height: 235px;
+    }
+
+     .photoa5 {
+     width: 162px;
+      height: 235px;
+    }
+
+     .photoa6 {
+    width: 162px;
+      height: 235px;
+    }
+
+    .photoa12 {
+      display: none;
+    }
+   
+    .photoa7 {
+     width: 335px;
+    height: 235px;
+    }
+
+    .photoa8 {
+    width: 335px;
+    height: 235px;
+    }
+
+      .photoa10 {
+     width: 162px;
+      height: 235px;
+    }
+
+    .photoa11 {
+    width: 335px;
+    height: 235px;
     }
   }
   
@@ -398,28 +657,55 @@
       width: 124px;
       height: 188px;
     }
+
     .photoa2 {
-      width: 124px;
-      height: 188px;
+      width: 135px;
+      height: 200px;
     }
+
+     .photoa3 {
+      width: 135px;
+      height: 200px;
+    }
+
+    .photoa4 {
+      width: 135px;
+      height: 200px;
+    }
+
+     .photoa5 {
+      width: 135px;
+      height: 200px;
+    }
+
+     .photoa6 {
+      width: 135px;
+      height: 200px;
+    }
+
+     .photoa10 {
+      width: 135px;
+      height: 200px;
+    }
+
     .photoa12 {
-      width: 124px;
+      width: 145px;
       height: 188px;
     }
     .photoa1 {
-      width: 260px;
+      width: 280px;
       height: 188px;
     }
     .photoa7 {
-      width: 260px;
+     width: 280px;
       height: 188px;
     }
     .photoa8 {
-      width: 260px;
+     width: 280px;
       height: 188px;
     }
     .photoa11 {
-      width: 260px;
+     width: 280px;
       height: 188px;
     }
     .column-wrapper-avis {
@@ -838,8 +1124,8 @@
     }
   
     .annonseM {
-      width: 125px;
-      height: 170px;
+      width: 140px;
+      height: 185px;
     }
   
     .nameTitle-magasin {
@@ -856,15 +1142,24 @@
       gap: 12px;
     }
   }
+
+   @media (max-width: 550px) {
+    .annonseM {
+      width: 130px;
+      height: 175px;
+    }
+  }
+
+     @media (max-width: 500px) {
+    .annonseM {
+      width: 120px;
+      height: 165px;
+    }
+  }
   
   @media (max-width: 480px) {
     .magasin {
       margin-top: 0px;
-    }
-  
-    .annonseM {
-      width: 100px;
-      height: 130px;
     }
   
     .nameTitle-magasin {
@@ -882,7 +1177,7 @@
     }
   }
   
-  @media (max-width: 375px) {
+  @media (max-width: 400px) {
     .column-wrapper-magasin {
       display: grid;
       grid:
@@ -895,8 +1190,8 @@
     }
   
     .annonseM {
-      width: 120px;
-      height: 160px;
+      width: 145px;
+      height: 185px;
     }
   
     .annonseM9 {
@@ -917,6 +1212,14 @@
       margin-bottom: 40px;
     }
   }
+
+    @media (max-width: 375px) { 
+    .annonseM {
+      width: 144px;
+      height: 184px;
+    }
+
+    }
   
   /* //////////////// */
   /* Underside: some */
