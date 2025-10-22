@@ -35,8 +35,8 @@
   .column-wrapper-avis {
     display: grid;
     grid:
-      "photoa1 photoa1 photo2"
       "photo3 photo4 photo6"
+      "photoa1 photoa1 photo2"
       "photo5 photoa7 photoa7"
       "photoa8 photoa8 photo10"
       "photo12 photoa11 photoa11";
@@ -53,8 +53,8 @@
   
   .photoa1 {
     background-image: url("/avis/avistwo.png");
-    width: 588px;
-    height: 423px;
+    width: 520px;
+    height: 372px;
     background-color: aliceblue;
     background-size: cover;
     grid-area: photoa1;
@@ -62,8 +62,8 @@
   }
   .photoa2 {
     background-image: url("/avis/annonse25.webp");
-    width: 285px;
-    height: 423px;
+    width: 253px;
+    height: 372px;
     background-color: rgb(53, 99, 139);
     background-size: cover;
     grid-area: photo2;
@@ -75,6 +75,8 @@
     background-size: cover;
     grid-area: photo3;
     cursor: pointer;
+    width: 253px;
+    height: 372px;
   }
   
   .photoa4 {
@@ -83,6 +85,8 @@
     background-size: cover;
     grid-area: photo4;
     cursor: pointer;
+    width: 253px;
+    height: 372px;
   }
   .photoa5 {
     background-image: url("/avis/annonse24.webp");
@@ -90,6 +94,8 @@
     background-size: cover;
     grid-area: photo5;
     cursor: pointer;
+    width: 253px;
+    height: 372px;
   }
   .photoa6 {
     background-image: url("/avis/annonse4.webp");
@@ -97,12 +103,14 @@
     background-size: cover;
     grid-area: photo6;
     cursor: pointer;
+    width: 253px;
+    height: 372px;
   }
   
   .photoa7 {
     background-image: url("/avis/annonse1.webp");
-    width: 588px;
-    height: 423px;
+    width: 520px;
+    height: 372px;
     background-color: rgb(38, 66, 90);
     background-size: cover;
     grid-area: photoa7;
@@ -111,8 +119,8 @@
   
   .photoa8 {
     background-image: url("/avis/annonse6.webp");
-    width: 588px;
-    height: 423px;
+    width: 520px;
+    height: 372px;
     background-color: rgb(122, 181, 126);
     background-size: cover;
     grid-area: photoa8;
@@ -125,11 +133,13 @@
     background-size: cover;
     grid-area: photo10;
     cursor: pointer;
+    width: 253px;
+    height: 372px;
   }
   .photoa11 {
     background-image: url("/avis/avisone.png");
-    width: 588px;
-    height: 423px;
+    width: 520px;
+    height: 372px;
     background-color: aliceblue;
     background-size: cover;
     grid-area: photoa11;
@@ -137,12 +147,12 @@
   }
   .photoa12 {
     background-image: url("/avis/annonse41.webp");
-    width: 285px;
-    height: 423px;
     background-color: rgb(53, 99, 139);
     background-size: cover;
     grid-area: photo12;
     cursor: pointer;
+   width: 253px;
+    height: 372px;
   }
   
   .linkBunnPortfolie {
@@ -757,8 +767,8 @@
   }
   
   .photoL {
-    width: 249px;
-    height: 249px;
+    width: 250px;
+    height: 250px;
     border-radius: 14px;
   }
   
@@ -987,8 +997,8 @@
   }
   
   .annonseM {
-    width: 305px;
-    height: 410px;
+    width: 250px;
+    height: 336px;
     border-radius: 14px;
   }
   
@@ -1221,9 +1231,9 @@
 
     }
   
-  /* //////////////// */
-  /* Underside: some */
-  /* ////////////// */
+  /* ////////////////////////// */
+  /* Underside: sosiale medier */
+  /* //////////////////////// */
   
   .some {
     padding-top: 90px;
@@ -1254,17 +1264,23 @@
     margin-bottom: 60px;
   }
   
-  .column-wrapper-some {
-    display: grid;
-    grid:
-      "photo1 photo2 photo3 photo4"
-      "photoS5 photoS5 photo6 photo7"
-      "photo8 photoS9 photoS9 photoS9"
-      "photo10 photo11 photo12 photo13"
-      "photoS14 photoS14 photoS14 photo15";
-    justify-content: center;
-    gap: 20px;
-  }
+.column-wrapper-some {
+  display: grid;
+  justify-content: center;
+  gap: 20px;
+  /* bruk grid-template-areas (ikke shorthand "grid:") */
+  grid-template-areas:
+    "photo1  photo2  photo3"
+    "photoS5 photoS5 photo7"
+    "photoS9 photoS9 photoS9"
+    "photo10 photo11 photo12"
+    "photoS14 photoS14 photoS14"
+    "photo6  photo8  photo15";
+}
+
+/* Skjul de som ikke finnes i desktop-areas */
+.photoS4,
+.photoS13 { display: none; }
   
   .photoS {
     width: 246px;
@@ -1949,8 +1965,8 @@
   }
   
   .photoN {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     border-radius: 14px;
     position: relative;         
     overflow: hidden;
@@ -1965,7 +1981,7 @@
   text-align: center;
   color: #FFF;
   font-family: "Manjari", sans-serif;
-  font-size: 20px;
+  font-size: 15px;
   line-height: 1.6;
   padding: 10px 15px;
   white-space: pre-line;
@@ -2226,8 +2242,8 @@
   
   .photoP1 {
     background-image: url("/public/plakater/plakat3.webp");
-    width: 249px;
-    height: 239px;
+    width: 250px;
+    height: 250px;
     background-size: cover;
     background-color: #0d1134;
     background-position: center;
@@ -2237,8 +2253,8 @@
   
   .photoP2 {
     background-image: url("/public/plakater/plakat1.webp");
-    width: 249px;
-    height: 239px;
+    width: 250px;
+    height: 250px;
     background-size: cover;
     background-color: #0d1134;
     background-position: center;
@@ -2248,8 +2264,8 @@
   
   .photoP3 {
     background-image: url("/public/plakater/plakat13.webp");
-    width: 249px;
-    height: 239px;
+    width: 250px;
+    height: 250px;
     border-radius: 19px;
     background-size: cover;
     background-color: #0d1134;
@@ -2260,7 +2276,7 @@
   
   .photoP4 {
     background-image: url("/public/plakater/plakat13.webp");
-    width: 249px;
+    width: 250px;
     height: 229px;
     border-radius: 19px;
     background-size: cover;

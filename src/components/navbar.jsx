@@ -47,7 +47,7 @@ export const NavBar = () => {
             <li><Link className="dropdown-item" to="/logo">Logo</Link></li>
             <li><Link className="dropdown-item" to="/plakat">Plakat</Link></li>
             <li><Link className="dropdown-item" to="/nettside">Nettside</Link></li>
-            <li><Link className="dropdown-item" to="/some">SoMe</Link></li>
+            <li><Link className="dropdown-item" to="/some">Sosiale medier</Link></li>
           </ul>
         </li>
 
