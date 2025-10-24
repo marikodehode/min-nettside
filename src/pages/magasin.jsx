@@ -5,8 +5,8 @@ export const Magasin = () => {
     return (
         <section className="magasin">
             <div className="magasin-container">
-            <h1 className="nameTitle-magasin">ANNONSER I MAGASINER</h1>
-            <p className='textfill-magasin'>Utgitt i Hjemmet, VG og Kamille ++</p>
+            <h1 className="nameTitle-magasin">MAGASIN</h1>
+            <p className='textfill-magasin'>Utgitt i VG og Hjemmet++</p>
 
             <div className='column-wrapper-magasin'>
                 <div className='annonseM annonseM1'></div>

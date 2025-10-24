@@ -151,7 +151,7 @@
     background-size: cover;
     grid-area: photo12;
     cursor: pointer;
-   width: 253px;
+    width: 253px;
     height: 372px;
   }
   
@@ -175,529 +175,283 @@
     color: #e4c982;
   }
   
-  @media (max-width: 1024px) {
-    .photoa {
-      width: 255px;
-      height: 383px;
-    }
-    .photoa2 {
-      width: 255px;
-      height: 383px;
-    }
-    .photoa12 {
-      width: 255px;
-      height: 383px;
-    }
-    .photoa1 {
-      width: 528px;
-      height: 383px;
-    }
-    .photoa7 {
-      width: 528px;
-      height: 383px;
-    }
-    .photoa8 {
-      width: 528px;
-      height: 383px;
-    }
-    .photoa11 {
-      width: 528px;
-      height: 383px;
-    }
-  }
+ 
   
   @media (max-width: 800px) {
     .nameTitle-avis-head {
-      font-size: 25px;
-    }
-  
-    .textfill-avis-head {
-      font-size: 18px;
-    }
-  
-    .photoa {
-      width: 210px;
-      height: 323px;
-    }
-    .photoa2 {
-      width: 210px;
-      height: 323px;
-    }
-    .photoa12 {
-      width: 210px;
-      height: 323px;
-    }
-    .photoa1 {
-      width: 440px;
-      height: 323px;
-    }
-    .photoa7 {
-      width: 440px;
-      height: 323px;
-    }
-    .photoa8 {
-      width: 440px;
-      height: 323px;
-    }
-    .photoa11 {
-      width: 440px;
-      height: 323px;
-    }
-  }
-  
-  @media (max-width: 768px) {
-    .avis {
-      padding-top: 70px;
-    }
-  
-    .nameTitle-avis-head {
       font-size: 23px;
     }
-  
     .textfill-avis-head {
       font-size: 16px;
     }
-  
     .photoa {
-      width: 205px;
-      height: 303px;
-    }
-    .photoa2 {
-      width: 205px;
-      height: 303px;
-    }
-    .photoa12 {
-      width: 205px;
-      height: 303px;
+      width: 175px;
+      height: 257px;
     }
     .photoa1 {
-      width: 425px;
-      height: 303px;
+      width: 366px;
+      height: 257px;
+    }
+    .photoa2 {
+      width: 175px;
+      height: 257px;
+    }
+    .photoa12 {
+      width: 175px;
+      height: 257px;
     }
     .photoa7 {
-      width: 425px;
-      height: 303px;
+      width: 366px;
+      height: 257px;
     }
     .photoa8 {
-      width: 425px;
-      height: 303px;
+      width: 366px;
+      height: 257px;
     }
     .photoa11 {
-      width: 425px;
-      height: 303px;
+      width: 366px;
+      height: 257px;
     }
   }
 
 
   @media (max-width: 700px) {
-  
+     .nameTitle-avis-head {
+      font-size: 21px;
+    }
+    .textfill-avis-head {
+      font-size: 16px;
+    }
     .photoa {
-      width: 185px;
-      height: 283px;
-    }
-    .photoa2 {
-      width: 185px;
-      height: 283px;
-    }
-    .photoa12 {
-      width: 185px;
-      height: 283px;
+      width: 145px;
+      height: 213px;
     }
     .photoa1 {
-      width: 385px;
-      height: 283px;
+      width: 305px;
+      height: 213px;
+    }
+    .photoa2 {
+      width: 145px;
+      height: 213px;
     }
     .photoa7 {
-      width: 385px;
-      height: 283px;
+      width: 305px;
+      height: 213px;
     }
     .photoa8 {
-      width: 385px;
-      height: 283px;
+      width: 305px;
+      height: 213px;
     }
     .photoa11 {
-      width: 385px;
-      height: 283px;
+      width: 305px;
+      height: 213px;
+    }
+    .photoa12 {
+      width: 145px;
+      height: 213px;
     }
   }
-
 
   
   @media (max-width: 600px) {
     .avis {
       padding-top: 70px;
     }
-  
     .nameTitle-avis-head {
-      font-size: 23px;
+      font-size: 21px;
     }
-  
     .textfill-avis-head {
-      font-size: 16px;
+      font-size: 15px;
+      margin-bottom: 40px;
     }
-  
     .photoa {
-      width: 154px;
-      height: 228px;
+      width: 175px;
+      height: 252px;
     }
-
      .photoa1 {
-      width: 480px;
-      height: 365px;
+      width: 361px;
+      height: 252px;
     }
-
     .photoa2 {
-      width: 235px;
-      height: 340px;
+      width: 175px;
+      height: 252px;
     }
-
      .photoa3 {
-      width: 235px;
-      height: 340px;
+       width: 175px;
+      height: 252px;
     }
-
      .photoa4 {
-      width: 235px;
-      height: 340px;
+      width: 175px;
+      height: 252px;
     }
-
-  .photoa5 {
-      width: 235px;
-      height: 340px;
+    .photoa5 {
+      width: 175px;
+      height: 252px;
     }
-
      .photoa6 {
-      width: 235px;
-      height: 340px;
+      width: 175px;
+      height: 252px;
     }
-
     .photoa12 {
       display: none;
     }
-   
     .photoa7 {
-     width: 480px;
-    height: 365px;
+     width: 361px;
+     height: 252px;
     }
-
     .photoa8 {
-     width: 480px;
-    height: 365px;
+     width: 361px;
+    height: 252px;
     }
-
-      .photoa10 {
-      width: 235px;
-      height: 340px;
+    .photoa10 {
+      width: 175px;
+      height: 252px;
     }
-
     .photoa11 {
-    width: 480px;
-    height: 365px;
+     width: 361px;
+     height: 252px;
     }
     .column-wrapper-avis {
       display: grid;
       grid:
-        "photoa1 photoa1"
         "photo2 photo3"
+        "photoa1 photoa1"
         "photo4 photo6"
         "photoa7 photoa7"
         "photo5 photo10"
         "photoa8 photoa8"
         "photoa11 photoa11";
       justify-content: center;
-      gap: 11px;
+      gap: 15px;
     }
   }
-
-    
-  @media (max-width: 550px) {
-     .photoa1 {
-      width: 435px;
-    height: 315px;
-    }
-
-    .photoa2 {
-      width: 212px;
-      height: 315px;
-    }
-
-     .photoa3 {
-      width: 212px;
-      height: 315px;
-    }
-
-     .photoa4 {
-      width: 212px;
-      height: 315px;
-    }
-
-     .photoa5 {
-      width: 212px;
-      height: 315px;
-    }
-
-     .photoa6 {
-       width: 212px;
-      height: 315px;
-    }
-
-    .photoa12 {
-      display: none;
-    }
-   
-    .photoa7 {
-    width: 435px;
-    height: 315px;
-    }
-
-    .photoa8 {
-     width: 435px;
-    height: 315px;
-    }
-
-      .photoa10 {
-      width: 212px;
-      height: 315px;
-    }
-
-    .photoa11 {
-    width: 435px;
-    height: 315px;
-    }
-   }
 
 
    @media (max-width: 500px) {
     .photoa1 {
-    width: 370px;
-    height: 265px;
+    width: 320px;
+    height: 223px;
     }
-
     .photoa2 {
-      width: 180px;
-      height: 265px;
+    width: 152px;
+    height: 223px;
     }
-
      .photoa3 {
-      width: 180px;
-      height: 265px;
+    width: 152px;
+    height: 223px;
     }
-
      .photoa4 {
-      width: 180px;
-      height: 265px;
+    width: 152px;
+    height: 223px;
     }
-
      .photoa5 {
-      width: 180px;
-      height: 265px;
+    width: 152px;
+    height: 223px;
     }
-
      .photoa6 {
-      width: 180px;
-      height: 265px;
+    width: 152px;
+    height: 223px;
     }
-
     .photoa12 {
       display: none;
     }
-   
     .photoa7 {
-    width: 370px;
-    height: 265px;
+    width: 320px;
+    height: 223px;
     }
-
     .photoa8 {
-    width: 370px;
-    height: 265px;
+    width: 320px;
+    height: 223px;
     }
-
-      .photoa10 {
-      width: 180px;
-      height: 265px;
+    .photoa10 {
+    width: 152px;
+    height: 223px;
     }
-
     .photoa11 {
-    width: 370px;
-    height: 265px;
+    width: 320px;
+    height: 223px;
     }
    }
 
-
-  @media (max-width: 480px) {
+  @media (max-width: 400px) {
     .avis {
-      padding-top: 55px;
+    padding-top: 55px;
     }
-  
-    .nameTitle-avis-head {
-      font-size: 20px;
-    }
-  
-    .textfill-avis-head {
-      font-size: 14px;
-      margin-bottom: 40px;
-    }
-  
-        .photoa1 {
-    width: 370px;
-    height: 265px;
-    }
-
-    .photoa2 {
-      width: 180px;
-      height: 265px;
-    }
-
-     .photoa3 {
-      width: 180px;
-      height: 265px;
-    }
-
-     .photoa4 {
-      width: 180px;
-      height: 265px;
-    }
-
-     .photoa5 {
-      width: 180px;
-      height: 265px;
-    }
-
-     .photoa6 {
-      width: 180px;
-      height: 265px;
-    }
-
-    .photoa12 {
-      display: none;
-    }
-   
-    .photoa7 {
-    width: 370px;
-    height: 265px;
-    }
-
-    .photoa8 {
-    width: 370px;
-    height: 265px;
-    }
-
-      .photoa10 {
-      width: 180px;
-      height: 265px;
-    }
-
-    .photoa11 {
-    width: 370px;
-    height: 265px;
-    }
-  }
-
-    @media (max-width: 410px) {
     .photoa1 {
-    width: 335px;
-    height: 235px;
+    width: 307px;
+    height: 214px;
     }
-
     .photoa2 {
-      width: 162px;
-      height: 235px;
+    width: 146px;
+    height: 214px;
     }
-
-     .photoa3 {
-      width: 162px;
-      height: 235px;
+    .photoa3 {
+    width: 146px;
+    height: 214px;
     }
-
-     .photoa4 {
-     width: 162px;
-      height: 235px;
+    .photoa4 {
+    width: 146px;
+    height: 214px;
     }
-
-     .photoa5 {
-     width: 162px;
-      height: 235px;
+    .photoa5 {
+    width: 146px;
+    height: 214px;
     }
-
-     .photoa6 {
-    width: 162px;
-      height: 235px;
+    .photoa6 {
+    width: 146px;
+    height: 214px;
     }
-
     .photoa12 {
-      display: none;
+    display: none;
     }
-   
     .photoa7 {
-     width: 335px;
-    height: 235px;
+    width: 307px;
+    height: 214px;
     }
-
     .photoa8 {
-    width: 335px;
-    height: 235px;
+    width: 307px;
+    height: 214px;
     }
-
-      .photoa10 {
-     width: 162px;
-      height: 235px;
+    .photoa10 {
+    width: 146px;
+    height: 214px;
     }
-
     .photoa11 {
-    width: 335px;
-    height: 235px;
+    width: 307px;
+    height: 214px;
     }
   }
+
   
   @media (max-width: 375px) {
-    .avis {
-      padding-top: 55px;
-    }
-  
-    .nameTitle-avis-head {
-      font-size: 20px;
-    }
-  
-    .textfill-avis-head {
-      font-size: 14px;
-      margin-bottom: 40px;
-    }
-  
     .photoa {
-      width: 124px;
-      height: 188px;
+      width: 135px;
+      height: 200px;
     }
-
     .photoa2 {
       width: 135px;
       height: 200px;
     }
-
-     .photoa3 {
+    .photoa3 {
       width: 135px;
       height: 200px;
     }
-
     .photoa4 {
       width: 135px;
       height: 200px;
     }
-
-     .photoa5 {
+    .photoa5 {
       width: 135px;
       height: 200px;
     }
-
-     .photoa6 {
+    .photoa6 {
       width: 135px;
       height: 200px;
     }
-
-     .photoa10 {
+    .photoa10 {
       width: 135px;
       height: 200px;
     }
-
     .photoa12 {
       width: 145px;
       height: 188px;
@@ -712,14 +466,14 @@
     }
     .photoa8 {
      width: 280px;
-      height: 188px;
+    height: 188px;
     }
     .photoa11 {
      width: 280px;
-      height: 188px;
+    height: 188px;
     }
     .column-wrapper-avis {
-      gap: 9px;
+      gap: 10px;
     }
   }
   
@@ -763,7 +517,7 @@
       "photo4 photo5 photo6"
       "photo7 photo8 photo9";
     justify-content: center;
-    gap: 20px;
+    gap: 15px;
   }
   
   .photoL {
@@ -854,91 +608,43 @@
   }
   
   @media (max-width: 800px) {
-    .photoL {
-      width: 209px;
-      height: 209px;
-    }
+  .photoL {
+    width: 175px;
+    height: 175px;
   }
-  
-  @media (max-width: 768px) {
-    .logo {
-      padding-top: 70px;
-    }
-    .nameTitle-logo {
-      font-size: 25px;
-    }
-    .textfill-logo {
-      font-size: 18px;
-      margin-bottom: 50px;
-    }
-  
-    .photoL {
-      width: 180px;
-      height: 180px;
-    }
+  .nameTitle-logo {
+   font-size: 23px;
   }
-  
+  .textfill-logo {
+   font-size: 16px;
+  }
+  }
+
+   @media (max-width: 700px) {
+  .nameTitle-logo {
+   font-size: 21px;
+  }
+  .photoL {
+   width: 145px;
+   height: 145px;
+  }
+  }
+
   @media (max-width: 600px) {
     .logo {
       padding-top: 70px;
     }
     .nameTitle-logo {
-      font-size: 23px;
+      font-size: 21px;
     }
     .textfill-logo {
-      font-size: 16px;
-      margin-bottom: 50px;
+      font-size: 15px;
+      margin-bottom: 40px;
     }
-  
     .photoL {
-      width: 150px;
-      height: 150px;
+      width: 175px;
+      height: 175px;
     }
-  
-    .column-wrapper-logo {
-      gap: 13px;
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .logo {
-      padding-top: 70px;
-    }
-    .nameTitle-logo {
-      font-size: 20px;
-    }
-    .textfill-logo {
-      font-size: 14px;
-      margin-bottom: 50px;
-    }
-  
-    .photoL {
-      width: 120px;
-      height: 120px;
-    }
-  
-    .column-wrapper-logo {
-      gap: 13px;
-    }
-  }
-  
-  @media (max-width: 375px) {
-    .logo {
-      padding-top: 70px;
-    }
-    .nameTitle-logo {
-      font-size: 20px;
-    }
-    .textfill-logo {
-      font-size: 14px;
-      margin-bottom: 50px;
-    }
-  
-    .photoL {
-      width: 120px;
-      height: 120px;
-    }
-  
     .column-wrapper-logo {
       display: grid;
       grid:
@@ -947,10 +653,35 @@
         "photo5 photo6"
         "photo7 photo8";
       justify-content: center;
-      gap: 13px;
     }
     .photoL9 {
       display: none;
+    }
+  }
+
+    @media (max-width: 500px) {
+   .photoL {
+    width: 152px;
+    height: 152px;
+  }
+  }
+
+    @media (max-width: 400px) {
+    .logo {
+      padding-top: 55px;
+    }
+    .photoL {
+    width: 146px;
+    height: 146px;
+  }
+  }
+    @media (max-width: 375px) {
+    .photoL {
+    width: 135px;
+    height: 135px;
+  }
+    .column-wrapper-logo {
+      gap:10px;
     }
   }
   
@@ -993,7 +724,7 @@
       "annonseM4 annonseM5 annonseM6"
       "annonseM7 annonseM8 annonseM9";
     justify-content: center;
-    gap: 20px;
+    gap: 15px;
   }
   
   .annonseM {
@@ -1065,129 +796,36 @@
     cursor: pointer;
   }
   
-  @media (max-width: 1280px) {
-    .magasin {
-      padding-top: 90px;
-    }
-  
-    .annonseM {
-      width: 280px;
-      height: 381px;
-    }
-  }
-  
-  @media (max-width: 1024px) {
-    .magasin {
-      padding-top: 70px;
-    }
-  
-    .annonseM {
-      width: 230px;
-      height: 311px;
-    }
-  
-    .nameTitle-magasin {
-      font-size: 20px;
-    }
-  }
+
   
   @media (max-width: 800px) {
-    .magasin {
-      margin-top: 10px;
-    }
-  
     .annonseM {
       width: 175px;
       height: 230px;
     }
-  
-    .nameTitle-magasin {
-      font-size: 25px;
-    }
-  
-    .textfill-magasin {
-      font-size: 18px;
-    }
-  
-    .column-wrapper-magasin {
-      gap: 15px;
-    }
-  }
-  
-  @media (max-width: 768px) {
-    .magasin {
-      margin-top: 10px;
-    }
-  
     .nameTitle-magasin {
       font-size: 23px;
     }
-  
     .textfill-magasin {
       font-size: 16px;
     }
   }
+
+    @media (max-width: 700px) {
+      .annonseM {
+        width: 145px;
+        height: 193px;
+    }
+      .nameTitle-magasin {
+      font-size: 21px;
+    }
+    .textfill-magasin {
+      font-size: 16px;
+    }
+    }
+  
   
   @media (max-width: 600px) {
-    .magasin {
-      margin-top: 0px;
-    }
-  
-    .annonseM {
-      width: 140px;
-      height: 185px;
-    }
-  
-    .nameTitle-magasin {
-      font-size: 23px;
-      margin-top: 2px;
-    }
-  
-    .textfill-magasin {
-      font-size: 16px;
-      margin-bottom: 40px;
-    }
-  
-    .column-wrapper-magasin {
-      gap: 12px;
-    }
-  }
-
-   @media (max-width: 550px) {
-    .annonseM {
-      width: 130px;
-      height: 175px;
-    }
-  }
-
-     @media (max-width: 500px) {
-    .annonseM {
-      width: 120px;
-      height: 165px;
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .magasin {
-      margin-top: 0px;
-    }
-  
-    .nameTitle-magasin {
-      font-size: 20px;
-      margin-top: 2px;
-    }
-  
-    .textfill-magasin {
-      font-size: 14px;
-      margin-bottom: 40px;
-    }
-  
-    .column-wrapper-magasin {
-      gap: 10px;
-    }
-  }
-  
-  @media (max-width: 400px) {
     .column-wrapper-magasin {
       display: grid;
       grid:
@@ -1195,40 +833,49 @@
         "annonseM3 annonseM4"
         "annonseM5 annonseM6"
         "annonseM7 annonseM8";
-      justify-content: flex-start;
-      gap: 20px;
+      justify-content: center;
     }
-  
     .annonseM {
-      width: 145px;
-      height: 185px;
+      width: 175px;
+      height: 229px;
     }
-  
     .annonseM9 {
       display: none;
     }
-  
-    .column-wrapper-magasin {
-      gap: 8px;
-    }
-  
     .nameTitle-magasin {
-      font-size: 20px;
-      margin-top: 2px;
+      font-size: 21px;
     }
-  
     .textfill-magasin {
-      font-size: 14px;
+      font-size: 15px;
       margin-bottom: 40px;
     }
+    .magasin {
+    padding-top: 70px;
+  }
+  }
+
+  @media (max-width: 500px) {
+    .annonseM {
+    width: 152px;
+    height: 202px;
+    }
+  }
+
+    @media (max-width: 400px) {
+    .annonseM {
+    width: 146px;
+    height: 194px;
+    }    
+    .magasin {
+    padding-top: 55px;
+  }
   }
 
     @media (max-width: 375px) { 
     .annonseM {
-      width: 144px;
-      height: 184px;
+      width: 135px;
+      height: 180px;
     }
-
     }
   
   /* ////////////////////////// */
@@ -1267,18 +914,16 @@
 .column-wrapper-some {
   display: grid;
   justify-content: center;
-  gap: 20px;
-  /* bruk grid-template-areas (ikke shorthand "grid:") */
+  gap: 15px;
   grid-template-areas:
     "photo1  photo2  photo3"
     "photoS5 photoS5 photo7"
     "photoS9 photoS9 photoS9"
     "photo10 photo11 photo12"
     "photoS14 photoS14 photoS14"
-    "photo6  photo8  photo15";
+    "photo15  photo8  photo6";
 }
 
-/* Skjul de som ikke finnes i desktop-areas */
 .photoS4,
 .photoS13 { display: none; }
   
@@ -1430,472 +1075,331 @@
     cursor: pointer;
   }
   
-  @media (max-width: 1024px) {
-    .some {
-      padding-top: 70px;
-    }
-  
-    .nameTitle-some {
-      font-size: 30px;
-    }
-  
-    .textfill-some {
-      font-size: 19px;
-    }
-  
-    .column-wrapper-some {
-      gap: 13px;
-    }
-  
-    .photoS {
-      width: 177px;
-      height: 176px;
-    }
-  
-    .photoS5 {
-      width: 364px;
-      height: 206px;
-    }
-  
-    .photoS6 {
-      width: 175px;
-      height: 206px;
-    }
-  
-    .photoS7 {
-      width: 175px;
-      height: 206px;
-    }
-  
-    .photoS8 {
-      width: 177px;
-      height: 206px;
-    }
-  
-    .photoS9 {
-      width: 558px;
-      height: 206px;
-    }
-  
-    .photoS14 {
-      width: 557px;
-      height: 206px;
-    }
-  
-    .photoS15 {
-      width: 176px;
-      height: 206px;
-    }
-  }
+ 
   
   @media (max-width: 800px) {
-    .some {
-      padding-top: 70px;
-    }
-  
-    .nameTitle-some {
-      font-size: 25px;
-    }
-  
-    .textfill-some {
-      font-size: 18px;
-    }
-  
-    .column-wrapper-some {
-      gap: 13px;
-    }
-  
-    .photoS {
-      width: 135px;
-      height: 135px;
-    }
-  
-    .photoS5 {
-      width: 279px;
-      height: 158px;
-    }
-  
-    .photoS6 {
-      width: 134px;
-      height: 158px;
-    }
-  
-    .photoS7 {
-      width: 134px;
-      height: 158px;
-    }
-  
-    .photoS8 {
-      width: 135px;
-      height: 158px;
-    }
-  
-    .photoS9 {
-      width: 427px;
-      height: 158px;
-    }
-  
-    .photoS14 {
-      width: 426px;
-      height: 158px;
-    }
-  
-    .photoS15 {
-      width: 135px;
-      height: 158px;
-    }
-  }
-  
-  @media (max-width: 600px) {
-    .some {
-      padding-top: 60px;
-    }
-  
     .nameTitle-some {
       font-size: 23px;
     }
-  
     .textfill-some {
       font-size: 16px;
-      margin-bottom: 45px;
     }
+    .photoS {
+      width: 175px;
+      height: 175px;
+    }
+    .photoS5 {
+      width: 364px;
+      height: 195px;
+    }
+    .photoS6 {
+     width: 175px;
+      height: 195px;
+    }
+    .photoS7 {
+      width: 175px;
+      height: 195px;
+    }
+    .photoS8 {
+      width: 175px;
+      height: 195px;
+    }
+    .photoS9 {
+      width: 555px;
+      height: 195px;
+    }
+    .photoS10 {
+      width: 175px;
+      height: 175px;
+    }
+    .photoS14 {
+      width: 555px;
+      height: 200px;
+    }
+    .photoS15 {
+     width: 175px;
+      height: 195px;
+    }
+  }
+
+   @media (max-width: 700px){
+    .nameTitle-some {
+      font-size: 21px;
+    } 
+    .textfill-some {
+      font-size: 16px;
+    }
+    .photoS {
+      width: 145px;
+      height: 145px;
+    }
+    .photoS5 {
+      width: 305px;
+      height: 165px;
+    }
+    .photoS6 {
+     width: 145px;
+      height: 165px;
+    }
+    .photoS7 {
+      width: 145px;
+      height: 165px;
+    }
+    .photoS8 {
+      width: 145px;
+      height: 165px;
+    }
+    .photoS9 {
+      width: 465px;
+      height: 165px;
+    }
+    .photoS10 {
+      width: 145px;
+      height: 145px;
+    }
+    .photoS14 {
+      width: 465px;
+      height: 180px;
+    }
+    .photoS15 {
+      width: 145px;
+      height: 165px;
+    }
+   }
   
+  
+  @media (max-width: 600px) {
+    .some {
+      padding-top: 70px;
+    }
+    .nameTitle-some {
+      font-size: 21px;
+    }
+    .textfill-some {
+      font-size: 15px;
+      margin-bottom: 40px;
+    }
+    .column-wrapper-some {
+      grid:
+        "photo1 photo2"
+        "photoS5 photoS5"
+        "photo10 photo3"
+        "photo12 photo13";
+    }
+    .photoS1 {
+      width: 175px;
+      height: 175px;
+      border-radius: 9px;
+      grid-area: photo1;
+    }
+    .photoS2 {
+      width: 175px;
+      height: 175px;
+      border-radius: 9px;
+      grid-area: photo2;
+    }
+    .photoS3 {
+      width: 175px;
+      height: 175px;
+      border-radius: 9px;
+      grid-area: photo3;
+    }
+    .photoS4 {
+    display: none;
+    }
+    .photoS5 {
+      width: 360px;
+      height: 175px;
+      border-radius: 9px;
+      grid-area: photoS5;
+    }
+    .photoS10 {
+      width: 175px;
+      height: 175px;
+      border-radius: 9px;
+      grid-area: photo10;
+    }
+    .photoS11 {
+    display: none;
+    }
+    .photoS12 {
+      width: 175px;
+      height: 175px;
+      border-radius: 9px;
+      grid-area: photo12;
+    }
+    .photoS13 {
+    display: block;            /* overstyr globalt 'display:none' */
+    width: 175px;
+    height: 175px;
+    border-radius: 9px;
+    grid-area: photo13;
+  }
+    .photoS6 {
+      display: none;
+    }
+    .photoS7 {
+      display: none;
+    }
+    .photoS8 {
+      display: none;
+    }
+    .photoS9 {
+      display: none;
+    }
+    .photoS14 {
+      display: none;
+    }
+    .photoS15 {
+      display: none;
+    }
+  }
+
+  @media (max-width: 500px){
+      .photoS1 {
+      width: 152px;
+      height: 152px;
+      border-radius: 9px;
+      grid-area: photo1;
+    }
+    .photoS2 {
+      width: 152px;
+      height: 152px;
+      border-radius: 9px;
+      grid-area: photo2;
+    }
+    .photoS3 {
+      width: 152px;
+      height: 152px;
+      border-radius: 9px;
+      grid-area: photo3;
+    }
+    .photoS5 {
+      width: 320px;
+      height: 152px;
+      border-radius: 9px;
+      grid-area: photoS5;
+    }
+    .photoS10 {
+      width: 152px;
+      height: 152px;
+      border-radius: 9px;
+      grid-area: photo10;
+    }
+    .photoS12 {
+      width: 152px;
+      height: 152px;
+      border-radius: 9px;
+      grid-area: photo12;
+    }
+    .photoS13 {
+    display: block;            
+    width: 152px;
+    height: 152px;
+    border-radius: 9px;
+    grid-area: photo13;
+  }
+  }
+  
+
+  @media (max-width: 400px){
+      .some {
+      padding-top: 55px;
+    }
+      .photoS1 {
+      width: 146px;
+      height: 146px;
+      border-radius: 9px;
+      grid-area: photo1;
+    }
+    .photoS2 {
+      width: 146px;
+      height: 146px;
+      border-radius: 9px;
+      grid-area: photo2;
+    }
+    .photoS3 {
+      width: 146px;
+      height: 146px;
+      border-radius: 9px;
+      grid-area: photo3;
+    }
+    .photoS5 {
+      width: 306px;
+      height: 146px;
+      border-radius: 9px;
+      grid-area: photoS5;
+    }
+    .photoS10 {
+      width: 146px;
+      height: 146px;
+      border-radius: 9px;
+      grid-area: photo10;
+    }
+    .photoS12 {
+      width: 146px;
+      height: 146px;
+      border-radius: 9px;
+      grid-area: photo12;
+    }
+    .photoS13 {
+      display: block;            /* overstyr globalt 'display:none' */
+      width: 146px;
+      height: 146px;
+      border-radius: 9px;
+      grid-area: photo13;
+  }
+  }
+  
+  @media (max-width: 375px) {
     .column-wrapper-some {
       gap: 10px;
     }
-  
-    .photoS {
-      width: 95px;
-      height: 96px;
-    }
-  
-    .photoS5 {
-      width: 198px;
-      height: 112px;
-    }
-  
-    .photoS6 {
-      width: 95px;
-      height: 112px;
-    }
-  
-    .photoS7 {
-      width: 95px;
-      height: 112px;
-    }
-  
-    .photoS8 {
-      width: 95px;
-      height: 112px;
-    }
-  
-    .photoS9 {
-      width: 304px;
-      height: 112px;
-    }
-  
-    .photoS14 {
-      width: 302px;
-      height: 112px;
-    }
-  
-    .photoS15 {
-      width: 97px;
-      height: 112px;
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .some {
-      padding-top: 50px;
-    }
-  
-    .nameTitle-some {
-      font-size: 20px;
-    }
-  
-    .textfill-some {
-      font-size: 14px;
-      margin-bottom: 45px;
-    }
-  
-    .column-wrapper-some {
-      gap: 8px;
-    }
-  
-    .photoS {
-      width: 82px;
-      height: 83px;
-      border-radius: 9px;
-    }
-  
-    .photoS5 {
-      width: 170px;
-      height: 97px;
-      border-radius: 9px;
-    }
-  
-    .photoS6 {
-      width: 82px;
-      height: 97px;
-      border-radius: 9px;
-    }
-  
-    .photoS7 {
-      width: 82px;
-      height: 97px;
-      border-radius: 9px;
-    }
-  
-    .photoS8 {
-      width: 82px;
-      height: 96px;
-      border-radius: 9px;
-    }
-  
-    .photoS9 {
-      width: 261px;
-      height: 96px;
-      border-radius: 9px;
-    }
-  
-    .photoS14 {
-      width: 260px;
-      height: 96px;
-      border-radius: 9px;
-    }
-  
-    .photoS15 {
-      width: 83px;
-      height: 96px;
-      border-radius: 9px;
-    }
-  }
-  
-  @media (max-width: 375px) {
-    .some {
-      padding-top: 50px;
-    }
-  
-    .nameTitle-some {
-      font-size: 20px;
-    }
-  
-    .textfill-some {
-      font-size: 14px;
-      margin-bottom: 45px;
-    }
-  
-    .column-wrapper-some {
-      grid:
-        "photo1 photo2"
-        "photo11 photo4"
-        "photoS5 photoS5"
-        "photo10 photo3"
-        "photo12 photo13";
-      gap: 8px;
-    }
-  
-    .photoS1 {
-      width: 140px;
-      height: 140px;
+      .photoS1 {
+      width: 135px;
+      height: 135px;
       border-radius: 9px;
       grid-area: photo1;
     }
-  
     .photoS2 {
-      width: 140px;
-      height: 140px;
+      width: 135px;
+      height: 135px;
       border-radius: 9px;
       grid-area: photo2;
     }
-  
     .photoS3 {
-      width: 140px;
-      height: 140px;
-      border-radius: 9px;
-      grid-area: photo11;
-    }
-  
-    .photoS4 {
-      width: 140px;
-      height: 140px;
-      border-radius: 9px;
-      grid-area: photo4;
-    }
-  
-    .photoS5 {
-      width: 293px;
-      height: 160px;
-      border-radius: 9px;
-      grid-area: photoS5;
-    }
-  
-    .photoS10 {
-      width: 140px;
-      height: 140px;
-      border-radius: 9px;
-      grid-area: photo10;
-    }
-  
-    .photoS11 {
-      width: 140px;
-      height: 140px;
+      width: 135px;
+      height: 135px;
       border-radius: 9px;
       grid-area: photo3;
     }
-  
-    .photoS12 {
-      width: 140px;
-      height: 140px;
-      border-radius: 9px;
-      grid-area: photo12;
-    }
-  
-    .photoS13 {
-      width: 140px;
-      height: 140px;
-      border-radius: 9px;
-      grid-area: photo13;
-    }
-  
-    .photoS6 {
-      display: none;
-    }
-  
-    .photoS7 {
-      display: none;
-    }
-  
-    .photoS8 {
-      display: none;
-    }
-  
-    .photoS9 {
-      display: none;
-    }
-  
-    .photoS14 {
-      display: none;
-    }
-  
-    .photoS15 {
-      display: none;
-    }
-  }
-  
-  @media (max-width: 375px) {
-    .some {
-      padding-top: 50px;
-    }
-  
-    .nameTitle-some {
-      font-size: 20px;
-    }
-  
-    .textfill-some {
-      font-size: 14px;
-      margin-bottom: 45px;
-    }
-  
-    .column-wrapper-some {
-      grid:
-        "photo1 photo2"
-        "photo11 photo4"
-        "photoS5 photoS5"
-        "photo10 photo3"
-        "photo12 photo13";
-      gap: 8px;
-    }
-  
-    .photoS1 {
-      width: 120px;
-      height: 120px;
-      border-radius: 9px;
-      grid-area: photo1;
-    }
-  
-    .photoS2 {
-      width: 120px;
-      height: 120px;
-      border-radius: 9px;
-      grid-area: photo2;
-    }
-  
-    .photoS3 {
-      width: 120px;
-      height: 120px;
-      border-radius: 9px;
-      grid-area: photo11;
-    }
-  
-    .photoS4 {
-      width: 120px;
-      height: 120px;
-      border-radius: 9px;
-      grid-area: photo4;
-    }
-  
     .photoS5 {
-      width: 248px;
-      height: 120px;
+      width: 279px;
+      height: 135px;
       border-radius: 9px;
       grid-area: photoS5;
     }
-  
     .photoS10 {
-      width: 120px;
-      height: 120px;
+      width: 135px;
+      height: 135px;
       border-radius: 9px;
       grid-area: photo10;
     }
-  
-    .photoS11 {
-      width: 120px;
-      height: 120px;
-      border-radius: 9px;
-      grid-area: photo3;
-    }
-  
     .photoS12 {
-      width: 120px;
-      height: 120px;
+      width: 135px;
+      height: 135px;
       border-radius: 9px;
       grid-area: photo12;
     }
-  
     .photoS13 {
-      width: 120px;
-      height: 120px;
+      display: block;            /* overstyr globalt 'display:none' */
+      width: 135px;
+      height: 135px;
       border-radius: 9px;
       grid-area: photo13;
-    }
-  
-    .photoS6 {
-      display: none;
-    }
-  
-    .photoS7 {
-      display: none;
-    }
-  
-    .photoS8 {
-      display: none;
-    }
-  
-    .photoS9 {
-      display: none;
-    }
-  
-    .photoS14 {
-      display: none;
-    }
-  
-    .photoS15 {
-      display: none;
-    }
   }
-  
+  }
+
   /* /////////////////// */
   /* Underside nettside */
   /* ///////////////// */
@@ -1961,7 +1465,7 @@
       "photo7 photo8 photo9"
       "photo10 photo11 photo12";
     justify-content: center;
-    gap: 20px;
+    gap: 15px;
   }
   
   .photoN {
@@ -2115,81 +1619,95 @@
     cursor: pointer;
   }
   
-  @media (max-width: 1024px) {
+
+  @media (max-width: 800px) {
+    .nameTitle-nettside {
+    font-size: 23px;
+    }
+    .textfill-nettside {
+    font-size: 16px;
+  }
     .photoN {
-      width: 250px;
-      height: 250px;
+      width: 175px;
+      height: 175px;
       border-radius: 14px;
     }
   }
-  @media (max-width: 800px) {
+
+  @media (max-width: 700px) {
+     .nameTitle-nettside {
+    font-size: 21px;
+    }
+    .textfill-nettside {
+    font-size: 16px;
+  }
     .photoN {
-      width: 180px;
-      height: 180px;
+      width: 145px;
+      height: 145px;
       border-radius: 14px;
     }
   }
   
   @media (max-width: 600px) {
-    .photoN {
-      width: 150px;
-      height: 150px;
-      border-radius: 10px;
-    }
-  }
-  @media (max-width: 480px) {
-    .nettside {
-      padding-top: 70px;
-    }
-    .photoN {
-      width: 120px;
-      height: 120px;
-      border-radius: 10px;
-    }
-  
-    .column-wrapper-nettside {
-      gap: 10px;
-    }
-  }
-  @media (max-width: 375px) {
     .column-wrapper-nettside {
       grid:
         "photo1 photo2"
         "photo3 photo4"
         "photo5 photo6";
     }
-  
     .photoN {
-      width: 130px;
-      height: 130px;
+      width: 175px;
+      height: 175px;
     }
-  
+    .textfill-nettside {
+      font-size: 15px;
+    }
     .photoN1 {
       grid-area: photo1;
     }
-  
     .photoN2 {
       grid-area: photo2;
     }
-  
     .photoN3 {
       grid-area: photo3;
     }
-  
     .photoN4 {
       grid-area: photo4;
     }
-  
     .photoN5 {
       grid-area: photo5;
     }
-  
     .photoN6 {
       grid-area: photo6;
     }
-
   }
-  
+
+    @media (max-width: 500px) {
+    .photoN {
+      width: 152px;
+      height: 152px;
+    }
+     }
+
+   @media (max-width: 400px) {
+    .nettside {
+    padding-top: 55px;
+  }
+    .photoN {
+      width: 146px;
+      height: 146px;
+    }
+     }
+
+     @media (max-width: 375px) {
+    .photoN {
+      width: 135px;
+      height: 135px;
+    }
+    .column-wrapper-nettside {
+      gap: 10px;;
+    }
+     }
   /* ///////////////// */
   /* Underside plakat */
   /* /////////////// */
@@ -2231,7 +1749,7 @@
       "photo7 photo8 photoPBig6"
       "photo9 photo10 photoPBig6";
     justify-content: center;
-    gap: 20px;
+    gap: 15px;
   }
   
   .photoP {
@@ -2359,230 +1877,292 @@
   
   @media (max-width: 800px) {
     .nameTitle-plakat {
-      font-size: 25px;
+      font-size: 23px;
     }
-  
     .textfill-plakat {
-      font-size: 18px;
+      font-size: 16px;
     }
-  
-    .column-wrapper-plakat {
-      display: grid;
-      grid:
-        "photo1 photo2"
-        "photo4 photo5"
-        "photo7 photo8"
-        "photo9 photo10";
-      justify-content: center;
-      gap: 15px;
+    .photoP1 {
+      width: 175px;
+      height: 175px;
     }
+    .photoP2 {
+      width: 175px;
+      height: 175px;
+    }
+     .photoP3 {
+      width: 175px;
+      height: 175px;
+    }
+    .photoP4 {
+      width: 175px;
+      height: 175px;
+    }
+    .photoP5 {
+      width: 175px;
+      height: 175px;
+    }
+    .photoP7 {
+      width: 175px;
+      height: 259px;
+    }
+    .photoP8 {
+      width: 175px;
+      height: 259px;
+    }
+    .photoP9 {
+      width: 175px;
+      height: 259px;
+    }
+    .photoP10 {
+      width: 175px;
+      height: 259px;
+    }
+    .photoPBig6{
+      width: 175px;
+      height: 530px;
+    }
+  }
+
+   @media (max-width: 700px){
+  .nameTitle-plakat {
+    font-size: 21px;
+  }
+  .textfill-plakat {
+    font-size: 16px;
+  }
+  .column-wrapper-plakat {
+    gap: 15px;
+  }
+  .photoP1 {
+      width: 145px;
+      height: 145px;
+    }
+    .photoP2 {
+      width: 145px;
+      height: 145px;
+    }
+     .photoP3 {
+      width: 145px;
+      height: 145px;
+    }
+    .photoP4 {
+      width: 145px;
+      height: 145px;
+    }
+    .photoP5 {
+      width: 145px;
+      height: 145px;
+    }
+    .photoP7 {
+      width: 145px;
+      height: 215px;
+    } 
+    .photoP8 {
+      width: 145px;
+      height: 215px;
+    }
+    .photoP9 {
+      width: 145px;
+      height: 215px;
+    }
+    .photoP10 {
+      width: 145px;
+      height: 215px;
+    }
+    .photoPBig6{
+      width: 145px;
+      height: 530px;
+    }
+   }
   
-  .photoP3 {
+     @media (max-width: 600px) {
+     .plakat {
+    padding-top: 70px;
+  }
+    .textfill-plakat {
+    margin-bottom: 40px;
+  }
+    .nameTitle-plakat {
+    font-size: 21px;
+  }
+  .textfill-plakat {
+    font-size: 15px;
+  }
+  .column-wrapper-plakat {
+    display: grid;
+    grid:
+      "photo1 photo2"
+      "photo4 photoPBig6"
+      "photo7 photoPBig6"
+      "photo8 photoPBig6";
+    justify-content: center;
+    gap: 15px;
+  }
+    .photoP1 {
+      width: 175px;
+      height: 175px;
+    }
+    .photoP2 {
+      width: 175px;
+      height: 175px;
+    }
+      .photoP4 {
+      width: 175px;
+      height: 175px;
+    }
+      .photoPBig6{
+      width: 175px;
+      height: 540px;
+    }
+      .photoP7 {
+      width: 175px;
+      height: 270px;
+    }
+      .photoP8 {
+      width: 175px;
+      height: 270px;
+    }
+    .photoP5 {
       display: none;
     }
-    
-    .photoPBig6 {
+      .photoP3 {
       display: none;
     }
-    
-    .photoP1 {
-      width: 239px;
-      height: 219px;
-    }
-    
-    .photoP2 {
-      width: 239px;
-      height: 219px;
-    }
-    
-    .photoP4 {
-      width: 239px;
-      height: 219px;
-    }
-    
-    .photoP5 {
-      width: 239px;
-      height: 219px;
-    }
-    
-    .photoP7 {
-      width: 239px;
-      height: 351px;
-    }
-    
-    .photoP8 {
-      width: 239px;
-      height: 351px;
-    }
     .photoP9 {
-      width: 239px;
-      height: 340px;
+      display: none;
     }
-    
     .photoP10 {
-      width: 239px;
-      height: 340px;
+     display: none;
     }
   }
   
-  
-  @media (max-width: 480px) {
-    .nameTitle-plakat {
-      font-size: 20px;
+  @media (max-width: 500px) {
+    .photoP1 {
+      width: 152px;
+      height: 152px;
     }
   
-    .textfill-plakat {
-      font-size: 14px;
+    .photoP2 {
+      width: 152px;
+      height: 152px;
     }
   
+    .photoP4 {
+      width: 152px;
+      height: 152px;
+    }
+  
+    .photoP5 {
+      width: 152px;
+      height: 152px;
+    }
+      .photoPBig6{
+      width: 152px;
+      height: 540px;
+    }
+    .photoP7 {
+      width: 152px;
+      height: 220px;
+    }
+  
+    .photoP8 {
+      width: 152px;
+      height: 220px;
+    }
+    .photoP9 {
+      width: 152px;
+      height: 220px;
+    }
+  
+    .photoP10 {
+      width: 152px;
+      height: 220px;
+    }
+  }
+ 
+    @media (max-width: 400px) {
     .plakat {
-      padding-top: 60px;
-    }
+    padding-top: 55px;
+  }
     .photoP1 {
-      width: 180px;
-      height: 180px;
+      width: 146px;
+      height: 146px;
     }
   
     .photoP2 {
-      width: 180px;
-      height: 180px;
+      width: 146px;
+      height: 146px;
     }
   
     .photoP4 {
-      width: 180px;
-      height: 180px;
+      width: 146px;
+      height: 146px;
     }
-  
     .photoP5 {
-      width: 180px;
-      height: 180px;
+      width: 146px;
+      height: 146px;
     }
-  
+      .photoPBig6{
+      width: 146px;
+      height: 540px;
+    }
     .photoP7 {
-      width: 180px;
-      height: 270px;
+      width: 146px;
+      height: 220px;
     }
-  
     .photoP8 {
-      width: 180px;
-      height: 270px;
+      width: 146px;
+      height: 220px;
     }
     .photoP9 {
-      width: 180px;
-      height: 270px;
+      width: 146px;
+      height: 220px;
     }
-  
     .photoP10 {
-      width: 180px;
-      height: 270px;
+      width: 146px;
+      height: 220px;
     }
   }
-  
+
   @media (max-width: 375px) {
-    .nameTitle-plakat {
-      font-size: 20px;
-    }
-  
-    .textfill-plakat {
-      font-size: 14px;
-    }
-  
-    .plakat {
-      padding-top: 60px;
-    }
-    .photoP1 {
-      width: 150px;
-      height: 150px;
-    }
-  
-    .photoP2 {
-      width: 150px;
-      height: 150px;
-    }
-  
-    .photoP4 {
-      width: 150px;
-      height: 150px;
-    }
-  
-    .photoP5 {
-      width: 150px;
-      height: 150px;
-    }
-  
-    .photoP7 {
-      width: 150px;
-      height: 240px;
-    }
-  
-    .photoP8 {
-      width: 150px;
-      height: 240px;
-    }
-    .photoP9 {
-      width: 150px;
-      height: 240px;
-    }
-  
-    .photoP10 {
-      width: 150px;
-      height: 240px;
-    }
-  }
-  
-  @media (max-width: 375px) {
-    .nameTitle-plakat {
-      font-size: 20px;
-    }
-  
-    .textfill-plakat {
-      font-size: 14px;
-    }
-  
-    .plakat {
-      padding-top: 60px;
-    }
-    .photoP1 {
-      width: 120px;
-      height: 120px;
-    }
-  
-    .photoP2 {
-      width: 120px;
-      height: 120px;
-    }
-  
-    .photoP4 {
-      width: 120px;
-      height: 120px;
-    }
-  
-    .photoP5 {
-      width: 120px;
-      height: 120px;
-    }
-  
-    .photoP7 {
-      width: 120px;
-      height: 210px;
-    }
-  
-    .photoP8 {
-      width: 120px;
-      height: 210px;
-    }
-    .photoP9 {
-      width: 120px;
-      height: 210px;
-    }
-  
-    .photoP10 {
-      width: 120px;
-      height: 210px;
-    }
-  
     .column-wrapper-plakat {
-      gap: 12px;
+    gap: 10px;
+  }
+    .photoP1 {
+      width: 135px;
+      height: 135px;
+    }
+    .photoP2 {
+      width: 135px;
+      height: 135px;
+    }
+    .photoP4 {
+      width: 135px;
+      height: 135px;
+    }
+    .photoP5 {
+      width: 135px;
+      height: 135px;
+    }  
+    .photoPBig6{
+      width: 135px;
+      height: 540px;
+    }
+    .photoP7 {
+      width: 135px;
+      height: 190px;
+    }
+    .photoP8 {
+      width: 135px;
+      height: 190px;
+    }
+    .photoP9 {
+      width: 135px;
+      height: 190px;
+    }
+    .photoP10 {
+      width: 135px;
+      height: 190px;
     }
   }
-  
