@@ -126,6 +126,22 @@ body {
   }
 }
 
+
+/* Section: top-body-container screensize 1180 */
+@media (max-width: 1180){
+    .textbox {
+    padding-top: 30px;
+  }
+
+  .icon-overlay {
+    margin-top: 100px;
+  }
+
+  .top-body-container {
+  height: 50vh;
+}
+}
+
 /* Section: top-body-container screensize 1024 */
 @media (max-width: 1024px) { 
   .textbox {
@@ -137,20 +153,6 @@ body {
   }
 }
 
-/* Section: top-body-container screensize 1180 */
-@media (max-width: 1180){
-    .textbox {
-    padding-top: 50px;
-  }
-
-  .icon-overlay {
-    margin-top: 100px;
-  }
-
-  .top-body-container {
-  height: 50vh;
-}
-}
 
 
 /* Section: top-body-container screensize 800 */
