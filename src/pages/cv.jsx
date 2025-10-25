@@ -81,7 +81,7 @@ export const Cv = () => {
               <div className="timePlaceOne">2024-2025 Horten</div>
               <div className="jobName">Universitetet i Sør-Øst Norge</div>
               <div className="jobInfo">
-                Ansatt som senior konsulent. Arbeidsoppgaver: Oppsett, publisering og vedlikehold av nettsider, inkludert oppdatering av innhold, struktur og design. Deltar i prosjekter knyttet til utvikling og forbedring av nettløsninger, med fokus på brukeropplevelse, universell utforming og teknisk kvalitet. <br />
+                Ansatt som senior konsulent. Arbeidsoppgaver: Oppsett, publisering og vedlikehold av nettsider, inkludert oppdatering av innhold, struktur og design. Deltar i prosjekter knyttet til utvikling og forbedring av nettløsninger, med fokus på brukeropplevelse, universell utforming og teknisk kvalitet. 
                 Program: Office, CorePublish, Figma, Panopto, Wordpress og Divi Builder (Vikariat). 
               </div>
             </div>

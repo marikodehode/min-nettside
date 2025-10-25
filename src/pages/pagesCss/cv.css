@@ -70,7 +70,6 @@
     margin-left: 30px;
   }
 
-/* CV-lenker under hverandre */
 .cv-links {
   display: flex;
   flex-direction: column;
@@ -79,7 +78,6 @@
   margin-top: 50px;
 }
 
-/* Selve lenken (tekst + ikon tett sammen) */
 .cv-link-row {
   display: inline-flex;
   align-items: baseline;   
@@ -94,18 +92,16 @@
   line-height: 1.2;   
 }
 
-/* Sørg for at den ikke får strek ved hover/fokus */
 .cv-link-row svg:hover {
   text-decoration: none;
    color: #ffffff;
 }
 
-/* Ikonet: farge + liten “nudge” oppover */
 .cv-link-row svg {
   color: #dc918f; 
   width: 16px;
   height: 16px;
-  transform: translateY(3px); /* løfter ikonet litt – juster til -1px/-3px etter smak */
+  transform: translateY(3px); 
   flex-shrink: 0;
 }
   
@@ -359,6 +355,57 @@
       width: 204px;
       height: 204px;
     }
+    .name-profil {
+    font-size: 25px;
+  }
+  
+  .stilling-profil {
+    font-size: 17px;
+  }
+  
+  .stillingTo-profil {
+    font-size: 17px;
+  }
+  
+    .program-container {
+      width: 430px;
+    }
+  
+    .nameTitle-cv {
+      padding-top: 30px;
+    }
+  
+    .linkCV {
+      padding-inline-start: 20px;
+    }
+  }
+
+
+
+
+ /* ///////////////////////////////////////// */
+  /* Section: arbeidserfaring screensize 900 */
+  /* /////////////////////////////////////// */
+  
+  @media (max-width: 900px) {
+    .cv {
+      padding-top: 40px;
+      padding-left: 40px;
+    }
+
+    .id {
+      margin-left: 50px;
+      margin-top: 110px;
+    }
+
+    .workexperience {
+      padding-left: 350px;
+    }
+  
+    .photo-profil {
+      width: 204px;
+      height: 204px;
+    }
 
 
   .name-profil {
@@ -385,6 +432,10 @@
       padding-inline-start: 20px;
     }
   }
+
+
+
+
   
   /* //////////////////////////////////////// */
   /* Section: arbeidserfaring screensize 800 */
@@ -395,9 +446,14 @@
       padding-top: 40px;
     }
 
+    .id {
+      margin-left: 10px;
+      margin-top: 110px;
+    }
+
     .photo-profil {
-      width: 214px;
-      height: 214px;
+      width: 190px;
+      height: 190px;
     }
   
     .job {
@@ -405,12 +461,15 @@
     }
   
     .nameTitle-cv {
-      font-size: 20px;
+      font-size: 15px;
       padding-top: 10px;
     }
+    .textfill-cv {
+    font-size: 22px;
+  }
 
     .workexperience {
-      padding-left: 100px;
+      padding-left: 300px;
       width: 680px;
     }
   
@@ -418,10 +477,9 @@
       display: none;
     }
   
-  
     .nameTitle-summerjob {
-      font-size: 28px;
-      padding-top: 60px;
+      font-size: 22px;
+      padding-top: 30px;
       margin-bottom: 15px;
     }
   
@@ -434,8 +492,8 @@
     }
   
     .nameTitle-education {
-      font-size: 28px;
-      padding-top: 60px;
+      font-size: 22px;
+      padding-top: 30px;
       margin-bottom: 15px;
     }
   
@@ -444,8 +502,8 @@
     }
   
     .nameTitle-course {
-      font-size: 28px;
-      padding-top: 60px;
+      font-size: 22px;
+      padding-top: 0px;
     }
   }
   
@@ -458,245 +516,236 @@
       padding-top: 10px;
       padding-left: 20px;
     }
-  
     .workexperience {
       width: 650px;
     }
-
     .nameTitle-summerjob {
       margin-top:20px;
     }
-  
     .nameTitle-education {
       margin-top:20px;
     }
-  
     .nameTitle-course {
       margin-top:20px;
     }
+    .jobName {
+    font-size: 20px;
+    }
+     .photo-profil {
+      width: 180px;
+      height: 180px;
+    }
+    .name-profil {
+    font-size: 25px;
+  }
 
   }
-  
-  /* //////////////////////////////////////// */
+
+   /* //////////////////////////////////////// */
+  /* Section: arbeidserfaring screensize 700 */
+  /* ////////////////////////////////////// */
+    @media (max-width: 768px) {
+     .workexperience {
+      padding-left: 270px;
+      width: 600px;
+    } 
+    }
+   /* //////////////////////////////////////// */
   /* Section: arbeidserfaring screensize 600 */
   /* ////////////////////////////////////// */
-  
-  @media (max-width: 600px) {
-    .cv {
-      padding-top: 10px;
-      padding-left: 10px;
-    }
-  
-    .workexperience {
-      width: 500px;
-    }
+@media (max-width: 600px){
 
-    .textfill-cv{
-      font-size: 27px;
-    }
-
-    .nameTitle-summerjob {
-      margin-top:20px;
-      font-size: 24px;
-    }
-  
-    .nameTitle-education {
-      margin-top:20px;
-      font-size: 27px;
-      
-    }
-  
-    .nameTitle-course {
-      margin-top:20px;
-      font-size: 27px;
-    }
+  /* sideinnpakning */
+  .cv{
+    padding-top: 50px;
+    padding-left: 70px;
+    padding-right: 70px;
   }
-  
-  /* //////////////////////////////////////// */
-  /* Section: arbeidserfaring screensize 480 */
-  /* ////////////////////////////////////// */
-  
-  @media (max-width: 480px) {
-    .cv {
-      padding-top: 10px;
-      padding-left: 0px;
-    }
-  
-    .workexperience {
-      width: 400px;
-      padding-left: 70px;
-    }
-    .textfill-cv{
-      font-size: 24px;
-    }
-
-    .nameTitle-summerjob {
-      margin-top:20px;
-      font-size: 21px;
-    }
-  
-    .nameTitle-education {
-      margin-top:20px;
-      font-size: 24px;
-    
-    }
-  
-    .nameTitle-course {
-      margin-top:20px;
-      font-size: 24px;
-    }
-
-  /* //////////////////////////////////////// */
-  /* Section: arbeidserfaring screensize 425 */
-  /* ////////////////////////////////////// */
-  
-  @media (max-width: 425px){
-    .workexperience {
-      padding-left: 65px;
-      width: 350px;
-    }
+  .cv-container{
+    display: block;
+    max-width: 640px;
+    margin: 0 auto;
   }
-   
-    /* //////////////////////////////////////// */
-    /* Section: arbeidserfaring screensize 375 */
-    /* ////////////////////////////////////// */
-  
-    @media (max-width: 375px) {
-  
-      .workexperience {
-        padding-left: 55px;
-        width: 300px;
-      }
-  
-      .nameTitle-cv {
-        font-size: 18px;
-        letter-spacing: 3px;
-      }
 
-      .textfill-cv{
-        font-size: 22px;
-        margin-bottom: 30px;
-      }
-  
-      .nameTitle-summerjob {
-        font-size: 20px;
-        letter-spacing: 3px;
-        padding-top: 40px;
-      }
-  
-      .nameTitle-education {
-        font-size: 22px;
-        letter-spacing: 3px;
-        padding-top: 40px;
-      }
-  
-      .nameTitle-course {
-        font-size: 22px;
-        letter-spacing: 3px;
-        padding-top: 40px;
-      }
-  
-      .jobInfoSummerjob {
-        margin-left: 10px;
-      }
-  
-      /* //////////////////////////////////////// */
-      /* Section: arbeidserfaring screensize 320 */
-      /* ////////////////////////////////////// */
-  
-      @media (max-width: 320px) {
+  /* ---- PROFIL (ikke fast på mobil) ---- */
+  .id{
+    position: static !important;
+    width: 100% !important;
+    height: auto !important;
+    margin: 0 0 20px 0 !important;
+    padding: 0 !important;
 
-        .workexperience {
-          padding-left: 55px;
-          width: 270px;
-        }
-    
-        .nameTitle-cv {
-          font-size: 15px;
-          letter-spacing: 3px;
-        }
-  
-        .textfill-cv{
-          font-size: 20px;
-          margin-bottom: 30px;
-        }
-    
-        .nameTitle-summerjob {
-          font-size: 18px;
-          letter-spacing: 3px;
-          padding-top: 40px;
-        }
-    
-        .nameTitle-education {
-          font-size: 20px;
-          letter-spacing: 3px;
-          padding-top: 40px;
-        }
-    
-        .nameTitle-course {
-          font-size: 20px;
-          letter-spacing: 3px;
-          padding-top: 40px;
-        }
-    
-        .jobInfoSummerjob {
-          margin-left: 10px;
-        }
+    /* bilde venstre | tekst høyre | lenker under */
+    display: grid !important;
+    grid-template-columns: 120px 1fr;
+    grid-template-areas:
+      "photo text"
+      "photo links"
+      "photo links";
+    column-gap: 16px;
+    row-gap: 10px;
+    align-items: center;
+  }
 
-        .jobName {
-          font-size: 19px;
-        }
+  
+  .photo-profil{
+    grid-area: photo;
+    width: 180px !important;
+    height: 270px !important;
+    background-image: url(/public/profil/meg2.jpg) !important;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
 
-        .jobNameSummerjob{
-          font-size: 19px;
-        }
+  .text-profil{ 
+    grid-area: text; 
+    padding-left: 90px;
+    padding-top: 30px;
+    margin: 0 !important; 
+  }
 
-        .NameEducation{
-          font-size: 19px;
+  .name-profil{ 
+    font-size: 27px !important; 
+    margin-left: 0 !important; 
+  }
 
-        }
-                /* .cv {
-      padding-top: 70px;
-      padding-left: 45px;
-    }
-  
-        .workexperience {
-          width: 215px;
-        }
-  
-        .nameTitle-cv {
-          font-size: 21px;
-          letter-spacing: 2px;
-        }
-  
-        .jobName {
-          font-size: 21px;
-        }
-  
-        .nameTitle-summerjob {
-          font-size: 20px;
-          letter-spacing: 2px;
-        }
-  
-        .jobNameSummerjob {
-          font-size: 20px;
-        }
-  
-        .jobInfoSummerjob {
-          margin-top: 4px;
-          margin-left: 10px;
-        }
-  
-        .nameTitle-education {
-          font-size: 21px;
-          letter-spacing: 2px;
-        }
-  
-        .nameTitle-course {
-          font-size: 21px;
-          letter-spacing: 2px;
-        }
-      }
-    } */
-      }}}
-  
+  .stilling-profil,
+  .stillingTo-profil{
+    font-size: 19px !important;
+    letter-spacing: 1.5px !important;
+    margin-left: 0 !important;
+  }
+
+  .cv-links{
+    grid-area: links;
+    padding-left: 90px;
+    margin-top: -50px !important;
+    margin-left: 0 !important;
+  }
+  .cv-link-row{ 
+    margin-left: 0 !important; }
+
+  .workexperience{
+    padding-left: 0 !important; 
+    padding-top: 40px; 
+    width: 100% !important;
+    margin: 0 !important;
+  }
+
+  .nameTitle-cv{ 
+    font-size: 18px !important; 
+    margin-top: 20px !important; }
+
+  .textfill-cv{ 
+    font-size: 24px !important; 
+    margin-top: 10px !important;
+    padding-bottom: 20px;
+   }
+
+  .jobName{ 
+    font-size: 20px !important; }
+
+  .jobInfo{
+    font-size: 15px !important;
+    font-weight: 400;
+    line-height: 22px;
+  }
+
+  .timePlaceOne{
+    padding-top: 30px;
+  }
+
+  .timePlaceOneEducation{
+    padding-top: 30px;
+  }
+
+  .timePlaceOnecourse{
+    padding-top: 30px;
+  }
+}
+
+   /* //////////////////////////////////////// */
+  /* Section: arbeidserfaring screensize 500 */
+  /* ////////////////////////////////////// */
+@media (max-width: 500px){
+  .photo-profil{
+    width: 150px !important;
+    height: 220px !important;
+  }
+
+  .text-profil{ 
+    grid-area: text; 
+    padding-left: 50px;
+    padding-top: 20px;
+  }
+
+  .name-profil{ 
+    font-size: 24px !important; 
+    margin-left: 0 !important; 
+  }
+
+  .stilling-profil,
+  .stillingTo-profil{
+    font-size: 17px !important;
+    letter-spacing: 1.5px !important;
+    margin-left: 0 !important;
+    line-height: 22px;
+  }
+
+  .cv-links{
+    grid-area: links;
+    padding-left: 50px;
+    margin-top: -10px !important;
+    margin-left: 0 !important;
+      gap: 5px;
+  }
+
+}
+
+   /* //////////////////////////////////////// */
+  /* Section: arbeidserfaring screensize 450 */
+  /* ////////////////////////////////////// */
+@media (max-width: 450px){
+  .photo-profil{
+    width: 130px !important;
+    height: 230px !important;
+  }
+
+  .text-profil{ 
+    grid-area: text; 
+    padding-left: 25px;
+    padding-top: 20px;
+  }
+
+  .name-profil{ 
+    font-size: 20px !important; 
+    margin-left: 0 !important;
+    padding-bottom: 6px;; 
+  }
+
+  .stilling-profil,
+  .stillingTo-profil{
+    font-size: 15px !important;
+    letter-spacing: 1.5px !important;
+    margin-left: 0 !important;
+    line-height: 18px;
+  }
+
+  .cv-links{
+    grid-area: links;
+    padding-left: 25px;
+    margin-top: -30px !important;
+    margin-left: 0 !important;
+    gap: 2px;
+  }
+
+  .cv-link-label{
+    font-size: 15px;
+  }
+
+
+ 
+}
