@@ -161,6 +161,10 @@ body {
     font-size: 30px;
   }
 
+   .textbox {
+    padding-top: 50px;
+  }
+
   .textfill-hero {
     font-size: 19px;
   }
