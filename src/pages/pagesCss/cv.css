@@ -155,7 +155,7 @@
   .jobInfo {
     color: #ffffff;
     font-size: 13px;
-    font-weight: 300;
+    font-weight: 350;
     font-family: "Manjari", sans-serif;
     line-height: 20px;
     margin-top: 16px;
@@ -322,6 +322,23 @@
   /* /////////////////////////////////////// */
 
   @media (max-width: 1280px){
+ 
+    .workexperience {
+      padding-left: 500px;
+      padding-right:0px;
+    }
+  }
+
+    /* ///////////////////////////////////////// */
+  /* Section: arbeidserfaring screensize 1180 */
+  /* /////////////////////////////////////// */
+
+  @media (max-width: 1180px){
+      .cv {
+      padding-top: 100px;
+      padding-left: 40px;
+    }
+
     .id {
       margin-left: 170px;
       margin-top: 110px;
@@ -329,6 +346,7 @@
 
     .workexperience {
       padding-left: 500px;
+      width: 85%;
     }
   }
 
@@ -349,6 +367,7 @@
 
     .workexperience {
       padding-left: 400px;
+       width: 100%;
     }
   
     .photo-profil {
@@ -400,6 +419,7 @@
 
     .workexperience {
       padding-left: 350px;
+      width: 95%;
     }
   
     .photo-profil {
@@ -434,6 +454,80 @@
   }
 
 
+  /* //////////////////////////////////////// */
+  /* Section: arbeidserfaring screensize 820 */
+  /* ////////////////////////////////////// */
+  
+  @media (max-width: 820px) {
+    .cv {
+      padding-top: 40px;
+    }
+
+    .id {
+      margin-left: 20px;
+      margin-top: 110px;
+    }
+
+    .photo-profil {
+      width: 170px;
+      height: 170px;
+    }
+  
+    .job {
+      margin-top: 10px;
+    }
+  
+    .nameTitle-cv {
+      font-size: 15px;
+      padding-top: 10px;
+    }
+
+    .textfill-cv {
+    font-size: 22px;
+  }
+
+    .workexperience {
+      padding-left: 300px;
+      width: 680px;
+    }
+  
+    .program-container {
+      display: none;
+    }
+  
+    .nameTitle-summerjob {
+      font-size: 22px;
+      padding-top: 30px;
+      margin-bottom: 15px;
+    }
+  
+    .summerJob {
+      margin-top: 30px;
+    }
+  
+    .myeducation {
+      margin-top: 20px;
+    }
+  
+    .nameTitle-education {
+      font-size: 22px;
+      padding-top: 30px;
+      margin-bottom: 15px;
+    }
+  
+    .mycourse {
+      margin-top: 20px;
+    }
+  
+    .nameTitle-course {
+      font-size: 22px;
+      padding-top: 0px;
+    }
+  }
+
+
+
+
 
 
   
@@ -464,6 +558,7 @@
       font-size: 15px;
       padding-top: 10px;
     }
+
     .textfill-cv {
     font-size: 22px;
   }
@@ -514,10 +609,11 @@
   @media (max-width: 768px) {
     .cv {
       padding-top: 10px;
-      padding-left: 20px;
+      padding-left: 40px;
     }
     .workexperience {
       width: 650px;
+      width: 100%;
     }
     .nameTitle-summerjob {
       margin-top:20px;
@@ -553,9 +649,8 @@
    /* //////////////////////////////////////// */
   /* Section: arbeidserfaring screensize 600 */
   /* ////////////////////////////////////// */
+
 @media (max-width: 600px){
-
-
   .cv{
     padding-top: 50px;
     padding-left: 70px;
@@ -670,6 +765,7 @@
    /* //////////////////////////////////////// */
   /* Section: arbeidserfaring screensize 500 */
   /* ////////////////////////////////////// */
+
 @media (max-width: 500px){
   .photo-profil{
     width: 150px !important;
