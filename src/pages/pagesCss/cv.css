@@ -862,7 +862,7 @@
    /* //////////////////////////////////////// */
   /* Section: arbeidserfaring screensize 400 */
   /* ////////////////////////////////////// */
-@media (max-width: 400px){
+@media (max-width: 414px){
   .cv{
     padding-top: 50px;
     padding-left: 50px;
@@ -870,13 +870,13 @@
   }
 
  .photo-profil{
-    width: 120px !important;
+    width: 130px !important;
     height: 220px !important;
   }
 
   .text-profil{ 
     grid-area: text; 
-    padding-left: 15px;
+    padding-left: 25px;
     padding-top: 20px;
   }
 
@@ -896,8 +896,8 @@
 
   .cv-links{
     grid-area: links;
-    padding-left: 15px;
-    margin-top: -20px !important;
+    padding-left: 20px;
+    margin-top: -25px !important;
     margin-left: 0 !important;
     gap: 2px;
   }
