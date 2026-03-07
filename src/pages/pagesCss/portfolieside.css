@@ -276,10 +276,31 @@
   
   /* portfolieside 480 */
 @media (max-width: 480px) {
+  .top-body-container {
+    height: calc(100svh - 120px);
+    min-height: calc(100svh - 120px);
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+  }
+
   .image-overlay {
-    height: 100svh;
+    height: 100%;
+    margin: 0;
+    padding-top: 70px;
+    box-sizing: border-box;
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .textbox {
+    margin: 0;
+    padding: 0;
+  }
+
+  .nameTitle {
+    margin-top: 0;
   }
 }
   
