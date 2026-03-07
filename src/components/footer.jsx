@@ -39,9 +39,7 @@ export const Footer = () => {
           </a>
         </div>
 
-        <div className="iconbox">
-          <a href='https://github.com/marikodehode?tab=repositories' target='_blank' rel='noopener noreferrer'><BsGithub className="icons" /></a>
-        </div>
+    
       </footer>
     </>
   );
