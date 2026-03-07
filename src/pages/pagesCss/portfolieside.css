@@ -181,11 +181,11 @@
     }
   }
   
-  /* portfolieside 1024 */
+ /* portfolieside 1024 */
 @media (max-width: 1024px) {
-
   .top-body-container {
-    height: 100svh;
+    height: 700px !important;
+    min-height: 700px !important;
   }
 
   .column-wrapper-two {
