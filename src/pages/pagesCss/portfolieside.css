@@ -275,12 +275,55 @@
   }
   
   /* portfolieside 480 */
-  @media (max-width: 480px) {
-    .portfolieside-container {
-      margin-top: 10px;
-      width: 340px;
-    }
+@media (max-width: 480px) {
+  .top-body-container {
+    padding-top: 0;
+    margin-top: 0;
+    min-height: auto;
   }
+
+  .image-overlay {
+    padding-top: 0;
+    margin-top: 0;
+    min-height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .textbox {
+    padding-top: 0;
+    margin-top: 0;
+  }
+
+  .nameTitle {
+    margin: 0;
+    padding: 0;
+    font-size: 28px;
+    line-height: 1.1;
+  }
+
+  .textfill-hero,
+  .textfill-herotwo {
+    margin: 0;
+    padding: 0;
+    line-height: 1.2;
+  }
+
+  .textfill-hero {
+    margin-top: 6px;
+    font-size: 18px;
+  }
+
+  .textfill-herotwo {
+    margin-top: 2px;
+    font-size: 18px;
+  }
+
+  .icon-overlay {
+    margin-top: 14px;
+  }
+}
   
   /* portfolieside 375 */
   @media (max-width: 375px) {
