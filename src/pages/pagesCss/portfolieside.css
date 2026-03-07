@@ -276,12 +276,9 @@
   
   /* portfolieside 480 */
 @media (max-width: 480px) {
-  .top-body-container,
-  .image-overlay,
-  .textbox,
-  .nameTitle {
-    margin-top: -200px !important;
-    padding-top: 0 !important;
+  .top-body-container {
+    height: auto;
+    min-height: 100svh;
   }
 }
   
