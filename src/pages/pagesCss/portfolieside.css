@@ -279,6 +279,10 @@
   .top-body-container {
     height: auto;
     min-height: 100svh;
+
+    background-size: contain;
+    background-position: center top;
+    background-repeat: no-repeat;
   }
 }
   
