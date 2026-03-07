@@ -184,8 +184,8 @@
  /* portfolieside 1024 */
 @media (max-width: 1024px) {
   .top-body-container {
-    height: 700px !important;
-    min-height: 700px !important;
+    height: 800px !important;
+    min-height: 800px !important;
   }
 
   .column-wrapper-two {
