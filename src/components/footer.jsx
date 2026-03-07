@@ -19,18 +19,6 @@ export const Footer = () => {
           </a>
         </div>
 
-        <div className="iconbox">
-          <a href="https://www.facebook.com/profile.php?id=531011001"
-            target="_blank"
-            rel="noopener noreferrer"><BsFacebook className="icons" />
-          </a>
-        </div>
-
-        <div className="iconbox">
-          <a href="https://www.instagram.com/marifroysneskarlsen/?utm_source=qr"
-            target="_blank" rel="noopener noreferrer"><BsInstagram className="icons" />
-          </a>
-        </div>
 
         <div className="iconbox">
           <a href="https://www.linkedin.com/in/mari-frøysnes-karlsen-716156113/"
