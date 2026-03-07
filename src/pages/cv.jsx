@@ -79,17 +79,17 @@ export const Cv = () => {
                         
               <div className="job">
               <div className="timePlaceOne">2025-2026 Horten</div>
-              <div className="jobName">Universitetet i Sør-Øst Norge</div>
+              <div className="jobName">Eksamenskontoret (USN)</div>
               <div className="jobInfo">
-                Ansatt som senior konsulent hos eksamenskontoret. Arbeidsoppgaver: Planlegging og oppfølging av eksamen. Samarbeid med studieveiledere, emneansvarlige, sensorer og eksamensvakter for å sikre korrekt gjennomføring av eksamen. Publiserer sensur og håndterer klager. Program: Office, Word, Excel, Wiseflow, FS, P360 og Adobe Acrobat (Vikariat). 
+                Ansatt som senior konsulent. Arbeidsoppgaver: Planlegging og oppfølging av eksamen. Samarbeid med studieveiledere, emneansvarlige, sensorer og eksamensvakter for å sikre korrekt gjennomføring av eksamen. Publiserer sensur og håndterer klager. Program: Office, Word, Excel, Wiseflow, FS, P360 og Adobe Acrobat (Vikariat). 
               </div>
             </div>
 
                           <div className="job">
               <div className="timePlaceOne">2024-2025 Horten</div>
-              <div className="jobName">Universitetet i Sør-Øst Norge</div>
+              <div className="jobName">Enhet for digitalisering og utdannindskvalitet (USN)</div>
               <div className="jobInfo">
-                Ansatt som senior konsulent hos eDU. Arbeidsoppgaver: Oppsett, publisering og vedlikehold av nettsider, inkludert oppdatering av innhold, struktur og design. Deltar i prosjekter knyttet til utvikling og forbedring av nettløsninger, med fokus på brukeropplevelse, universell utforming og teknisk kvalitet. 
+                Ansatt som senior konsulent (eDU). Arbeidsoppgaver: Oppsett, publisering og vedlikehold av nettsider, inkludert oppdatering av innhold, struktur og design. Deltar i prosjekter knyttet til utvikling og forbedring av nettløsninger, med fokus på brukeropplevelse, universell utforming og teknisk kvalitet. 
                 Program: Office, CorePublish, Figma, Panopto, Wordpress og Divi Builder (Vikariat). 
               </div>
             </div>

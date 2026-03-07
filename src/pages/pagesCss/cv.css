@@ -148,6 +148,7 @@
   .jobName {
     color: #ffffff;
     font-size: 23px;
+    line-height: 30px;
     font-family: "Manjari", sans-serif;
     margin-top: 16px;
   }
