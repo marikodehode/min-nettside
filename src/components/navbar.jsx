@@ -3,15 +3,15 @@ import { useState, useRef, useEffect } from 'react';
 import './css/navbar.css';
 
 export const NavBar = () => {
-  const [open, setOpen] = useState(false); // Brukes på mobil
-  const ddRef = useRef(null);
+  const [open, setOpen] = useState(null); // 'portfolie', 'cv' eller null
+  const navRef = useRef(null);
   const location = useLocation();
 
   // Lukk ved klikk utenfor
   useEffect(() => {
     const handleClick = (e) => {
-      if (ddRef.current && !ddRef.current.contains(e.target)) {
-        setOpen(false);
+      if (navRef.current && !navRef.current.contains(e.target)) {
+        setOpen(null);
       }
     };
     document.addEventListener('click', handleClick);
@@ -20,27 +20,27 @@ export const NavBar = () => {
 
   // Lukk ved sideskifte
   useEffect(() => {
-    setOpen(false);
+    setOpen(null);
   }, [location]);
 
   return (
-    <nav className="navbar">
+    <nav className="navbar" ref={navRef}>
       <ul className="nav-list">
         <li><NavLink className="nav-link" to="/" end>Home</NavLink></li>
 
-        <li className={`dropdown ${open ? 'open' : ''}`} ref={ddRef}>
+        <li className={`dropdown ${open === 'portfolie' ? 'open' : ''}`}>
           <button
             className="dropdown-toggle nav-link"
-            onClick={() => setOpen(v => !v)} // klikktoggle for mobil
+            onClick={() => setOpen(open === 'portfolie' ? null : 'portfolie')}
             aria-haspopup="true"
-            aria-expanded={open}
+            aria-expanded={open === 'portfolie'}
           >
             Portfolie
           </button>
 
           <ul
             className="dropdown-menu"
-            onClickCapture={() => setOpen(false)} // lukker ved valg
+            onClickCapture={() => setOpen(null)}
           >
             <li><Link className="dropdown-item" to="/magasin">Magasin</Link></li>
             <li><Link className="dropdown-item" to="/avis">Avis</Link></li>
@@ -51,7 +51,34 @@ export const NavBar = () => {
           </ul>
         </li>
 
-        <li><NavLink className="nav-link" to="/cv">CV</NavLink></li>
+        <li className={`dropdown ${open === 'cv' ? 'open' : ''}`}>
+          <button
+            className="dropdown-toggle nav-link"
+            onClick={() => setOpen(open === 'cv' ? null : 'cv')}
+            aria-haspopup="true"
+            aria-expanded={open === 'cv'}
+          >
+            CV
+          </button>
+
+<ul
+  className="dropdown-menu"
+  onClickCapture={() => setOpen(null)}
+>
+  <li>
+    <a className="dropdown-item" href="/cv/cv.pdf" download>
+      Grafisk CV
+    </a>
+  </li>
+
+  <li>
+    <a className="dropdown-item" href="/cv/master-cv.pdf" download>
+      Master CV
+    </a>
+  </li>
+</ul>
+        </li>
+
         <li><NavLink className="nav-link" to="/kontakt">Kontakt</NavLink></li>
       </ul>
     </nav>
