@@ -276,11 +276,10 @@
   
   /* portfolieside 480 */
 @media (max-width: 480px) {
-  .top-body-container {
-    height: auto;
-    min-height: 100svh;
+  .image-overlay {
+    height: 100svh;
     background-size: cover;
-    background-position: center top;
+    background-position: center;
   }
 }
   
