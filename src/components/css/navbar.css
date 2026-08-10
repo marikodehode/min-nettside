@@ -90,7 +90,7 @@
   white-space: nowrap;
   transition: background 0.15s ease;
 }
-.dropdown-item:hover { background: #000; }
+.dropdown-item:hover { background: #e98d8d; }
 
 .navbar .nav-link:focus-visible,
 .navbar .dropdown-toggle:focus-visible {
@@ -111,3 +111,6 @@
 .navbar .nav-link.active:hover {
   border-bottom-color: #e98d8d !important;
 }
+
+/* PIL TIL CV I MENY*/
+.download-icon { display: inline-block; margin-left: 6px; font-size: 0.85em; opacity: 0.8; transition: transform 0.15s ease, opacity 0.15s ease; } .dropdown-item:hover .download-icon { transform: translateY(2px); opacity: 1; }
