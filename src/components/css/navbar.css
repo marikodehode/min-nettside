@@ -113,4 +113,47 @@
 }
 
 /* PIL TIL CV I MENY*/
-.download-icon { display: inline-block; margin-left: 6px; font-size: 0.85em; opacity: 0.8; transition: transform 0.15s ease, opacity 0.15s ease; } .dropdown-item:hover .download-icon { transform: translateY(2px); opacity: 1; }
+.download-icon { 
+  position: relative; 
+  display: inline-block; 
+  width: 22px; 
+  height: 22px; 
+  margin-left: 8px; 
+  vertical-align: middle; } 
+  
+  /* Selve pilen */ 
+  .download-arrow { 
+    position: absolute; 
+    top: 1px; 
+    left: 10px; 
+    width: 2px; 
+    height: 14px; 
+    background: currentColor; 
+    border-radius: 2px; 
+  } 
+  
+  /* Pilspissen */ 
+  .download-arrow::after { 
+    content: ""; 
+    position: absolute; 
+    left: -4px; 
+    bottom: -1px; 
+    width: 8px; 
+    height: 8px; 
+    border-right: 2px solid currentColor; 
+    border-bottom: 2px solid currentColor; 
+    transform: rotate(45deg); } 
+    
+    /* Streken under pilen */ 
+    .download-icon::after { 
+      content: ""; 
+      position: absolute; 
+      left: 1px; 
+      bottom: 1px; 
+      width: 20px; 
+      height: 2px; 
+      background: currentColor; 
+      border-radius: 2px; } 
+      
+      .dropdown-item:hover 
+      .download-icon { transform: translateY(1px); }
