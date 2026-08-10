@@ -65,7 +65,26 @@ export const NavBar = () => {
   className="dropdown-menu"
   onClickCapture={() => setOpen(null)}
 >
-<li> <a className="dropdown-item" href="/cv/grafisk-cv.pdf" download > <span>Grafisk CV</span> <span className="download-icon" aria-label="Last ned"> <span className="download-arrow"></span> </span> </a> </li> <li> <a className="dropdown-item" href="/cv/master-cv.pdf" download > <span>Master CV</span> <span className="download-icon" aria-label="Last ned"> <span className="download-arrow"></span> </span> </a> </li>
+<li> 
+  
+<a 
+className="dropdown-item" 
+href="/cv/grafisk-cv.pdf" 
+download > <span>Grafisk CV</span> 
+
+<span className="download-icon" 
+aria-label="Last ned"> 
+
+<span className="download-arrow"></span> </span> </a> </li> 
+
+<li> <a className="dropdown-item" 
+href="/cv/master-cv.pdf" 
+download > <span>Master CV</span> 
+
+<span className="download-icon" 
+aria-label="Last ned"> 
+
+<span className="download-arrow"></span> </span> </a> </li>
 </ul>
         </li>
 
