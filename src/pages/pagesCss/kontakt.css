@@ -35,6 +35,16 @@
     margin-top: 15px;
     text-align: center;
     }
+
+    /* portfolieside 800 */
+  @media (max-width: 800px) {
+    .kontakt-container{
+    padding-top: -15px;
+}
+
+  }
+
+  
 /* 
     .extraText{
         color: #ffffff;
