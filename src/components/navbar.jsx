@@ -58,7 +58,7 @@ export const NavBar = () => {
             aria-haspopup="true"
             aria-expanded={open === 'cv'}
           >
-            CV
+            Min CV
           </button>
 
 <ul
@@ -87,8 +87,6 @@ aria-label="Last ned">
 <span className="download-arrow"></span> </span> </a> </li>
 </ul>
         </li>
-
-        <li><NavLink className="nav-link" to="/kontakt">Kontakt</NavLink></li>
       </ul>
     </nav>
   );
