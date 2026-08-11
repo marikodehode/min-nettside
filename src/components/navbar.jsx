@@ -70,7 +70,7 @@ export const NavBar = () => {
 <a 
 className="dropdown-item" 
 href="/cv/Kortversjonen-cv.pdf" 
-download > <span>Kortversjon</span> 
+download > <span>Grafisk CV</span> 
 
 <span className="download-icon" 
 aria-label="Last ned"> 
@@ -79,7 +79,7 @@ aria-label="Last ned">
 
 <li> <a className="dropdown-item" 
 href="/cv/Fullstendig versjon-cv.pdf" 
-download > <span>Fullstendig versjon</span> 
+download > <span>Master CV</span> 
 
 <span className="download-icon" 
 aria-label="Last ned"> 
